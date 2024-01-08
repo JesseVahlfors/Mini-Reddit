@@ -1,10 +1,10 @@
 import React from "react";
 
-export function Header() {
+function HeaderBar() {
     return (
-        <Header>
+        <header className="header">
             <div className="logo">
-            <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+            {<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
                 <style type="text/css">
                    {` .st0 { fill: #39A7FF; }
                     .st1 { fill: #222222; }
@@ -25,12 +25,15 @@ export function Header() {
                     </g>
                     </g>
                 </g>
-            </svg>
+            </svg>}
+            <p><span>Mini</span>Reddit</p>
             </div>
             <form className="search">
-                <input type="text" placeholder="Search" aria-label="Search posts" value></input>
-                <button type="submit" aria-label="Search"></button>
+                <input type="text" placeholder="Search" aria-label="Search posts" value=""></input>
+                <button type="submit" aria-label="Search">lol</button>
             </form>
-        </Header>
+        </header>
     );
 } 
+
+export default HeaderBar;

@@ -1,11 +1,12 @@
 import './App.css';
-import { Header } from './HeaderBar/Header/Header';
+import ArticleContainer from './Articles/ArticleContainer/ArticleContainer';
+import Headerbar from './HeaderBar/Header/HeaderBar';
 
 function App() {
   return (
     <div className="App">
-      <h2>hello</h2>
-      <Header /> 
+      <Headerbar/>
+      <ArticleContainer/>
     </div>
   );
 }
