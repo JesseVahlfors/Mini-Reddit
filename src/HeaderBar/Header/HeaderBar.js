@@ -30,7 +30,7 @@ function HeaderBar() {
             </div>
             <form className="search">
                 <input type="text" placeholder="Search" aria-label="Search posts" value=""></input>
-                <button type="submit" aria-label="Search">lol</button>
+                <button type="submit" aria-label="Search">SearchIcon</button>
             </form>
         </header>
     );
