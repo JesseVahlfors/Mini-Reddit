@@ -1,15 +1,15 @@
 import React from "react";
 import Article from "../Article/Article";
-import { mockThread } from "../../RedditApi/MockApi";
-import { initialState } from "./articleSlice";
-
-console.log(`this is the initialState: ${initialState}`) 
+import { selectArticles } from "./articlesSlice";
+import { useSelector } from "react-redux";
 
 function Articles() {
+
+    const articles = useSelector(selectArticles)
     return (
         <div className="articles">
-            <p >Articles</p>
-            {<Article/>}
+            <p>Articles</p>
+            { articles.map(article => <Article  article={article} key={article.id} />) }
         </div>
     );
 }

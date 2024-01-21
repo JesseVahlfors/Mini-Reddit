@@ -1,12 +1,12 @@
 import React from "react";
 import Comment from "../Comment/Comment";
-import PostCard from "../PostCard/PostCard";
 
-function Article() {
+function Article( { article } ) {
     return (
         <div className="article">
-            <p >Article</p>
-            <PostCard/>
+            <h2>{article.title}</h2>
+            <p>{article.paragraph}</p>
+            <img src={article.image}></img>
             <Comment/>
         </div>
     );
