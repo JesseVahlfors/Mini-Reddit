@@ -1,5 +1,4 @@
 import React from "react";
-import { mockThread } from "../../RedditApi/MockApi";
 function Comment() {
     return (
         
