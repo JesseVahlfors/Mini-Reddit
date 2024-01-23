@@ -6,6 +6,12 @@ import { useSelector } from "react-redux";
 function Articles() {
 
     const articles = useSelector(selectArticles)
+    const idsArray = () => {
+        const ids = []
+        articles.map(article => ids.push(article.id))
+        console.log(ids)
+    } 
+    idsArray()
     return (
         <div className="articles">
             <p>Articles</p>

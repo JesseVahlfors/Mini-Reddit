@@ -12,6 +12,10 @@ h1, h2, h3, h4 {
   text-wrap: balance;
 }
 
+img {
+  max-width: 100%;
+}
+
 p {
   text-wrap: pretty;
 }
@@ -20,11 +24,11 @@ p {
   text-align: center;
 }
 
-.articleContainer {
+.articles {
   width: clamp(30rem, 50%, 60rem);
   margin: auto;
 }
-.articleContainer, .article, .comment, .postcard, .header {
+.articles, .article, .comment, .postcard, .header {
   border: solid 1px black;
 }
 
