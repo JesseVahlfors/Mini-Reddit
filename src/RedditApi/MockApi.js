@@ -3818,5 +3818,3 @@ export const mockThread = {
       "before": null
     }
   };
-
-  export const yes = "yes";
