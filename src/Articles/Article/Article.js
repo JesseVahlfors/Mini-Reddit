@@ -8,7 +8,7 @@ function Article( { article } ) {
         <div className="article">
             <h2>{article.title}</h2>
             <ReactMarkdown>{article.paragraph}</ReactMarkdown>
-            <img src={article.image} alt={article.subreddit + article.title}></img>
+            {article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : null}
             <Comment id={article.id} />
         </div>
     );

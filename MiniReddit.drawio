@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Sivu-1" id="5oFi4ZcT5pwp0T2xpWBY">
-        <mxGraphModel dx="873" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="465" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -55,11 +55,11 @@
                 <mxCell id="3TavXXkqEo7pSJpgyG1O-112" value="Aside" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="320" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="3TavXXkqEo7pSJpgyG1O-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3TavXXkqEo7pSJpgyG1O-113" target="3TavXXkqEo7pSJpgyG1O-111" edge="1">
+                <mxCell id="3TavXXkqEo7pSJpgyG1O-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3TavXXkqEo7pSJpgyG1O-113" target="3TavXXkqEo7pSJpgyG1O-111" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3TavXXkqEo7pSJpgyG1O-113" value="PostCard" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="540" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="260" y="540" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="3TavXXkqEo7pSJpgyG1O-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3TavXXkqEo7pSJpgyG1O-125" target="3TavXXkqEo7pSJpgyG1O-112" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -67,11 +67,11 @@
                 <mxCell id="3TavXXkqEo7pSJpgyG1O-125" value="Subreddit list &quot;ul&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="440" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="3TavXXkqEo7pSJpgyG1O-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3TavXXkqEo7pSJpgyG1O-127" target="3TavXXkqEo7pSJpgyG1O-113" edge="1">
+                <mxCell id="3TavXXkqEo7pSJpgyG1O-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="3TavXXkqEo7pSJpgyG1O-127" target="3TavXXkqEo7pSJpgyG1O-111" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3TavXXkqEo7pSJpgyG1O-127" value="Comment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="640" width="140" height="70" as="geometry"/>
+                    <mxGeometry x="414" y="540" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="3TavXXkqEo7pSJpgyG1O-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3TavXXkqEo7pSJpgyG1O-129" target="3TavXXkqEo7pSJpgyG1O-125" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
