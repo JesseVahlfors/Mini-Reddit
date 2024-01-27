@@ -11,10 +11,13 @@ export const initialState = mockThread.data.children.map((child) => {
 
     return {
         title: child.data.title,
+        author: child.data.author,
         paragraph: child.data.selftext,
         image: image,
         subreddit: child.data.subreddit_name_prefixed,
-        id: child.data.id
+        id: child.data.id,
+        time: child.data.created_utc,
+        score: child.data.score,
     };
 });
 

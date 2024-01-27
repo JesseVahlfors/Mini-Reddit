@@ -7,8 +7,8 @@ export const initialState = mockComments[1].data.children.map((child) => {
         subreddit: child.data.subreddit_name_prefixed,
         id: child.data.id,
         text: child.data.body,
-        downs: child.data.downs,
-        ups: child.data.ups,
+        score: child.data.score,
+        time: child.data.created_utc,
     };
     
 });
@@ -20,6 +20,6 @@ export const commentsSlice = createSlice({
         dummyReducer: (state) => state,
     }
 });
-export const selectArticles = (state) => state.articles
+export const selectComments = (state) => state.comments
 export const { dummyReducer } = commentsSlice.actions;
 export default commentsSlice.reducer;
