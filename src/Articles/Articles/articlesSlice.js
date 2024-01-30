@@ -1,7 +1,7 @@
 import { mockThread } from "../../RedditApi/MockApi";
 import { createSlice } from "@reduxjs/toolkit";
 
-export const initialState = mockThread.data.children.map((child) => {
+const initialState = mockThread.data.children.map((child) => {
     const image =
         child.data.preview &&
         child.data.preview.images &&

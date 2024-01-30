@@ -1,7 +1,7 @@
 import { mockComments } from "../../RedditApi/MockComments";
 import { createSlice } from "@reduxjs/toolkit";
 
-export const initialState = mockComments[1].data.children.map((child) => {
+const initialState = mockComments[1].data.children.map((child) => {
     return {
         author: child.data.author,
         subreddit: child.data.subreddit_name_prefixed,

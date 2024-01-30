@@ -1,7 +1,9 @@
+import React from "react";
 import { selectComments } from "./commentsSlice";
 import { getTimeDifferenceString } from "../../Utils/Funcs/time";
 import { useSelector } from "react-redux";
 import { formatDate } from "../../Utils/Funcs/timeFormat";
+
 
 function Comments() {
     const comments = useSelector(selectComments)
