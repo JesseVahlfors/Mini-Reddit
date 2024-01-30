@@ -6,6 +6,7 @@ const initialState = mockSubreddits.data.children.map((child) => {
         title: child.data.title,
         url: child.data.url,
         communityIcon: child.data.community_icon,
+        id: child.data.id,
     }
 });
 
