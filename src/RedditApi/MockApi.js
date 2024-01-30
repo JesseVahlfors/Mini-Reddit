@@ -1,3820 +1,4321 @@
 export const mockThread = {
-    "kind": "Listing",
-    "data": {
-      "after": "t3_1975jog",
-      "dist": 26,
-      "modhash": "",
-      "geo_filter": null,
-      "children": [
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Hi, this is recurring post to include some information about frequently asked questions in r/Finland. Please check the links first before asking trivial questions.\n\nYou can ask here in comments, or create a new post.\n\nRemember that there is a very large chance that someone has already asked the question you're going to ask and gotten an answer, so please read [our FAQ](https://www.reddit.com/r/Finland/wiki/faq), search the sub, and Google before asking. We have very helpful users here that like to answer questions so out of respect for their time, search first. Thanks!\n\nIf you're asking about moving to Finland, please specify whether you're an EU citizen or not. Many laws and procedures are different for EU citizens and non-EU citizens. When giving advice, please pay attention to the status of the person in question.\n\nSuggested sort is set to \"new\".\n\nHelpful websites:\n\n**The official information**\n\n   * General information about Finland, moving to Finland, living in Finland: https://www.infofinland.fi/en\n   * The government website for traveling to Finland from different countries: https://finlandabroad.fi/frontpage\n   * The official Finland website: https://www.suomi.fi/frontpage/\n   * Finnish Immigration Service (residence permits etc): https://migri.fi/en/home\n   * Information about education: https://opintopolku.fi/konfo/en/\n   * The official [tax percentage calculator](https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/tax_card/tax-percentage-calculator/)\n   * Social security in international situations moving to or from Finland: https://www.kela.fi/international-situations\n\n**Travel, tourism**\n\n   * The Official Travel guide of Finland: https://www.visitfinland.com/\n   * Finland Travel guide at WikiVoyage: https://en.wikivoyage.org/wiki/Finland\n   * National Parks: https://www.nationalparks.fi/\n      * Uusimaa outdoor recreation areas: https://uuvi.fi/en/areas/\n   * Public transport routes and prices in Finland: https://www.perille.fi/en\n   * Auroras in Finland: \n       * https://en.ilmatieteenlaitos.fi/auroras-in-finland\n       * https://www.lapland.fi/visit/things-to-do/northern-lights-lapland-guide-aurora-borealis/\n\n\n**Reddit**\n\n   * [We are permit specialists working at the Finnish Immigration Service. Ask us anything about students\u2019 permits in Finland!](https://www.reddit.com/r/Finland/comments/13izqyk/we_are_permit_specialists_working_at_the_finnish/)\n   * [Cheat Sheet: Moving to Finland from outside the EU in 2021](https://www.reddit.com/r/Finland/comments/n5bj58/cheat_sheet_moving_to_finland_from_outside_the_eu/)",
-            "author_fullname": "t2_6l4z3",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Tourism, moving and studying in Finland? Read this first!",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": "tourism",
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_18zz0m2",
-            "quarantine": false,
-            "link_flair_text_color": "light",
-            "upvote_ratio": 0.89,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 15,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": "Tourism",
-            "can_mod_post": false,
-            "score": 15,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": true,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "post_hint": "self",
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1704544226.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi, this is recurring post to include some information about frequently asked questions in &lt;a href=\"/r/Finland\"&gt;r/Finland&lt;/a&gt;. Please check the links first before asking trivial questions.&lt;/p&gt;\n\n&lt;p&gt;You can ask here in comments, or create a new post.&lt;/p&gt;\n\n&lt;p&gt;Remember that there is a very large chance that someone has already asked the question you&amp;#39;re going to ask and gotten an answer, so please read &lt;a href=\"https://www.reddit.com/r/Finland/wiki/faq\"&gt;our FAQ&lt;/a&gt;, search the sub, and Google before asking. We have very helpful users here that like to answer questions so out of respect for their time, search first. Thanks!&lt;/p&gt;\n\n&lt;p&gt;If you&amp;#39;re asking about moving to Finland, please specify whether you&amp;#39;re an EU citizen or not. Many laws and procedures are different for EU citizens and non-EU citizens. When giving advice, please pay attention to the status of the person in question.&lt;/p&gt;\n\n&lt;p&gt;Suggested sort is set to &amp;quot;new&amp;quot;.&lt;/p&gt;\n\n&lt;p&gt;Helpful websites:&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;The official information&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;General information about Finland, moving to Finland, living in Finland: &lt;a href=\"https://www.infofinland.fi/en\"&gt;https://www.infofinland.fi/en&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;The government website for traveling to Finland from different countries: &lt;a href=\"https://finlandabroad.fi/frontpage\"&gt;https://finlandabroad.fi/frontpage&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;The official Finland website: &lt;a href=\"https://www.suomi.fi/frontpage/\"&gt;https://www.suomi.fi/frontpage/&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;Finnish Immigration Service (residence permits etc): &lt;a href=\"https://migri.fi/en/home\"&gt;https://migri.fi/en/home&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;Information about education: &lt;a href=\"https://opintopolku.fi/konfo/en/\"&gt;https://opintopolku.fi/konfo/en/&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;The official &lt;a href=\"https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/tax_card/tax-percentage-calculator/\"&gt;tax percentage calculator&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;Social security in international situations moving to or from Finland: &lt;a href=\"https://www.kela.fi/international-situations\"&gt;https://www.kela.fi/international-situations&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Travel, tourism&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;The Official Travel guide of Finland: &lt;a href=\"https://www.visitfinland.com/\"&gt;https://www.visitfinland.com/&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;Finland Travel guide at WikiVoyage: &lt;a href=\"https://en.wikivoyage.org/wiki/Finland\"&gt;https://en.wikivoyage.org/wiki/Finland&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;National Parks: &lt;a href=\"https://www.nationalparks.fi/\"&gt;https://www.nationalparks.fi/&lt;/a&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Uusimaa outdoor recreation areas: &lt;a href=\"https://uuvi.fi/en/areas/\"&gt;https://uuvi.fi/en/areas/&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;/li&gt;\n&lt;li&gt;Public transport routes and prices in Finland: &lt;a href=\"https://www.perille.fi/en\"&gt;https://www.perille.fi/en&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;Auroras in Finland: \n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://en.ilmatieteenlaitos.fi/auroras-in-finland\"&gt;https://en.ilmatieteenlaitos.fi/auroras-in-finland&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://www.lapland.fi/visit/things-to-do/northern-lights-lapland-guide-aurora-borealis/\"&gt;https://www.lapland.fi/visit/things-to-do/northern-lights-lapland-guide-aurora-borealis/&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;&lt;strong&gt;Reddit&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://www.reddit.com/r/Finland/comments/13izqyk/we_are_permit_specialists_working_at_the_finnish/\"&gt;We are permit specialists working at the Finnish Immigration Service. Ask us anything about students\u2019 permits in Finland!&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://www.reddit.com/r/Finland/comments/n5bj58/cheat_sheet_moving_to_finland_from_outside_the_eu/\"&gt;Cheat Sheet: Moving to Finland from outside the EU in 2021&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": "new",
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "preview": {
-              "images": [
-                {
-                  "source": {
-                    "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?auto=webp&amp;s=5784dd0c55350050e55fd7ff0bf367dd5ad75fbb",
-                    "width": 1920,
-                    "height": 1080
+  "kind": "Listing",
+  "data": {
+    "after": "t3_1adz76z",
+    "dist": 26,
+    "modhash": "",
+    "geo_filter": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Hi, this is recurring post to include some information about frequently asked questions in r/Finland. Please check the links first before asking trivial questions.\n\nYou can ask here in comments, or create a new post.\n\nRemember that there is a very large chance that someone has already asked the question you're going to ask and gotten an answer, so please read [our FAQ](https://www.reddit.com/r/Finland/wiki/faq), search the sub, and Google before asking. We have very helpful users here that like to answer questions so out of respect for their time, search first. Thanks!\n\nIf you're asking about moving to Finland, please specify whether you're an EU citizen or not. Many laws and procedures are different for EU citizens and non-EU citizens. When giving advice, please pay attention to the status of the person in question.\n\nSuggested sort is set to \"new\".\n\nHelpful websites:\n\n**The official information**\n\n   * General information about Finland, moving to Finland, living in Finland: https://www.infofinland.fi/en\n   * The government website for traveling to Finland from different countries: https://finlandabroad.fi/frontpage\n   * The official Finland website: https://www.suomi.fi/frontpage/\n   * Finnish Immigration Service (residence permits etc): https://migri.fi/en/home\n   * Information about education: https://opintopolku.fi/konfo/en/\n   * The official [tax percentage calculator](https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/tax_card/tax-percentage-calculator/)\n   * Social security in international situations moving to or from Finland: https://www.kela.fi/international-situations\n\n**Travel, tourism**\n\n   * The Official Travel guide of Finland: https://www.visitfinland.com/\n   * Finland Travel guide at WikiVoyage: https://en.wikivoyage.org/wiki/Finland\n   * National Parks: https://www.nationalparks.fi/\n      * Uusimaa outdoor recreation areas: https://uuvi.fi/en/areas/\n   * Public transport routes and prices in Finland: https://www.perille.fi/en\n   * Auroras in Finland: \n       * https://en.ilmatieteenlaitos.fi/auroras-in-finland\n       * https://www.lapland.fi/visit/things-to-do/northern-lights-lapland-guide-aurora-borealis/\n\n\n**Reddit**\n\n   * [We are permit specialists working at the Finnish Immigration Service. Ask us anything about students\u2019 permits in Finland!](https://www.reddit.com/r/Finland/comments/13izqyk/we_are_permit_specialists_working_at_the_finnish/)\n   * [Cheat Sheet: Moving to Finland from outside the EU in 2021](https://www.reddit.com/r/Finland/comments/n5bj58/cheat_sheet_moving_to_finland_from_outside_the_eu/)",
+          "author_fullname": "t2_6l4z3",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Tourism, moving and studying in Finland? Read this first!",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "tourism",
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_18zz0m2",
+          "quarantine": false,
+          "link_flair_text_color": "light",
+          "upvote_ratio": 0.9,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 16,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": "Tourism",
+          "can_mod_post": false,
+          "score": 16,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": true,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1704544226.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHi, this is recurring post to include some information about frequently asked questions in \u003Ca href=\"/r/Finland\"\u003Er/Finland\u003C/a\u003E. Please check the links first before asking trivial questions.\u003C/p\u003E\n\n\u003Cp\u003EYou can ask here in comments, or create a new post.\u003C/p\u003E\n\n\u003Cp\u003ERemember that there is a very large chance that someone has already asked the question you\u0026#39;re going to ask and gotten an answer, so please read \u003Ca href=\"https://www.reddit.com/r/Finland/wiki/faq\"\u003Eour FAQ\u003C/a\u003E, search the sub, and Google before asking. We have very helpful users here that like to answer questions so out of respect for their time, search first. Thanks!\u003C/p\u003E\n\n\u003Cp\u003EIf you\u0026#39;re asking about moving to Finland, please specify whether you\u0026#39;re an EU citizen or not. Many laws and procedures are different for EU citizens and non-EU citizens. When giving advice, please pay attention to the status of the person in question.\u003C/p\u003E\n\n\u003Cp\u003ESuggested sort is set to \u0026quot;new\u0026quot;.\u003C/p\u003E\n\n\u003Cp\u003EHelpful websites:\u003C/p\u003E\n\n\u003Cp\u003E\u003Cstrong\u003EThe official information\u003C/strong\u003E\u003C/p\u003E\n\n\u003Cul\u003E\n\u003Cli\u003EGeneral information about Finland, moving to Finland, living in Finland: \u003Ca href=\"https://www.infofinland.fi/en\"\u003Ehttps://www.infofinland.fi/en\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003EThe government website for traveling to Finland from different countries: \u003Ca href=\"https://finlandabroad.fi/frontpage\"\u003Ehttps://finlandabroad.fi/frontpage\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003EThe official Finland website: \u003Ca href=\"https://www.suomi.fi/frontpage/\"\u003Ehttps://www.suomi.fi/frontpage/\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003EFinnish Immigration Service (residence permits etc): \u003Ca href=\"https://migri.fi/en/home\"\u003Ehttps://migri.fi/en/home\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003EInformation about education: \u003Ca href=\"https://opintopolku.fi/konfo/en/\"\u003Ehttps://opintopolku.fi/konfo/en/\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003EThe official \u003Ca href=\"https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/tax_card/tax-percentage-calculator/\"\u003Etax percentage calculator\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003ESocial security in international situations moving to or from Finland: \u003Ca href=\"https://www.kela.fi/international-situations\"\u003Ehttps://www.kela.fi/international-situations\u003C/a\u003E\u003C/li\u003E\n\u003C/ul\u003E\n\n\u003Cp\u003E\u003Cstrong\u003ETravel, tourism\u003C/strong\u003E\u003C/p\u003E\n\n\u003Cul\u003E\n\u003Cli\u003EThe Official Travel guide of Finland: \u003Ca href=\"https://www.visitfinland.com/\"\u003Ehttps://www.visitfinland.com/\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003EFinland Travel guide at WikiVoyage: \u003Ca href=\"https://en.wikivoyage.org/wiki/Finland\"\u003Ehttps://en.wikivoyage.org/wiki/Finland\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003ENational Parks: \u003Ca href=\"https://www.nationalparks.fi/\"\u003Ehttps://www.nationalparks.fi/\u003C/a\u003E\n\n\u003Cul\u003E\n\u003Cli\u003EUusimaa outdoor recreation areas: \u003Ca href=\"https://uuvi.fi/en/areas/\"\u003Ehttps://uuvi.fi/en/areas/\u003C/a\u003E\u003C/li\u003E\n\u003C/ul\u003E\u003C/li\u003E\n\u003Cli\u003EPublic transport routes and prices in Finland: \u003Ca href=\"https://www.perille.fi/en\"\u003Ehttps://www.perille.fi/en\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003EAuroras in Finland: \n\n\u003Cul\u003E\n\u003Cli\u003E\u003Ca href=\"https://en.ilmatieteenlaitos.fi/auroras-in-finland\"\u003Ehttps://en.ilmatieteenlaitos.fi/auroras-in-finland\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003E\u003Ca href=\"https://www.lapland.fi/visit/things-to-do/northern-lights-lapland-guide-aurora-borealis/\"\u003Ehttps://www.lapland.fi/visit/things-to-do/northern-lights-lapland-guide-aurora-borealis/\u003C/a\u003E\u003C/li\u003E\n\u003C/ul\u003E\u003C/li\u003E\n\u003C/ul\u003E\n\n\u003Cp\u003E\u003Cstrong\u003EReddit\u003C/strong\u003E\u003C/p\u003E\n\n\u003Cul\u003E\n\u003Cli\u003E\u003Ca href=\"https://www.reddit.com/r/Finland/comments/13izqyk/we_are_permit_specialists_working_at_the_finnish/\"\u003EWe are permit specialists working at the Finnish Immigration Service. Ask us anything about students\u2019 permits in Finland!\u003C/a\u003E\u003C/li\u003E\n\u003Cli\u003E\u003Ca href=\"https://www.reddit.com/r/Finland/comments/n5bj58/cheat_sheet_moving_to_finland_from_outside_the_eu/\"\u003ECheat Sheet: Moving to Finland from outside the EU in 2021\u003C/a\u003E\u003C/li\u003E\n\u003C/ul\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": "new",
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?auto=webp\u0026s=5784dd0c55350050e55fd7ff0bf367dd5ad75fbb",
+                  "width": 1920,
+                  "height": 1080
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=73b17581ebd8f460ba28a2b5ee48124a2ba9d4e4",
+                    "width": 108,
+                    "height": 60
                   },
-                  "resolutions": [
-                    {
-                      "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=73b17581ebd8f460ba28a2b5ee48124a2ba9d4e4",
-                      "width": 108,
-                      "height": 60
-                    },
-                    {
-                      "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=77cbdb66bf27a564a808c0be06c8e878dcc95dbe",
-                      "width": 216,
-                      "height": 121
-                    },
-                    {
-                      "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=5a5da8f955afac6e6c7e88cfff3636e87ee7c79c",
-                      "width": 320,
-                      "height": 180
-                    },
-                    {
-                      "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8396887b4d5d7286259993e761f4f9bdedd11a3f",
-                      "width": 640,
-                      "height": 360
-                    },
-                    {
-                      "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=757884437b1648540de94fc0ce2bbdc9039a9647",
-                      "width": 960,
-                      "height": 540
-                    },
-                    {
-                      "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=1efa214409cecd337d60a7df34a0284387260322",
-                      "width": 1080,
-                      "height": 607
-                    }
-                  ],
-                  "variants": {
-                    
+                  {
+                    "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=77cbdb66bf27a564a808c0be06c8e878dcc95dbe",
+                    "width": 216,
+                    "height": 121
                   },
-                  "id": "HH9RuuXM_lIWiMz2TKNttg5WCazz8Xgm8pKU1f1TJ6g"
-                }
-              ],
-              "enabled": false
-            },
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "link_flair_template_id": "eb545470-0e28-11e6-b8cd-0e358dd93c4f",
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "#373c3f",
-            "id": "18zz0m2",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "AutoModerator",
-            "discussion_type": null,
-            "num_comments": 20,
-            "send_replies": false,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/18zz0m2/tourism_moving_and_studying_in_finland_read_this/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": true,
-            "url": "https://www.reddit.com/r/Finland/comments/18zz0m2/tourism_moving_and_studying_in_finland_read_this/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1704544226.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "I would like to know if these are as common as Google claimed they were?\n\nBecause I bought these from a Swedish webshop (Matsmart.se) that sells mixed goods for very cheap prices and a lot of people buy from there, at least we who have a relatively bad economy long before this cursed inflation appeared out of nowhere.\n\nSincerely Sverige",
-            "author_fullname": "t2_2fohynzr",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Are these common in Finland?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": 140,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_19792rt",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.85,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 273,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": 140,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": true,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 273,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "https://b.thumbs.redditmedia.com/WbmSdN5BWYTOpWwhl8wrPSDqiivA8-eM7R2buIaNb_A.jpg",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "post_hint": "image",
-            "content_categories": null,
-            "is_self": false,
-            "mod_note": null,
-            "created": 1705326344.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "i.redd.it",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I would like to know if these are as common as Google claimed they were?&lt;/p&gt;\n\n&lt;p&gt;Because I bought these from a Swedish webshop (Matsmart.se) that sells mixed goods for very cheap prices and a lot of people buy from there, at least we who have a relatively bad economy long before this cursed inflation appeared out of nowhere.&lt;/p&gt;\n\n&lt;p&gt;Sincerely Sverige&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "url_overridden_by_dest": "https://i.redd.it/78xsiberylcc1.png",
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "preview": {
-              "images": [
-                {
-                  "source": {
-                    "url": "https://preview.redd.it/78xsiberylcc1.png?auto=webp&amp;s=146c56aa861d4c4841f0d3f58e4654cb221ac0aa",
+                  {
+                    "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=5a5da8f955afac6e6c7e88cfff3636e87ee7c79c",
+                    "width": 320,
+                    "height": 180
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=8396887b4d5d7286259993e761f4f9bdedd11a3f",
+                    "width": 640,
+                    "height": 360
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=757884437b1648540de94fc0ce2bbdc9039a9647",
+                    "width": 960,
+                    "height": 540
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/X3jpEznJf11iGrOtAnXPsexgDPpw7p6ONBxB5A0LKJI.jpg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=1efa214409cecd337d60a7df34a0284387260322",
                     "width": 1080,
-                    "height": 1440
+                    "height": 607
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "HH9RuuXM_lIWiMz2TKNttg5WCazz8Xgm8pKU1f1TJ6g"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "link_flair_template_id": "eb545470-0e28-11e6-b8cd-0e358dd93c4f",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "#373c3f",
+          "id": "18zz0m2",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "AutoModerator",
+          "discussion_type": null,
+          "num_comments": 40,
+          "send_replies": false,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/18zz0m2/tourism_moving_and_studying_in_finland_read_this/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": true,
+          "url": "https://www.reddit.com/r/Finland/comments/18zz0m2/tourism_moving_and_studying_in_finland_read_this/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1704544226.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "",
+          "author_fullname": "t2_r96gpezhm",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Finnair cancels some 550 flights due to strikes \u2014 60k passengers affected | Yle News",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 73,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aekkdw",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.93,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 101,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 101,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/8Z08ObX3p7AhQQZkhJ5sc-8kfyhFFD3m-lMxr87crrw.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "link",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1706607127.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "yle.fi",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://yle.fi/a/74-20071884",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?auto=webp\u0026s=8f374447ff7b0b5823afa4e78015169d34d79075",
+                  "width": 1200,
+                  "height": 628
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=a07361676ca53805446f2bc951857c8d07230fe6",
+                    "width": 108,
+                    "height": 56
                   },
-                  "resolutions": [
-                    {
-                      "url": "https://preview.redd.it/78xsiberylcc1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=7fef76d95173096f76a59f5de89d61f7901d911a",
-                      "width": 108,
-                      "height": 144
-                    },
-                    {
-                      "url": "https://preview.redd.it/78xsiberylcc1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=a7e0b10c7978d75bc7bafb5b7d8d8b0f7b76f475",
-                      "width": 216,
-                      "height": 288
-                    },
-                    {
-                      "url": "https://preview.redd.it/78xsiberylcc1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=52ab1a4ca65e7a2f67c3fd980860bce04be35e04",
-                      "width": 320,
-                      "height": 426
-                    },
-                    {
-                      "url": "https://preview.redd.it/78xsiberylcc1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=840e96ab5d6f0cc7d386418e376c863274185dc3",
-                      "width": 640,
-                      "height": 853
-                    },
-                    {
-                      "url": "https://preview.redd.it/78xsiberylcc1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=606e89cbdeea535d63ac68a4d17361bdbbffcb90",
-                      "width": 960,
-                      "height": 1280
-                    },
-                    {
-                      "url": "https://preview.redd.it/78xsiberylcc1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=d0ff7c3113d3ef0b25c91169995ae4f2be60a41f",
-                      "width": 1080,
-                      "height": 1440
-                    }
-                  ],
-                  "variants": {
-                    
+                  {
+                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=9040658850f24675d29fe152e6f6107a6d42e280",
+                    "width": 216,
+                    "height": 113
                   },
-                  "id": "0xGKSELYw37htY-sMD2OqL8bOZ88JP1F-ysa74jVWgw"
+                  {
+                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=14c62a6bb9ecb6e60c5e99ba7823791db835ad63",
+                    "width": 320,
+                    "height": 167
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=3ae70d4713f6b15a0833b3d46cb119054bd3ac3c",
+                    "width": 640,
+                    "height": 334
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=bafecbf5c9376596256ae21ad1bc13d0c7b46025",
+                    "width": 960,
+                    "height": 502
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=d02cbb0c659afa170c88d29f6d711f44d647f3ea",
+                    "width": 1080,
+                    "height": 565
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "t2l_arlcgeYEuIU9Cg5uESErjwGVElmgqnCy_MFqc44"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aekkdw",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Temporary-Side615",
+          "discussion_type": null,
+          "num_comments": 68,
+          "send_replies": false,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aekkdw/finnair_cancels_some_550_flights_due_to_strikes/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://yle.fi/a/74-20071884",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706607127.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "",
+          "author_fullname": "t2_4f31z356",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Finland tops the % of population with difficulties concentrating in the EU",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 77,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aehgv0",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.95,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 164,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 164,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/DZeKw5y_yej5AtNZP5r_UvgwMkcu-VzTzyfjpZ2azzY.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1706594476.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "i.redd.it",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/842rkskkpifc1.jpeg",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/842rkskkpifc1.jpeg?auto=webp\u0026s=fe07afa3b7be34b50dd7d87e59e485467a82fca2",
+                  "width": 1284,
+                  "height": 709
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=108\u0026crop=smart\u0026auto=webp\u0026s=7537bb1f7699d5d80e41c072061234f2f1bb32dd",
+                    "width": 108,
+                    "height": 59
+                  },
+                  {
+                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=216\u0026crop=smart\u0026auto=webp\u0026s=3f01677baa651a5274c6925f6b3bba2401404b8f",
+                    "width": 216,
+                    "height": 119
+                  },
+                  {
+                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=320\u0026crop=smart\u0026auto=webp\u0026s=93df7ab534afa33f24ff52d7f66d4f35fe55fff6",
+                    "width": 320,
+                    "height": 176
+                  },
+                  {
+                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=640\u0026crop=smart\u0026auto=webp\u0026s=e6ed86b71167c2605f4637d54f2f2fb8a87b4a46",
+                    "width": 640,
+                    "height": 353
+                  },
+                  {
+                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=960\u0026crop=smart\u0026auto=webp\u0026s=d0500ec128db075be4fdb7274f18c376c155addd",
+                    "width": 960,
+                    "height": 530
+                  },
+                  {
+                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=73f545b634ad44cb768986539d3bd75b42ac9744",
+                    "width": 1080,
+                    "height": 596
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "Zlsl1qAT00ccDx4f_Bq5m2E7wC0Za83nfgXgc8XUPgg"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aehgv0",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "fhigaro",
+          "discussion_type": null,
+          "num_comments": 77,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aehgv0/finland_tops_the_of_population_with_difficulties/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://i.redd.it/842rkskkpifc1.jpeg",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706594476.0,
+          "num_crossposts": 1,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "",
+          "user_reports": [
+            
+          ],
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "I hate this with every fiber of my being",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 80,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aepggq",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.83,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 31,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": "d0d5fa2c-1375-11ee-ab26-e696a0a305fe",
+          "is_original_content": false,
+          "author_fullname": "t2_f2p0dda",
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 31,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/LmERsurtB-a9paPC9fIy-atCi6NhJU5ndDHV3sXyWMs.jpg",
+          "edited": false,
+          "author_flair_css_class": "tier2",
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "crosspost_parent_list": [
+            {
+              "approved_at_utc": null,
+              "subreddit": "Suomi",
+              "selftext": "",
+              "author_fullname": "t2_f2p0dda",
+              "saved": false,
+              "mod_reason_title": null,
+              "gilded": 0,
+              "clicked": false,
+              "title": "T\u00f6rm\u00e4sin sattumalta makkaraputkeen, ja nyt pilaan teid\u00e4nkin p\u00e4iv\u00e4n sill\u00e4",
+              "link_flair_richtext": [
+                {
+                  "e": "text",
+                  "t": "Suomalaisuus \ud83c\uddeb\ud83c\uddee"
                 }
               ],
-              "enabled": true
-            },
-            "all_awardings": [
-              
+              "subreddit_name_prefixed": "r/Suomi",
+              "hidden": false,
+              "pwls": 6,
+              "link_flair_css_class": "flair-suomalaisuus",
+              "downs": 0,
+              "thumbnail_height": 80,
+              "top_awarded_type": null,
+              "hide_score": false,
+              "name": "t3_1aeo4d7",
+              "quarantine": false,
+              "link_flair_text_color": "light",
+              "upvote_ratio": 0.93,
+              "author_flair_background_color": null,
+              "ups": 104,
+              "total_awards_received": 0,
+              "media_embed": {
+                
+              },
+              "thumbnail_width": 140,
+              "author_flair_template_id": null,
+              "is_original_content": false,
+              "user_reports": [
+                
+              ],
+              "secure_media": null,
+              "is_reddit_media_domain": true,
+              "is_meta": false,
+              "category": null,
+              "secure_media_embed": {
+                
+              },
+              "link_flair_text": "Suomalaisuus \ud83c\uddeb\ud83c\uddee",
+              "can_mod_post": false,
+              "score": 104,
+              "approved_by": null,
+              "is_created_from_ads_ui": false,
+              "author_premium": false,
+              "thumbnail": "https://b.thumbs.redditmedia.com/LmERsurtB-a9paPC9fIy-atCi6NhJU5ndDHV3sXyWMs.jpg",
+              "edited": false,
+              "author_flair_css_class": null,
+              "author_flair_richtext": [
+                
+              ],
+              "gildings": {
+                
+              },
+              "post_hint": "image",
+              "content_categories": null,
+              "is_self": false,
+              "subreddit_type": "public",
+              "created": 1706620425.0,
+              "link_flair_type": "richtext",
+              "wls": 6,
+              "removed_by_category": null,
+              "banned_by": null,
+              "author_flair_type": "text",
+              "domain": "i.redd.it",
+              "allow_live_comments": false,
+              "selftext_html": null,
+              "likes": null,
+              "suggested_sort": null,
+              "banned_at_utc": null,
+              "url_overridden_by_dest": "https://i.redd.it/swslrotftkfc1.png",
+              "view_count": null,
+              "archived": false,
+              "no_follow": false,
+              "is_crosspostable": false,
+              "pinned": false,
+              "over_18": false,
+              "preview": {
+                "images": [
+                  {
+                    "source": {
+                      "url": "https://preview.redd.it/swslrotftkfc1.png?auto=webp\u0026s=3908a96e4f6141b00ee43941a8e37a145f9fd806",
+                      "width": 1497,
+                      "height": 858
+                    },
+                    "resolutions": [
+                      {
+                        "url": "https://preview.redd.it/swslrotftkfc1.png?width=108\u0026crop=smart\u0026auto=webp\u0026s=be904a71bf097c78da4dec6c372b0d8b5a1d4f66",
+                        "width": 108,
+                        "height": 61
+                      },
+                      {
+                        "url": "https://preview.redd.it/swslrotftkfc1.png?width=216\u0026crop=smart\u0026auto=webp\u0026s=c1b72fe4abe30d2e8ea9ed7edbe1a6295d5b8305",
+                        "width": 216,
+                        "height": 123
+                      },
+                      {
+                        "url": "https://preview.redd.it/swslrotftkfc1.png?width=320\u0026crop=smart\u0026auto=webp\u0026s=24536a9cd6f856c98c1ddaf7d273f361dfc6e793",
+                        "width": 320,
+                        "height": 183
+                      },
+                      {
+                        "url": "https://preview.redd.it/swslrotftkfc1.png?width=640\u0026crop=smart\u0026auto=webp\u0026s=f97a6d666cfaf82c28fff997f5a771684ab39056",
+                        "width": 640,
+                        "height": 366
+                      },
+                      {
+                        "url": "https://preview.redd.it/swslrotftkfc1.png?width=960\u0026crop=smart\u0026auto=webp\u0026s=c346de0928133e967ee6126b1d48cfc7de9e810a",
+                        "width": 960,
+                        "height": 550
+                      },
+                      {
+                        "url": "https://preview.redd.it/swslrotftkfc1.png?width=1080\u0026crop=smart\u0026auto=webp\u0026s=93ee4c15c8417d26863fe87622e1cc28522b31e4",
+                        "width": 1080,
+                        "height": 618
+                      }
+                    ],
+                    "variants": {
+                      
+                    },
+                    "id": "7_nSV4zzHEjyOu7usztVBenLkTpAIpvz3QuVNpl6XRM"
+                  }
+                ],
+                "enabled": true
+              },
+              "all_awardings": [
+                
+              ],
+              "awarders": [
+                
+              ],
+              "media_only": false,
+              "link_flair_template_id": "264e48a6-9d61-11e2-b7cd-12313d259cae",
+              "can_gild": false,
+              "spoiler": false,
+              "locked": false,
+              "author_flair_text": null,
+              "treatment_tags": [
+                
+              ],
+              "visited": false,
+              "removed_by": null,
+              "mod_note": null,
+              "distinguished": null,
+              "subreddit_id": "t5_2qlq3",
+              "author_is_blocked": false,
+              "mod_reason_by": null,
+              "num_reports": null,
+              "removal_reason": null,
+              "link_flair_background_color": "#0079d3",
+              "id": "1aeo4d7",
+              "is_robot_indexable": true,
+              "report_reasons": null,
+              "author": "MichaelNearaday",
+              "discussion_type": null,
+              "num_comments": 49,
+              "send_replies": true,
+              "whitelist_status": "all_ads",
+              "contest_mode": false,
+              "mod_reports": [
+                
+              ],
+              "author_patreon_flair": false,
+              "author_flair_text_color": null,
+              "permalink": "/r/Suomi/comments/1aeo4d7/t\u00f6rm\u00e4sin_sattumalta_makkaraputkeen_ja_nyt_pilaan/",
+              "parent_whitelist_status": "all_ads",
+              "stickied": false,
+              "url": "https://i.redd.it/swslrotftkfc1.png",
+              "subreddit_subscribers": 368228,
+              "created_utc": 1706620425.0,
+              "num_crossposts": 1,
+              "media": null,
+              "is_video": false
+            }
+          ],
+          "created": 1706624288.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "i.redd.it",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/swslrotftkfc1.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/swslrotftkfc1.png?auto=webp\u0026s=3908a96e4f6141b00ee43941a8e37a145f9fd806",
+                  "width": 1497,
+                  "height": 858
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/swslrotftkfc1.png?width=108\u0026crop=smart\u0026auto=webp\u0026s=be904a71bf097c78da4dec6c372b0d8b5a1d4f66",
+                    "width": 108,
+                    "height": 61
+                  },
+                  {
+                    "url": "https://preview.redd.it/swslrotftkfc1.png?width=216\u0026crop=smart\u0026auto=webp\u0026s=c1b72fe4abe30d2e8ea9ed7edbe1a6295d5b8305",
+                    "width": 216,
+                    "height": 123
+                  },
+                  {
+                    "url": "https://preview.redd.it/swslrotftkfc1.png?width=320\u0026crop=smart\u0026auto=webp\u0026s=24536a9cd6f856c98c1ddaf7d273f361dfc6e793",
+                    "width": 320,
+                    "height": 183
+                  },
+                  {
+                    "url": "https://preview.redd.it/swslrotftkfc1.png?width=640\u0026crop=smart\u0026auto=webp\u0026s=f97a6d666cfaf82c28fff997f5a771684ab39056",
+                    "width": 640,
+                    "height": 366
+                  },
+                  {
+                    "url": "https://preview.redd.it/swslrotftkfc1.png?width=960\u0026crop=smart\u0026auto=webp\u0026s=c346de0928133e967ee6126b1d48cfc7de9e810a",
+                    "width": 960,
+                    "height": 550
+                  },
+                  {
+                    "url": "https://preview.redd.it/swslrotftkfc1.png?width=1080\u0026crop=smart\u0026auto=webp\u0026s=93ee4c15c8417d26863fe87622e1cc28522b31e4",
+                    "width": 1080,
+                    "height": 618
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "7_nSV4zzHEjyOu7usztVBenLkTpAIpvz3QuVNpl6XRM"
+              }
             ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "19792rt",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Miniblasan",
-            "discussion_type": null,
-            "num_comments": 169,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/19792rt/are_these_common_in_finland/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://i.redd.it/78xsiberylcc1.png",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705326344.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Hi guys! I was looking for similiar topic and found one but it was 4 years ago. \n\nSo i\u2019m a homebrewer and I want to recreate old finnish beer style called sahti. I\u2019ve read few articles about it and most of authors agree that most important part of brewing sahti are proper yeast. \n\nClosest to originial are Suomen hiiva yeast - yeasts dedicated to bakeries which are totally impossible to get in Poland. So my question is - do you know Finnish shops where I can buy them online?\n\nOr could someone buy them for me and send them to Poland. I\u2019ll pay for all obviously but clearly need help :)\n\nThanks in advance and have a good day!",
-            "author_fullname": "t2_1yp5ob0d",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Suomen hiiva yeast",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": 140,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_1975v42",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.93,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 99,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": 140,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": true,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 99,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "https://b.thumbs.redditmedia.com/rJgf1T9LL9M9X0hTZCC4LoYZWbXxdFUddoAe3nAdSFE.jpg",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "post_hint": "image",
-            "content_categories": null,
-            "is_self": false,
-            "mod_note": null,
-            "created": 1705315342.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "i.redd.it",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi guys! I was looking for similiar topic and found one but it was 4 years ago. &lt;/p&gt;\n\n&lt;p&gt;So i\u2019m a homebrewer and I want to recreate old finnish beer style called sahti. I\u2019ve read few articles about it and most of authors agree that most important part of brewing sahti are proper yeast. &lt;/p&gt;\n\n&lt;p&gt;Closest to originial are Suomen hiiva yeast - yeasts dedicated to bakeries which are totally impossible to get in Poland. So my question is - do you know Finnish shops where I can buy them online?&lt;/p&gt;\n\n&lt;p&gt;Or could someone buy them for me and send them to Poland. I\u2019ll pay for all obviously but clearly need help :)&lt;/p&gt;\n\n&lt;p&gt;Thanks in advance and have a good day!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "url_overridden_by_dest": "https://i.redd.it/g78ahsp12lcc1.jpeg",
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "preview": {
-              "images": [
+            "enabled": true
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": "Vainamoinen",
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aepggq",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "MichaelNearaday",
+          "discussion_type": null,
+          "num_comments": 11,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "crosspost_parent": "t3_1aeo4d7",
+          "author_flair_text_color": "dark",
+          "permalink": "/r/Finland/comments/1aepggq/i_hate_this_with_every_fiber_of_my_being/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://i.redd.it/swslrotftkfc1.png",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706624288.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Excuse the Ferris wheel they\u2019re hard\ud83d\ude2d",
+          "author_fullname": "t2_fo4jvdwq",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "is_gallery": true,
+          "title": "14 yo I made some drawings of places around Helsinki",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "media_metadata": {
+            "1wbpqsm7bifc1": {
+              "status": "valid",
+              "e": "Image",
+              "m": "image/jpg",
+              "p": [
                 {
-                  "source": {
-                    "url": "https://preview.redd.it/g78ahsp12lcc1.jpeg?auto=webp&amp;s=a09233a72a95a5d7439b9b23b40d575a532c6a18",
-                    "width": 1280,
+                  "y": 144,
+                  "x": 108,
+                  "u": "https://preview.redd.it/1wbpqsm7bifc1.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=1a5b5cdf6ddc379c61eea45eaeee7ec52e357ec7"
+                },
+                {
+                  "y": 288,
+                  "x": 216,
+                  "u": "https://preview.redd.it/1wbpqsm7bifc1.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=6305b11bc66bed1d17b77c31179c2f9043c7179a"
+                },
+                {
+                  "y": 426,
+                  "x": 320,
+                  "u": "https://preview.redd.it/1wbpqsm7bifc1.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=c1d88b41ce2c744e9a8b6131365fd2426452c453"
+                },
+                {
+                  "y": 853,
+                  "x": 640,
+                  "u": "https://preview.redd.it/1wbpqsm7bifc1.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=e184d36504e7b11aa7396b2dd77c2e8fe5e5130b"
+                },
+                {
+                  "y": 1280,
+                  "x": 960,
+                  "u": "https://preview.redd.it/1wbpqsm7bifc1.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=d2d6ed555ba8a10a0d26378588421fb663e3b0f3"
+                },
+                {
+                  "y": 1440,
+                  "x": 1080,
+                  "u": "https://preview.redd.it/1wbpqsm7bifc1.jpg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=558d4faae5c0376640401e81b350793cf9c249dd"
+                }
+              ],
+              "s": {
+                "y": 4032,
+                "x": 3024,
+                "u": "https://preview.redd.it/1wbpqsm7bifc1.jpg?width=3024\u0026format=pjpg\u0026auto=webp\u0026s=eadc4228eb9f13fbf320f166d33020b70d7050a2"
+              },
+              "id": "1wbpqsm7bifc1"
+            },
+            "q3se1rm7bifc1": {
+              "status": "valid",
+              "e": "Image",
+              "m": "image/jpg",
+              "p": [
+                {
+                  "y": 143,
+                  "x": 108,
+                  "u": "https://preview.redd.it/q3se1rm7bifc1.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=daf51a7fd25a97712e7e6604abf9d62824619c52"
+                },
+                {
+                  "y": 287,
+                  "x": 216,
+                  "u": "https://preview.redd.it/q3se1rm7bifc1.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=06648b0e30808db9d2e6c038372350bcc3c8f967"
+                },
+                {
+                  "y": 426,
+                  "x": 320,
+                  "u": "https://preview.redd.it/q3se1rm7bifc1.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=f86460d2e33a79e0832ec8c4b1220e0143d765ea"
+                },
+                {
+                  "y": 852,
+                  "x": 640,
+                  "u": "https://preview.redd.it/q3se1rm7bifc1.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=0bb3aebcf09fcf55ef960f98f3acb4ea7c15d507"
+                },
+                {
+                  "y": 1279,
+                  "x": 960,
+                  "u": "https://preview.redd.it/q3se1rm7bifc1.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=567e742d406df71fd0b8125dbf92dbf5fa1ef249"
+                },
+                {
+                  "y": 1439,
+                  "x": 1080,
+                  "u": "https://preview.redd.it/q3se1rm7bifc1.jpg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=db247e48db7bcf58548048d1d8320c2d915f9fc5"
+                }
+              ],
+              "s": {
+                "y": 2100,
+                "x": 1576,
+                "u": "https://preview.redd.it/q3se1rm7bifc1.jpg?width=1576\u0026format=pjpg\u0026auto=webp\u0026s=40e704789b8ed7c8d9b6f470540a55e181e51467"
+              },
+              "id": "q3se1rm7bifc1"
+            }
+          },
+          "name": "t3_1aeg2nf",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.97,
+          "author_flair_background_color": null,
+          "ups": 124,
+          "domain": "reddit.com",
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "gallery_data": {
+            "items": [
+              {
+                "media_id": "q3se1rm7bifc1",
+                "id": 397341958
+              },
+              {
+                "media_id": "1wbpqsm7bifc1",
+                "id": 397341959
+              }
+            ]
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 124,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/jEgp7MpfwR3X4LDWURgzy1xV-mTrMhd4LE9HMQB03mk.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": false,
+          "subreddit_type": "public",
+          "created": 1706589653.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "total_awards_received": 0,
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EExcuse the Ferris wheel they\u2019re hard\ud83d\ude2d\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://www.reddit.com/gallery/1aeg2nf",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aeg2nf",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "North-Guest8380",
+          "discussion_type": null,
+          "num_comments": 6,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aeg2nf/14_yo_i_made_some_drawings_of_places_around/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/gallery/1aeg2nf",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706589653.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "There are some small for underage people, not sure but they are community/city cars.\n\nHow are they called in finnish? What's the deal with them?",
+          "author_fullname": "t2_dd2um1pz",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "How are those small cars called?",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aec366",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.81,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 37,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 37,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706577727.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EThere are some small for underage people, not sure but they are community/city cars.\u003C/p\u003E\n\n\u003Cp\u003EHow are they called in finnish? What\u0026#39;s the deal with them?\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aec366",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "lavenderthorn",
+          "discussion_type": null,
+          "num_comments": 57,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aec366/how_are_those_small_cars_called/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aec366/how_are_those_small_cars_called/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706577727.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "",
+          "author_fullname": "t2_158pqhvd",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "NBI starts investigating suspected Business Finland embezzlement case",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 73,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aemwv1",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 4,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": "cf6bca72-1375-11ee-8100-6668519146ca",
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 4,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/7SJUAF69D5RmdwWvYEXbZMWSXehDk-JmkBMKrF-pqbE.jpg",
+          "edited": false,
+          "author_flair_css_class": "tier1",
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "link",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1706616440.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "yle.fi",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://yle.fi/a/74-20072041",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/Hmrm0B4wUc2K6TeacXxc7jS2SwEngXanCzql6s4zT9A.jpg?auto=webp\u0026s=019821444ee6b611c898f75da7fdb650d0ba7e44",
+                  "width": 1200,
+                  "height": 628
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/Hmrm0B4wUc2K6TeacXxc7jS2SwEngXanCzql6s4zT9A.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=75a24e786b94f601ca0ad62d5074d38d948df43e",
+                    "width": 108,
+                    "height": 56
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/Hmrm0B4wUc2K6TeacXxc7jS2SwEngXanCzql6s4zT9A.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=3364d2a8f13c9bd84e3ba1e1b55549a2e8b8bb9a",
+                    "width": 216,
+                    "height": 113
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/Hmrm0B4wUc2K6TeacXxc7jS2SwEngXanCzql6s4zT9A.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=afcf3c860b0d18eec14ed9545764fbce2092472e",
+                    "width": 320,
+                    "height": 167
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/Hmrm0B4wUc2K6TeacXxc7jS2SwEngXanCzql6s4zT9A.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=b9649246b09160a49d023a3556fa41a5cdfc2f1b",
+                    "width": 640,
+                    "height": 334
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/Hmrm0B4wUc2K6TeacXxc7jS2SwEngXanCzql6s4zT9A.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=dab51be1395d7952a3b51ef6cd74d8e87973b825",
+                    "width": 960,
+                    "height": 502
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/Hmrm0B4wUc2K6TeacXxc7jS2SwEngXanCzql6s4zT9A.jpg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=e890cf9a99f96bc21db79ee4c06bbcdbf8abe973",
+                    "width": 1080,
+                    "height": 565
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "NPke_vuoLMr4lhOZV1HOHDFpn7AgT1lADbsfXkiQ2qw"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": "Baby Vainamoinen",
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aemwv1",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "championshuttler",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": "dark",
+          "permalink": "/r/Finland/comments/1aemwv1/nbi_starts_investigating_suspected_business/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://yle.fi/a/74-20072041",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706616440.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Hei,\n\nI recently lost my AirPod charging case on one of the trams, and was able to use FindMy app to track it to the lost property office at Rautatieasema. Despite this, they\u2019re insisting that they have no record of it arriving even though it\u2019s been in the area for 3 weeks now.\n\nSo I\u2019m at a loss now on what to do. Has anyone faced this issue before, or know who I could escalate this to? Their website contact number doesn\u2019t work, and have stopped answering emails.\n\nAny help would be appreciated, kiitos!",
+          "author_fullname": "t2_13h7y9",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Advice needed for lost property?",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aelmca",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.81,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 3,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 3,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706611580.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHei,\u003C/p\u003E\n\n\u003Cp\u003EI recently lost my AirPod charging case on one of the trams, and was able to use FindMy app to track it to the lost property office at Rautatieasema. Despite this, they\u2019re insisting that they have no record of it arriving even though it\u2019s been in the area for 3 weeks now.\u003C/p\u003E\n\n\u003Cp\u003ESo I\u2019m at a loss now on what to do. Has anyone faced this issue before, or know who I could escalate this to? Their website contact number doesn\u2019t work, and have stopped answering emails.\u003C/p\u003E\n\n\u003Cp\u003EAny help would be appreciated, kiitos!\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aelmca",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "ArtificialExistannce",
+          "discussion_type": null,
+          "num_comments": 6,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aelmca/advice_needed_for_lost_property/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aelmca/advice_needed_for_lost_property/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706611580.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "For some reason my friends see a heart but I just see a very angry eye. \ud83d\ude05 Amused, so sharing.",
+          "author_fullname": "t2_esh7m",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Angry Runebergin torttu",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1adwxwn",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.92,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 135,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": "cf6bca72-1375-11ee-8100-6668519146ca",
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 135,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/5TTYHSLCHZ5mlS3hbX9V_ErklcpXDnBge3yO801aSGo.jpg",
+          "edited": false,
+          "author_flair_css_class": "tier1",
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1706539467.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "i.redd.it",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EFor some reason my friends see a heart but I just see a very angry eye. \ud83d\ude05 Amused, so sharing.\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/i2z2r6106efc1.jpeg",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/i2z2r6106efc1.jpeg?auto=webp\u0026s=948626854b7ad3f65590ad2e5b6077a5c03cc6db",
+                  "width": 2736,
+                  "height": 3648
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/i2z2r6106efc1.jpeg?width=108\u0026crop=smart\u0026auto=webp\u0026s=864a4de06bdf0a686c9106a8520c148939fa954a",
+                    "width": 108,
+                    "height": 144
+                  },
+                  {
+                    "url": "https://preview.redd.it/i2z2r6106efc1.jpeg?width=216\u0026crop=smart\u0026auto=webp\u0026s=4e6d617684a674d080bb0491dfc1bf1098196420",
+                    "width": 216,
+                    "height": 288
+                  },
+                  {
+                    "url": "https://preview.redd.it/i2z2r6106efc1.jpeg?width=320\u0026crop=smart\u0026auto=webp\u0026s=a315a88f3194409f44b2ff6089fc8a93c9d95f93",
+                    "width": 320,
+                    "height": 426
+                  },
+                  {
+                    "url": "https://preview.redd.it/i2z2r6106efc1.jpeg?width=640\u0026crop=smart\u0026auto=webp\u0026s=4c6eac06703cb285e69cc1db189ecf86a8b67b76",
+                    "width": 640,
+                    "height": 853
+                  },
+                  {
+                    "url": "https://preview.redd.it/i2z2r6106efc1.jpeg?width=960\u0026crop=smart\u0026auto=webp\u0026s=f0667efa353cba156507bec0826132dd60214e96",
+                    "width": 960,
                     "height": 1280
                   },
-                  "resolutions": [
-                    {
-                      "url": "https://preview.redd.it/g78ahsp12lcc1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=54b267f6a010b881825757a3e5e183d947856816",
-                      "width": 108,
-                      "height": 108
-                    },
-                    {
-                      "url": "https://preview.redd.it/g78ahsp12lcc1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=fb674addd8f00608222f9b2b57e6998cb6508385",
-                      "width": 216,
-                      "height": 216
-                    },
-                    {
-                      "url": "https://preview.redd.it/g78ahsp12lcc1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=e032ed7c00c52d484ff9e90ff0549ba217685f9f",
-                      "width": 320,
-                      "height": 320
-                    },
-                    {
-                      "url": "https://preview.redd.it/g78ahsp12lcc1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ad5b625bdbca4aa4d13e25ca00d9216174fc94e0",
-                      "width": 640,
-                      "height": 640
-                    },
-                    {
-                      "url": "https://preview.redd.it/g78ahsp12lcc1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a7eb2ec6044e00e62721e5aa1ebe2076d61a0a72",
-                      "width": 960,
-                      "height": 960
-                    },
-                    {
-                      "url": "https://preview.redd.it/g78ahsp12lcc1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=96f3ee06ade11d397da18bceb61081bc7cee9717",
-                      "width": 1080,
-                      "height": 1080
-                    }
-                  ],
-                  "variants": {
-                    
-                  },
-                  "id": "7Ac6Ng0DdzAge8iqPhMDJERt8SQQoNkmcWn3SUaSHGo"
-                }
-              ],
-              "enabled": true
-            },
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "1975v42",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "3ciu",
-            "discussion_type": null,
-            "num_comments": 33,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/1975v42/suomen_hiiva_yeast/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://i.redd.it/g78ahsp12lcc1.jpeg",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705315342.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "So, I saw this article on wikipedia where it says that the average person in finland consumes 430 kg of milk a year. That's more than a kg a day. So I'm just wondering what do you use all that milk for?? Is it coffee, some recipe??\n\nBtw I don't mean to sound disrespectful. I love finland. I'm just curious.\n\narticle: [https://en.wikipedia.org/wiki/List\\_of\\_countries\\_by\\_milk\\_consumption\\_per\\_capita](https://en.wikipedia.org/wiki/List_of_countries_by_milk_consumption_per_capita)",
-            "author_fullname": "t2_7ftnaplj",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Finland and milk??",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_197450v",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.86,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 69,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 69,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705308264.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;So, I saw this article on wikipedia where it says that the average person in finland consumes 430 kg of milk a year. That&amp;#39;s more than a kg a day. So I&amp;#39;m just wondering what do you use all that milk for?? Is it coffee, some recipe??&lt;/p&gt;\n\n&lt;p&gt;Btw I don&amp;#39;t mean to sound disrespectful. I love finland. I&amp;#39;m just curious.&lt;/p&gt;\n\n&lt;p&gt;article: &lt;a href=\"https://en.wikipedia.org/wiki/List_of_countries_by_milk_consumption_per_capita\"&gt;https://en.wikipedia.org/wiki/List_of_countries_by_milk_consumption_per_capita&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197450v",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "thiyyayu",
-            "discussion_type": null,
-            "num_comments": 138,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197450v/finland_and_milk/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197450v/finland_and_milk/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705308264.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "I am planning on picking up an airsoft replica from Stockholm by ferry. \n\nI get to check what's on the other side of the water + bring the replica home. \n\nAnybody knows what the rules for this are? The replica would obviously be on its box. \n\nTried looking online, but it's a bit too specific for Google.",
-            "author_fullname": "t2_5sp7q8x5",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Moving an airsoft replica from Sweden to Finland by ferry.",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_1974xi8",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.96,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 21,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": "d0d5fa2c-1375-11ee-ab26-e696a0a305fe",
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 21,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": "tier2",
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705311565.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I am planning on picking up an airsoft replica from Stockholm by ferry. &lt;/p&gt;\n\n&lt;p&gt;I get to check what&amp;#39;s on the other side of the water + bring the replica home. &lt;/p&gt;\n\n&lt;p&gt;Anybody knows what the rules for this are? The replica would obviously be on its box. &lt;/p&gt;\n\n&lt;p&gt;Tried looking online, but it&amp;#39;s a bit too specific for Google.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": "Vainamoinen",
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "1974xi8",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "MaherMitri",
-            "discussion_type": null,
-            "num_comments": 51,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": "dark",
-            "permalink": "/r/Finland/comments/1974xi8/moving_an_airsoft_replica_from_sweden_to_finland/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/1974xi8/moving_an_airsoft_replica_from_sweden_to_finland/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705311565.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "I want to go hiking in Finland, sleeping in tent, fishing and cooking with a fireplace, I already did it in France and I'd like to repeat the experience in Finland.\nI want to know what are the risks associated with wildlife, I intend on hiking from Kokkola to Pyh\u00e4joki (https://www.alltrails.com/trail/finland/central-ostrobothnia/kokkola-pyhajoki). In France our wildlife is very discreet on that matter and risks with camping are really low, what about Finland ? I know it's a country whose population is deeply connected with nature and wildlife I well preserved, my question : what are the chances I meet a bear or any wild dangerous animal in Ostrobothnia while camping ? I can't find anything on the internet about this, but I doubt it's risk free, and since I don't speak Finnish, I suppose I don't have access to all resources. So if anyone knows anything about the region and can explain me this subtlety, I'd be very grateful.",
-            "author_fullname": "t2_4i6pfylx",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Hiking in Finland",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": "tourism",
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_1975z5m",
-            "quarantine": false,
-            "link_flair_text_color": "light",
-            "upvote_ratio": 0.75,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 9,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": "Tourism",
-            "can_mod_post": false,
-            "score": 9,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705315808.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I want to go hiking in Finland, sleeping in tent, fishing and cooking with a fireplace, I already did it in France and I&amp;#39;d like to repeat the experience in Finland.\nI want to know what are the risks associated with wildlife, I intend on hiking from Kokkola to Pyh\u00e4joki (&lt;a href=\"https://www.alltrails.com/trail/finland/central-ostrobothnia/kokkola-pyhajoki\"&gt;https://www.alltrails.com/trail/finland/central-ostrobothnia/kokkola-pyhajoki&lt;/a&gt;). In France our wildlife is very discreet on that matter and risks with camping are really low, what about Finland ? I know it&amp;#39;s a country whose population is deeply connected with nature and wildlife I well preserved, my question : what are the chances I meet a bear or any wild dangerous animal in Ostrobothnia while camping ? I can&amp;#39;t find anything on the internet about this, but I doubt it&amp;#39;s risk free, and since I don&amp;#39;t speak Finnish, I suppose I don&amp;#39;t have access to all resources. So if anyone knows anything about the region and can explain me this subtlety, I&amp;#39;d be very grateful.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "link_flair_template_id": "eb545470-0e28-11e6-b8cd-0e358dd93c4f",
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "#373c3f",
-            "id": "1975z5m",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Kyhro",
-            "discussion_type": null,
-            "num_comments": 40,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/1975z5m/hiking_in_finland/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/1975z5m/hiking_in_finland/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705315808.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "",
-            "author_fullname": "t2_txkbdtgy",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "\u00c5bo Akademi's first female professor Alma S\u00f6derhjelm (1870\u20131949) working with her typewriter. Photographer: unknown. \u00c5bo Akademi's image collections.",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": 125,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_196llli",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.99,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 163,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": 140,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": true,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 163,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "https://b.thumbs.redditmedia.com/bNtWZZS-5ePMteY-AS0TkMJuKxBPlpQ4RE1WdYzOslo.jpg",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "post_hint": "image",
-            "content_categories": null,
-            "is_self": false,
-            "mod_note": null,
-            "created": 1705254615.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "i.redd.it",
-            "allow_live_comments": false,
-            "selftext_html": null,
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "url_overridden_by_dest": "https://i.redd.it/r4n0h78h1gcc1.jpeg",
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "preview": {
-              "images": [
-                {
-                  "source": {
-                    "url": "https://preview.redd.it/r4n0h78h1gcc1.jpeg?auto=webp&amp;s=4b0368afd4f7b6ca2b561a65f1bb3cc2b602f753",
-                    "width": 1024,
-                    "height": 920
-                  },
-                  "resolutions": [
-                    {
-                      "url": "https://preview.redd.it/r4n0h78h1gcc1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=eacbf59af274bab86025d0c6adc8a964e97c0b2a",
-                      "width": 108,
-                      "height": 97
-                    },
-                    {
-                      "url": "https://preview.redd.it/r4n0h78h1gcc1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=44609a89f6fdc471e4911f2781d3722e175c0206",
-                      "width": 216,
-                      "height": 194
-                    },
-                    {
-                      "url": "https://preview.redd.it/r4n0h78h1gcc1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=08f96d7517dc076aa0a006115c161dfcaaea67a6",
-                      "width": 320,
-                      "height": 287
-                    },
-                    {
-                      "url": "https://preview.redd.it/r4n0h78h1gcc1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e71b63df6a26fd7ebcbbd2f33a0f09f04a7d2ad4",
-                      "width": 640,
-                      "height": 575
-                    },
-                    {
-                      "url": "https://preview.redd.it/r4n0h78h1gcc1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=603348c3be9d545f8fe532f8349c4e63a3257220",
-                      "width": 960,
-                      "height": 862
-                    }
-                  ],
-                  "variants": {
-                    
-                  },
-                  "id": "ZxwguB_m-MDS6y_yYeW72t90pHKcqPQ0tkqOCkAWqjM"
-                }
-              ],
-              "enabled": true
-            },
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "196llli",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Better-Analysis-2694",
-            "discussion_type": null,
-            "num_comments": 4,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/196llli/\u00e5bo_akademis_first_female_professor_alma/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://i.redd.it/r4n0h78h1gcc1.jpeg",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705254615.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "I been wondering what Finlands dogs tags look like but all I can only find is ones used in WWII so not really relevant I want to know how they look now, is it like the ones used in Sweden and Danmark ones . Do anyone here know?",
-            "author_fullname": "t2_niy3n1b4",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Finish army dog tags?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_197du7q",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.67,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 2,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 2,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705338532.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I been wondering what Finlands dogs tags look like but all I can only find is ones used in WWII so not really relevant I want to know how they look now, is it like the ones used in Sweden and Danmark ones . Do anyone here know?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197du7q",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "sauna_rotta",
-            "discussion_type": null,
-            "num_comments": 7,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197du7q/finish_army_dog_tags/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197du7q/finish_army_dog_tags/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705338532.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Hi,\n\nI am an international student. Before my study here, I used to have habit of staying overnight 1-2 times a week at office. I just got an internship contract with the university for my master thesis, so I was allocated a desk to sit in the office.\n\nI wonder if staying over night is legal overall? I raise question because I heard that offices weren't designed to live, and it was consider dangerous to stay over. I have try searching but didn't found any things.\n\nThank you.",
-            "author_fullname": "t2_kpiwj7mei",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Is it legal to stay overnight at the office in Finland?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": true,
-            "name": "t3_197gqup",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.4,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": 1705345900.0,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705345318.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi,&lt;/p&gt;\n\n&lt;p&gt;I am an international student. Before my study here, I used to have habit of staying overnight 1-2 times a week at office. I just got an internship contract with the university for my master thesis, so I was allocated a desk to sit in the office.&lt;/p&gt;\n\n&lt;p&gt;I wonder if staying over night is legal overall? I raise question because I heard that offices weren&amp;#39;t designed to live, and it was consider dangerous to stay over. I have try searching but didn&amp;#39;t found any things.&lt;/p&gt;\n\n&lt;p&gt;Thank you.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197gqup",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "LazyActionFan",
-            "discussion_type": null,
-            "num_comments": 6,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197gqup/is_it_legal_to_stay_overnight_at_the_office_in/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197gqup/is_it_legal_to_stay_overnight_at_the_office_in/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705345318.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "I am planning to move from Northern Finland to Northern Netherlands. \nAny tips on cheap moving/shipping company's? \n\n\nMost of the company's I have approached will cost between \u20ac1500-\u20ac3000 euros. \nAny cheaper alternatives are appreciated!",
-            "author_fullname": "t2_7rikb",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Any cheap shipping company's for moving (FI-NL)?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": true,
-            "name": "t3_197g29m",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.5,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705343760.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I am planning to move from Northern Finland to Northern Netherlands. \nAny tips on cheap moving/shipping company&amp;#39;s? &lt;/p&gt;\n\n&lt;p&gt;Most of the company&amp;#39;s I have approached will cost between \u20ac1500-\u20ac3000 euros. \nAny cheaper alternatives are appreciated!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197g29m",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "CREAMz",
-            "discussion_type": null,
-            "num_comments": 2,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197g29m/any_cheap_shipping_companys_for_moving_finl/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197g29m/any_cheap_shipping_companys_for_moving_finl/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705343760.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Tales &amp; Tarinat \ud83d\udcda a new series of storytelling events hosted by me (Irish in Finland) in hemingwaysrotuaari on January 18th at 8pm, These multilingual events offer a variety of stories from Ireland, Finland and the world! \ud83c\udf0e Everyone is welcome to enjoy as a listener or even to try storytelling for themselves and tell any kind of story of folkore, History and Mythology in the language they are most comfortable with! Check out the schedule and bring a friend or make a new one. If you would like to tell a story or have any questions, make sure to send an email to irishinfinland@gmail.com",
-            "author_fullname": "t2_2oqtkml8",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "is_gallery": true,
-            "title": "Storytelling event in oulu!",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": 140,
-            "top_awarded_type": null,
-            "hide_score": true,
-            "media_metadata": {
-              "yp1ykz6lancc1": {
-                "status": "valid",
-                "e": "Image",
-                "m": "image/jpg",
-                "p": [
                   {
-                    "y": 108,
-                    "x": 108,
-                    "u": "https://preview.redd.it/yp1ykz6lancc1.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=4ad6c0d09f94deae4685b49375f9e7d139e2990c"
-                  },
-                  {
-                    "y": 216,
-                    "x": 216,
-                    "u": "https://preview.redd.it/yp1ykz6lancc1.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=404f445af38cf1c483fb37386b442ee7e11d0f1a"
-                  },
-                  {
-                    "y": 320,
-                    "x": 320,
-                    "u": "https://preview.redd.it/yp1ykz6lancc1.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=613eae8689cbf9540f73a0a0ee4c6e003ef74906"
-                  },
-                  {
-                    "y": 640,
-                    "x": 640,
-                    "u": "https://preview.redd.it/yp1ykz6lancc1.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5f710e5b1d99931ed29a71cfb987b38ac66c3ee0"
-                  },
-                  {
-                    "y": 960,
-                    "x": 960,
-                    "u": "https://preview.redd.it/yp1ykz6lancc1.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=7f43e08dde1e483cede24ce58edf10c483ee82d7"
-                  },
-                  {
-                    "y": 1080,
-                    "x": 1080,
-                    "u": "https://preview.redd.it/yp1ykz6lancc1.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=92bebdee84e3de9ef45c247cec7b3996f9b36591"
-                  }
-                ],
-                "s": {
-                  "y": 1080,
-                  "x": 1080,
-                  "u": "https://preview.redd.it/yp1ykz6lancc1.jpg?width=1080&amp;format=pjpg&amp;auto=webp&amp;s=4f69be086642457b3843251498974042d67364af"
-                },
-                "id": "yp1ykz6lancc1"
-              },
-              "gqvij9blancc1": {
-                "status": "valid",
-                "e": "Image",
-                "m": "image/jpg",
-                "p": [
-                  {
-                    "y": 108,
-                    "x": 108,
-                    "u": "https://preview.redd.it/gqvij9blancc1.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=3827a6034f73b43e3424523b9ee6b215005e43cd"
-                  },
-                  {
-                    "y": 216,
-                    "x": 216,
-                    "u": "https://preview.redd.it/gqvij9blancc1.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=ffd2cc9d24bd1306d4c1601c3b167401447dd9a9"
-                  },
-                  {
-                    "y": 320,
-                    "x": 320,
-                    "u": "https://preview.redd.it/gqvij9blancc1.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=5850b2d7ddbe1c73ba0345013a1c9e629eec3bbf"
-                  },
-                  {
-                    "y": 640,
-                    "x": 640,
-                    "u": "https://preview.redd.it/gqvij9blancc1.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e4ba6d260c0763f04912558f6996a2f3f1227161"
-                  },
-                  {
-                    "y": 960,
-                    "x": 960,
-                    "u": "https://preview.redd.it/gqvij9blancc1.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=41e0c862ad6addadfacc5b565fc06adee52edd89"
-                  },
-                  {
-                    "y": 1080,
-                    "x": 1080,
-                    "u": "https://preview.redd.it/gqvij9blancc1.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=5c287a35e32c13266a317e661ae8e96fbd577f1e"
-                  }
-                ],
-                "s": {
-                  "y": 1080,
-                  "x": 1080,
-                  "u": "https://preview.redd.it/gqvij9blancc1.jpg?width=1080&amp;format=pjpg&amp;auto=webp&amp;s=c49bfe106453b2e4a3139283cde4074e2c2a6bed"
-                },
-                "id": "gqvij9blancc1"
-              }
-            },
-            "name": "t3_197fhm6",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.33,
-            "author_flair_background_color": null,
-            "ups": 0,
-            "domain": "reddit.com",
-            "media_embed": {
-              
-            },
-            "thumbnail_width": 140,
-            "author_flair_template_id": "d0d5fa2c-1375-11ee-ab26-e696a0a305fe",
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "gallery_data": {
-              "items": [
-                {
-                  "media_id": "yp1ykz6lancc1",
-                  "id": 389855806
-                },
-                {
-                  "media_id": "gqvij9blancc1",
-                  "id": 389855807
-                }
-              ]
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "https://b.thumbs.redditmedia.com/9S8uw5UoXt4-tDtrYZRrGOP4xWkD-NFCtuI6Z_AGJLc.jpg",
-            "edited": false,
-            "author_flair_css_class": "tier2",
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": false,
-            "subreddit_type": "public",
-            "created": 1705342429.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "total_awards_received": 0,
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Tales &amp;amp; Tarinat \ud83d\udcda a new series of storytelling events hosted by me (Irish in Finland) in hemingwaysrotuaari on January 18th at 8pm, These multilingual events offer a variety of stories from Ireland, Finland and the world! \ud83c\udf0e Everyone is welcome to enjoy as a listener or even to try storytelling for themselves and tell any kind of story of folkore, History and Mythology in the language they are most comfortable with! Check out the schedule and bring a friend or make a new one. If you would like to tell a story or have any questions, make sure to send an email to &lt;a href=\"mailto:irishinfinland@gmail.com\"&gt;irishinfinland@gmail.com&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "url_overridden_by_dest": "https://www.reddit.com/gallery/197fhm6",
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": "Vainamoinen",
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "mod_note": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "num_reports": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197fhm6",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "aarongormo91",
-            "discussion_type": null,
-            "num_comments": 1,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": "dark",
-            "permalink": "/r/Finland/comments/197fhm6/storytelling_event_in_oulu/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/gallery/197fhm6",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705342429.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Sorry for my dumb question, but this is kinda urgent. Application for my local univ (TUAS) ends this Wednesday, and I just started to read about it yesterday. And I guess their admission office is pretty busy now, so nobody has answered to my emails so far. That's why I firgued I have to ask about it here. \n\nBasically I already have a Master degree from a Finnish University (in Social Science). But I have been interested in learning programming and web development for a while. I have been doing self-study, but lately I was thinking I could consider getting a degree from a univ. So I was checking out the ICT program on [my local univ website](https://www.tuas.fi/en/study-tuas/degree-programmes/bachelor-engineering-information-technology/) (TUAS/TAMK). \n\nI was reading what documents I need to submit for the application, and under [\"Admission procedure---Selection methods](https://www.tuas.fi/en/study-tuas/admissions/admission-criteria/)\", it writes: \n\n\"SAT test - 50% of the study places\n\nCertificate-based selection (Finnish Matriculation Examination, International Baccalaureate (IB) degree, European Baccalaureate (EB) Diploma, Reifepr\u00fcfung (RP) or Deutsche Internationale Abitur (DIA) degree) - 50% of the study places\"\n\nThis is kinda confusing for me, so here is my quick question: do I need to take SAT test or not, when I have not taken a Finnish colleage entrance exam? \n\nThank you very much!",
-            "author_fullname": "t2_2qbm4aug",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Applying for University of Applied Sciences, do I need to take SAT test?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": "serious",
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": true,
-            "name": "t3_197f6lw",
-            "quarantine": false,
-            "link_flair_text_color": "light",
-            "upvote_ratio": 0.33,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": "Serious",
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705341721.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Sorry for my dumb question, but this is kinda urgent. Application for my local univ (TUAS) ends this Wednesday, and I just started to read about it yesterday. And I guess their admission office is pretty busy now, so nobody has answered to my emails so far. That&amp;#39;s why I firgued I have to ask about it here. &lt;/p&gt;\n\n&lt;p&gt;Basically I already have a Master degree from a Finnish University (in Social Science). But I have been interested in learning programming and web development for a while. I have been doing self-study, but lately I was thinking I could consider getting a degree from a univ. So I was checking out the ICT program on &lt;a href=\"https://www.tuas.fi/en/study-tuas/degree-programmes/bachelor-engineering-information-technology/\"&gt;my local univ website&lt;/a&gt; (TUAS/TAMK). &lt;/p&gt;\n\n&lt;p&gt;I was reading what documents I need to submit for the application, and under &lt;a href=\"https://www.tuas.fi/en/study-tuas/admissions/admission-criteria/\"&gt;&amp;quot;Admission procedure---Selection methods&lt;/a&gt;&amp;quot;, it writes: &lt;/p&gt;\n\n&lt;p&gt;&amp;quot;SAT test - 50% of the study places&lt;/p&gt;\n\n&lt;p&gt;Certificate-based selection (Finnish Matriculation Examination, International Baccalaureate (IB) degree, European Baccalaureate (EB) Diploma, Reifepr\u00fcfung (RP) or Deutsche Internationale Abitur (DIA) degree) - 50% of the study places&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;This is kinda confusing for me, so here is my quick question: do I need to take SAT test or not, when I have not taken a Finnish colleage entrance exam? &lt;/p&gt;\n\n&lt;p&gt;Thank you very much!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "link_flair_template_id": "ff6fdec6-08ed-11e4-9c2c-12313d16a493",
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "#373c3f",
-            "id": "197f6lw",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "retiredbigbro",
-            "discussion_type": null,
-            "num_comments": 1,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197f6lw/applying_for_university_of_applied_sciences_do_i/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197f6lw/applying_for_university_of_applied_sciences_do_i/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705341721.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Hello there, \nI'm a 22 y/o female and next year I want to move to Finland for my master.\nI do have a problem though, I have a chronical disease named \"Cystic fibrosis\" , and before moving anywhere I need to have some info about how my disease it's handled there.\nI'm European so I know it's not gonna be difficult for me to move, and I'm also considering working part time while studying.\nBut I do have some questions related to CF like:\n- how is the disease handle in Finland\n- do they have Kaftrio and Kalydeko (two life saving medicine) and if they do, who pays for it?\n- do you need health insurance?\n- is it expensive to have CF in Finland\nAnd a bunch of other questions.\nSo I'm asking you people on Reddit if you know something or someone that lives in Finland and has CF, to please send me some information, cause it would be really helpful!\nIf you have more info to give me , just sent me a private message.\nThank you so much in advance!",
-            "author_fullname": "t2_ccwdbhw6k",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Moving to Finland with cystic fibrosis",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": true,
-            "name": "t3_197etdj",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.43,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705340853.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello there, \nI&amp;#39;m a 22 y/o female and next year I want to move to Finland for my master.\nI do have a problem though, I have a chronical disease named &amp;quot;Cystic fibrosis&amp;quot; , and before moving anywhere I need to have some info about how my disease it&amp;#39;s handled there.\nI&amp;#39;m European so I know it&amp;#39;s not gonna be difficult for me to move, and I&amp;#39;m also considering working part time while studying.\nBut I do have some questions related to CF like:\n- how is the disease handle in Finland\n- do they have Kaftrio and Kalydeko (two life saving medicine) and if they do, who pays for it?\n- do you need health insurance?\n- is it expensive to have CF in Finland\nAnd a bunch of other questions.\nSo I&amp;#39;m asking you people on Reddit if you know something or someone that lives in Finland and has CF, to please send me some information, cause it would be really helpful!\nIf you have more info to give me , just sent me a private message.\nThank you so much in advance!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197etdj",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "StarsMeversion",
-            "discussion_type": null,
-            "num_comments": 16,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197etdj/moving_to_finland_with_cystic_fibrosis/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197etdj/moving_to_finland_with_cystic_fibrosis/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705340853.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "",
-            "author_fullname": "t2_g6z1tajm",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Zoning Question",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": 136,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_197cqrj",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.5,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": 140,
-            "author_flair_template_id": "d0d5fa2c-1375-11ee-ab26-e696a0a305fe",
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": true,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "https://b.thumbs.redditmedia.com/PRGe1IbAX0ox7-e1AfClXjgGBSx4VRf8VGumhPX__rg.jpg",
-            "edited": false,
-            "author_flair_css_class": "tier2",
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "post_hint": "image",
-            "content_categories": null,
-            "is_self": false,
-            "mod_note": null,
-            "created": 1705335912.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "i.redd.it",
-            "allow_live_comments": false,
-            "selftext_html": null,
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "url_overridden_by_dest": "https://i.redd.it/elhiw7nyqmcc1.png",
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "preview": {
-              "images": [
-                {
-                  "source": {
-                    "url": "https://preview.redd.it/elhiw7nyqmcc1.png?auto=webp&amp;s=5addeb990777d2ea7a34c907c2971bab4f259c1b",
-                    "width": 1334,
-                    "height": 1296
-                  },
-                  "resolutions": [
-                    {
-                      "url": "https://preview.redd.it/elhiw7nyqmcc1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=4e96dd68a72becdda905ba19a06b925f6f3cf447",
-                      "width": 108,
-                      "height": 104
-                    },
-                    {
-                      "url": "https://preview.redd.it/elhiw7nyqmcc1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=615b1c683c98d7b7bb49594f0e8174eca404b83d",
-                      "width": 216,
-                      "height": 209
-                    },
-                    {
-                      "url": "https://preview.redd.it/elhiw7nyqmcc1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=2a838bee91fc4aaad6f7f17934b53c96b477b64c",
-                      "width": 320,
-                      "height": 310
-                    },
-                    {
-                      "url": "https://preview.redd.it/elhiw7nyqmcc1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f49763704f3651c6cf278c587aac6f5014c953bb",
-                      "width": 640,
-                      "height": 621
-                    },
-                    {
-                      "url": "https://preview.redd.it/elhiw7nyqmcc1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=df5605d68b532ee5f3065119f2a1c2017dd2a2e5",
-                      "width": 960,
-                      "height": 932
-                    },
-                    {
-                      "url": "https://preview.redd.it/elhiw7nyqmcc1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=ff7a819bf70a73678934bb70d79e4efae00a5273",
-                      "width": 1080,
-                      "height": 1049
-                    }
-                  ],
-                  "variants": {
-                    
-                  },
-                  "id": "x-3h9pXPGQCAZ5Ge_r_YUWuiYZhA22NWVrzpA0_tIs8"
-                }
-              ],
-              "enabled": true
-            },
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": "Vainamoinen",
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197cqrj",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "thedukeofno",
-            "discussion_type": null,
-            "num_comments": 10,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": "dark",
-            "permalink": "/r/Finland/comments/197cqrj/zoning_question/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://i.redd.it/elhiw7nyqmcc1.png",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705335912.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Why is a certified copy of my divorce decree needed for the RP if I have to go through the process of confirming I\u2019m single/eligible for marriage with DVV before I can even get married? DVV confirms I\u2019m allowed to get married, so why does migri need this paperwork in the application? Does anyone else have experience with this (previously divorced, married again to a Finn)? Is it really required if I\u2019m already married to my Finnish partner, or is it more for another purpose?\n\n*Application-specific attachments*\n\n*Divorce certificate (if you or your spouse has previously been married and have divorced) (must be legalised if not issued in the Nordic countries or in an EU Member State)*\n\nPS, sorry for yet another post on this topic, I know you get a ton of these here \ud83e\udee3\ud83e\udee3",
-            "author_fullname": "t2_4z4g0r0p",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "RP application, why do they need divorce papers?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_196zwbk",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.76,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 9,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 9,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705292912.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Why is a certified copy of my divorce decree needed for the RP if I have to go through the process of confirming I\u2019m single/eligible for marriage with DVV before I can even get married? DVV confirms I\u2019m allowed to get married, so why does migri need this paperwork in the application? Does anyone else have experience with this (previously divorced, married again to a Finn)? Is it really required if I\u2019m already married to my Finnish partner, or is it more for another purpose?&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;Application-specific attachments&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;&lt;em&gt;Divorce certificate (if you or your spouse has previously been married and have divorced) (must be legalised if not issued in the Nordic countries or in an EU Member State)&lt;/em&gt;&lt;/p&gt;\n\n&lt;p&gt;PS, sorry for yet another post on this topic, I know you get a ton of these here \ud83e\udee3\ud83e\udee3&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "196zwbk",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "morwilwarin",
-            "discussion_type": null,
-            "num_comments": 12,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/196zwbk/rp_application_why_do_they_need_divorce_papers/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/196zwbk/rp_application_why_do_they_need_divorce_papers/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705292912.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "I recently bought a car in Oulu(VW Polo 2021) and figured it has no block heating in it.I have been asking car repair shops for the installation ,for which they quote about 680 - 750 euros that includes both the block heating and the internal heater.\n\nAny idea if this is way expensive or a normal price here in Finland?.I have no idea if the price is a rip off.Any suggestions if there are shops who do it for reasonable price here in Oulu?.",
-            "author_fullname": "t2_ejh0ag8s",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Query on Block heating installation",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_1970dgc",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.81,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 3,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 3,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705294440.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I recently bought a car in Oulu(VW Polo 2021) and figured it has no block heating in it.I have been asking car repair shops for the installation ,for which they quote about 680 - 750 euros that includes both the block heating and the internal heater.&lt;/p&gt;\n\n&lt;p&gt;Any idea if this is way expensive or a normal price here in Finland?.I have no idea if the price is a rip off.Any suggestions if there are shops who do it for reasonable price here in Oulu?.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "1970dgc",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Ecstatic-Spot-7187",
-            "discussion_type": null,
-            "num_comments": 15,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/1970dgc/query_on_block_heating_installation/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/1970dgc/query_on_block_heating_installation/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705294440.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Trying to get better at the language, what recommendations would you have for a new speaker? Bonus points if it's fairly simple to understand, but doesn't need to be.\n\nI'd also like to know where you can watch them. I know Yle is one and I often watch Uutiset selkosuomeksi, but are there other places you can watch things?\n\nI'm not really picky on genre of things, so feel free to share anything.",
-            "author_fullname": "t2_oodjhlvm",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Good Finnish Podcasts,YouTube Channels, TV shows, Movies etc?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_196kt4h",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.88,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 18,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 18,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705252581.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Trying to get better at the language, what recommendations would you have for a new speaker? Bonus points if it&amp;#39;s fairly simple to understand, but doesn&amp;#39;t need to be.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;d also like to know where you can watch them. I know Yle is one and I often watch Uutiset selkosuomeksi, but are there other places you can watch things?&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m not really picky on genre of things, so feel free to share anything.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "196kt4h",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "LittleTommyTickleAss",
-            "discussion_type": null,
-            "num_comments": 23,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/196kt4h/good_finnish_podcastsyoutube_channels_tv_shows/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/196kt4h/good_finnish_podcastsyoutube_channels_tv_shows/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705252581.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Okay now that I have your attention\u2026.\nMoi kaikki! \nI\u2019m a foreigner (24M) living in Lappeenranta, Finland and I\u2019m genuinely bored asf. Are there any Finns/non Finns/foreigners or just any human being living around and wanna hang out and have some fun and play some games or booze (I can cook some good grill chicken if that helps)or sauna or help me with my Finnish, hit me up!\n",
-            "author_fullname": "t2_61t9d6gc",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Help me.",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": "serious",
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_1977umw",
-            "quarantine": false,
-            "link_flair_text_color": "light",
-            "upvote_ratio": 0.45,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": "Serious",
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": 1705330874.0,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705322571.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Okay now that I have your attention\u2026.\nMoi kaikki! \nI\u2019m a foreigner (24M) living in Lappeenranta, Finland and I\u2019m genuinely bored asf. Are there any Finns/non Finns/foreigners or just any human being living around and wanna hang out and have some fun and play some games or booze (I can cook some good grill chicken if that helps)or sauna or help me with my Finnish, hit me up!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "link_flair_template_id": "ff6fdec6-08ed-11e4-9c2c-12313d16a493",
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "#373c3f",
-            "id": "1977umw",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "nuubMaster696969",
-            "discussion_type": null,
-            "num_comments": 24,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/1977umw/help_me/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/1977umw/help_me/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705322571.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "I'm on the lookout for budget-friendly whole chicken in Vaasa. If you know of any local butcher shops or markets where I can find good deals on quality poultry, please share your recommendations. Your tips on the best times to shop for these deals would be greatly appreciated!\n\nAdditionally, I'm in the market for a reliable second-hand bicycle. If you're aware of any shops, online platforms, or local markets where I can find affordable, pre-loved bicycles, I'd love to hear about them. Whether it's a bike store, community marketplace, or a hidden gem you've discovered, your suggestions will be invaluable.\n\nThanks in advance.",
-            "author_fullname": "t2_ay4ne73g",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Seeking Recommendations: Affordable Whole Chicken and Second-Hand Bicycles \ud83c\udf57\ud83d\udeb4\u200d\u2642\ufe0f",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_197aikc",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.38,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705330315.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m on the lookout for budget-friendly whole chicken in Vaasa. If you know of any local butcher shops or markets where I can find good deals on quality poultry, please share your recommendations. Your tips on the best times to shop for these deals would be greatly appreciated!&lt;/p&gt;\n\n&lt;p&gt;Additionally, I&amp;#39;m in the market for a reliable second-hand bicycle. If you&amp;#39;re aware of any shops, online platforms, or local markets where I can find affordable, pre-loved bicycles, I&amp;#39;d love to hear about them. Whether it&amp;#39;s a bike store, community marketplace, or a hidden gem you&amp;#39;ve discovered, your suggestions will be invaluable.&lt;/p&gt;\n\n&lt;p&gt;Thanks in advance.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197aikc",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Real_General9123",
-            "discussion_type": null,
-            "num_comments": 3,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197aikc/seeking_recommendations_affordable_whole_chicken/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197aikc/seeking_recommendations_affordable_whole_chicken/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705330315.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Hei goys\n\nI've had citizenship through naturalization \"Father is citizen\" since 2020, got my passport in 2021.\n\nI'm a little bit confused about if I will get a draft letter in Australia or in Finland once I move there. Because I know I didn't apply for a exemption and I've also lived in Australia for more than 7 years and I'm under 30, never done any military service in Australia, and I have been increasing my ties to Finland aswell.",
-            "author_fullname": "t2_ddu8jpb9p",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Conscription as a duel citizen, will I get a draft letter?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_196bwbo",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.86,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 76,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 76,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705223615.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hei goys&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;ve had citizenship through naturalization &amp;quot;Father is citizen&amp;quot; since 2020, got my passport in 2021.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m a little bit confused about if I will get a draft letter in Australia or in Finland once I move there. Because I know I didn&amp;#39;t apply for a exemption and I&amp;#39;ve also lived in Australia for more than 7 years and I&amp;#39;m under 30, never done any military service in Australia, and I have been increasing my ties to Finland aswell.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "196bwbo",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Leather-Let7943",
-            "discussion_type": null,
-            "num_comments": 154,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/196bwbo/conscription_as_a_duel_citizen_will_i_get_a_draft/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/196bwbo/conscription_as_a_duel_citizen_will_i_get_a_draft/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705223615.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Moi! so im from Turkey and i will travel to Finland this summer. can you name a few places like video game markets,figure markets atari saloons, comic book markets or just places that worth to wisit.  \nI would love to visit all kinds of interesting places \n\nYou probably already know what kind of person I am. I am 17 years old and I play a lot of video games. So, can you guys write me a few places where I can have fun?\n\nThanks :)",
-            "author_fullname": "t2_hxw9c91f",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "HELP For my TRAVEL",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": "tourism",
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_197aba6",
-            "quarantine": false,
-            "link_flair_text_color": "light",
-            "upvote_ratio": 0.4,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": "Tourism",
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705329765.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Moi! so im from Turkey and i will travel to Finland this summer. can you name a few places like video game markets,figure markets atari saloons, comic book markets or just places that worth to wisit.&lt;br/&gt;\nI would love to visit all kinds of interesting places &lt;/p&gt;\n\n&lt;p&gt;You probably already know what kind of person I am. I am 17 years old and I play a lot of video games. So, can you guys write me a few places where I can have fun?&lt;/p&gt;\n\n&lt;p&gt;Thanks :)&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "link_flair_template_id": "eb545470-0e28-11e6-b8cd-0e358dd93c4f",
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "#373c3f",
-            "id": "197aba6",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Turbulent-Flatworm44",
-            "discussion_type": null,
-            "num_comments": 3,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197aba6/help_for_my_travel/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197aba6/help_for_my_travel/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705329765.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Hello everyone,  \n\n\nI'm simply creating this post because I am looking for people who may have gotten their trading business settled in Finland as well as taxed in Finland, is there anybody? \n\n  \nI would like to ask how it is taxed.\n\n  \nIn case you're a funded trader, how do you report your income from profits share?\n\nDo you have to register on the VAT Register?\n\nDo you have to report monthly EU sales or something similar if you do acquire profits from EU-based company?\n\nI would appreciate any help or tips that could be given!\n\nThanks in advance,\n\nBest,",
-            "author_fullname": "t2_f9rhsyury",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Finnish based Day traders",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_197cc4i",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.25,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705334946.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello everyone,  &lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m simply creating this post because I am looking for people who may have gotten their trading business settled in Finland as well as taxed in Finland, is there anybody? &lt;/p&gt;\n\n&lt;p&gt;I would like to ask how it is taxed.&lt;/p&gt;\n\n&lt;p&gt;In case you&amp;#39;re a funded trader, how do you report your income from profits share?&lt;/p&gt;\n\n&lt;p&gt;Do you have to register on the VAT Register?&lt;/p&gt;\n\n&lt;p&gt;Do you have to report monthly EU sales or something similar if you do acquire profits from EU-based company?&lt;/p&gt;\n\n&lt;p&gt;I would appreciate any help or tips that could be given!&lt;/p&gt;\n\n&lt;p&gt;Thanks in advance,&lt;/p&gt;\n\n&lt;p&gt;Best,&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197cc4i",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Working_Tart3899",
-            "discussion_type": null,
-            "num_comments": 9,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/197cc4i/finnish_based_day_traders/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/197cc4i/finnish_based_day_traders/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705334946.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "  \nHey there! \n\nI'm a concert photographer and was thinking it might be fun to capture some bands during my stay in Helsinki from January 23rd to 30th. \n\nI'd really appreciate it if you could recommend me some venues in Helsinki (preferably smaller and underground) that bands worth listening perform at. \n\nI lean towards shooting jazz, punk, or rock gigs, but I'm open to any cool recommendations you might have. Thanks in advance for your help!\n\n&amp;#x200B;",
-            "author_fullname": "t2_mno44f3u",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Live Music Venues in Helsinki",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_196sbmc",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.87,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 6,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 6,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705271489.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hey there! &lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;m a concert photographer and was thinking it might be fun to capture some bands during my stay in Helsinki from January 23rd to 30th. &lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;d really appreciate it if you could recommend me some venues in Helsinki (preferably smaller and underground) that bands worth listening perform at. &lt;/p&gt;\n\n&lt;p&gt;I lean towards shooting jazz, punk, or rock gigs, but I&amp;#39;m open to any cool recommendations you might have. Thanks in advance for your help!&lt;/p&gt;\n\n&lt;p&gt;&amp;#x200B;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "196sbmc",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "kavousi_vronda",
-            "discussion_type": null,
-            "num_comments": 7,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/196sbmc/live_music_venues_in_helsinki/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/196sbmc/live_music_venues_in_helsinki/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705271489.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "",
-            "author_fullname": "t2_ia549a9s",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "\"Public opinion does not exist\". Opinions?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": 140,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_197b93u",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.33,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": 140,
-            "author_flair_template_id": "cf6bca72-1375-11ee-8100-6668519146ca",
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": true,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "https://b.thumbs.redditmedia.com/8dHDvXHnM9YokysugyQbfch0d09HXnnF7HXBieSLppc.jpg",
-            "edited": false,
-            "author_flair_css_class": "tier1",
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "post_hint": "image",
-            "content_categories": null,
-            "is_self": false,
-            "mod_note": null,
-            "created": 1705332234.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "i.redd.it",
-            "allow_live_comments": false,
-            "selftext_html": null,
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "url_overridden_by_dest": "https://i.redd.it/s15mgg3agmcc1.jpeg",
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "preview": {
-              "images": [
-                {
-                  "source": {
-                    "url": "https://preview.redd.it/s15mgg3agmcc1.jpeg?auto=webp&amp;s=31c31efd5dfd1d644da8711b73f656457dcd407f",
+                    "url": "https://preview.redd.it/i2z2r6106efc1.jpeg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=b4937c4c7dc7858151830a2c53e189ae17ffb9a9",
                     "width": 1080,
-                    "height": 1080
-                  },
-                  "resolutions": [
-                    {
-                      "url": "https://preview.redd.it/s15mgg3agmcc1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=74dbfdf55f5fc89c7620908b1f9aabccb0e6a3a8",
-                      "width": 108,
-                      "height": 108
-                    },
-                    {
-                      "url": "https://preview.redd.it/s15mgg3agmcc1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=86797fbfc1358757e38309c78721308e0fd6418e",
-                      "width": 216,
-                      "height": 216
-                    },
-                    {
-                      "url": "https://preview.redd.it/s15mgg3agmcc1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=b7995940a0d7a022c7f5f0f1d968d8eda77e6d64",
-                      "width": 320,
-                      "height": 320
-                    },
-                    {
-                      "url": "https://preview.redd.it/s15mgg3agmcc1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fbbed93a20d147a821767e235a782d77e34cef25",
-                      "width": 640,
-                      "height": 640
-                    },
-                    {
-                      "url": "https://preview.redd.it/s15mgg3agmcc1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=4deea8491fb6bb02035560b28ba4b810cfbcc8dc",
-                      "width": 960,
-                      "height": 960
-                    },
-                    {
-                      "url": "https://preview.redd.it/s15mgg3agmcc1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=fe910c5b249f5448a69951b5ce51032634c42f52",
-                      "width": 1080,
-                      "height": 1080
-                    }
-                  ],
-                  "variants": {
-                    
-                  },
-                  "id": "wULu74u4DzkXjvjUxYPvv7Oq1f39YynKkvZJ_9-57Iw"
-                }
-              ],
-              "enabled": true
-            },
-            "all_awardings": [
-              
+                    "height": 1440
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "6TU9Qrqtg-oC0fggL4wVYXRbBmmkqcFB-papYZPfnKY"
+              }
             ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": "Baby Vainamoinen",
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "197b93u",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Kisakarhu",
-            "discussion_type": null,
-            "num_comments": 17,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": "dark",
-            "permalink": "/r/Finland/comments/197b93u/public_opinion_does_not_exist_opinions/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://i.redd.it/s15mgg3agmcc1.jpeg",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705332234.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "Hello from Hong Kong.\nI'm a teacher here in the _other place_ with high exam rankings.\n\nI'd say there's nothing _particularly_ special about the education here. It's mostly just _more lessons_ and _more money_; parents just spend more on private education.\n\nFinland has its reputation, aside of perceptions.\n\nWhat interests me is this statement I keep reading about Finland, and I'm interested in what you here on this subreddit actually see in person:\n\n\"Children don't start learning to read at school until 7 years old, and usually *they can already read before they get to school*\"\n\nBut what's not clear is exactly how this happens. How are children learning to read _before_ they get to school?\n\nIt seems like the reality might not match to people who point to Finland to validate their own political viewpoints, much as people use HK education to make whatever point they're trying to make.\n\nI started digging, and I just want to confirm what I think I've found:\n\nIs it that grandparents help out with teaching kids to read in Finland, yet aren't pushy, and just manage to get kids interested in reading in a language that is more spelling consistent than English?\nIs it that Finnish grandparents are just closer to the family and that the Finnish family unit hasn't been so split by globalisation of breadwinners having to move away?\n\nIs the Lukuinto program and teekari approach related?",
-            "author_fullname": "t2_6cqwti79",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Do you have in-laws with children?",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": "serious",
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_196ei12",
-            "quarantine": false,
-            "link_flair_text_color": "light",
-            "upvote_ratio": 0.69,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 14,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": null,
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": "Serious",
-            "can_mod_post": false,
-            "score": 14,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": null,
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705234138.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello from Hong Kong.\nI&amp;#39;m a teacher here in the &lt;em&gt;other place&lt;/em&gt; with high exam rankings.&lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;d say there&amp;#39;s nothing &lt;em&gt;particularly&lt;/em&gt; special about the education here. It&amp;#39;s mostly just &lt;em&gt;more lessons&lt;/em&gt; and &lt;em&gt;more money&lt;/em&gt;; parents just spend more on private education.&lt;/p&gt;\n\n&lt;p&gt;Finland has its reputation, aside of perceptions.&lt;/p&gt;\n\n&lt;p&gt;What interests me is this statement I keep reading about Finland, and I&amp;#39;m interested in what you here on this subreddit actually see in person:&lt;/p&gt;\n\n&lt;p&gt;&amp;quot;Children don&amp;#39;t start learning to read at school until 7 years old, and usually &lt;em&gt;they can already read before they get to school&lt;/em&gt;&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;But what&amp;#39;s not clear is exactly how this happens. How are children learning to read &lt;em&gt;before&lt;/em&gt; they get to school?&lt;/p&gt;\n\n&lt;p&gt;It seems like the reality might not match to people who point to Finland to validate their own political viewpoints, much as people use HK education to make whatever point they&amp;#39;re trying to make.&lt;/p&gt;\n\n&lt;p&gt;I started digging, and I just want to confirm what I think I&amp;#39;ve found:&lt;/p&gt;\n\n&lt;p&gt;Is it that grandparents help out with teaching kids to read in Finland, yet aren&amp;#39;t pushy, and just manage to get kids interested in reading in a language that is more spelling consistent than English?\nIs it that Finnish grandparents are just closer to the family and that the Finnish family unit hasn&amp;#39;t been so split by globalisation of breadwinners having to move away?&lt;/p&gt;\n\n&lt;p&gt;Is the Lukuinto program and teekari approach related?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": false,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "link_flair_template_id": "ff6fdec6-08ed-11e4-9c2c-12313d16a493",
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": null,
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "#373c3f",
-            "id": "196ei12",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "After-Cell",
-            "discussion_type": null,
-            "num_comments": 66,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": null,
-            "permalink": "/r/Finland/comments/196ei12/do_you_have_inlaws_with_children/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/196ei12/do_you_have_inlaws_with_children/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705234138.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
-        },
-        {
-          "kind": "t3",
-          "data": {
-            "approved_at_utc": null,
-            "subreddit": "Finland",
-            "selftext": "First of all, this post is more like for information. There are so many things changing with the new government, especially in the work field. Just looking at the unemployment benefits, and benefits in general, there will be a lot of changes (less money for benefits). We also have new regulations, which made the Casino in Tampere close, for example. What else changes? ",
-            "author_fullname": "t2_dfq2wlvo",
-            "saved": false,
-            "mod_reason_title": null,
-            "gilded": 0,
-            "clicked": false,
-            "title": "Things that change with this year in Finland",
-            "link_flair_richtext": [
-              
-            ],
-            "subreddit_name_prefixed": "r/Finland",
-            "hidden": false,
-            "pwls": 6,
-            "link_flair_css_class": null,
-            "downs": 0,
-            "thumbnail_height": null,
-            "top_awarded_type": null,
-            "hide_score": false,
-            "name": "t3_1975jog",
-            "quarantine": false,
-            "link_flair_text_color": "dark",
-            "upvote_ratio": 0.33,
-            "author_flair_background_color": null,
-            "subreddit_type": "public",
-            "ups": 0,
-            "total_awards_received": 0,
-            "media_embed": {
-              
-            },
-            "thumbnail_width": null,
-            "author_flair_template_id": "cf6bca72-1375-11ee-8100-6668519146ca",
-            "is_original_content": false,
-            "user_reports": [
-              
-            ],
-            "secure_media": null,
-            "is_reddit_media_domain": false,
-            "is_meta": false,
-            "category": null,
-            "secure_media_embed": {
-              
-            },
-            "link_flair_text": null,
-            "can_mod_post": false,
-            "score": 0,
-            "approved_by": null,
-            "is_created_from_ads_ui": false,
-            "author_premium": false,
-            "thumbnail": "self",
-            "edited": false,
-            "author_flair_css_class": "tier1",
-            "author_flair_richtext": [
-              
-            ],
-            "gildings": {
-              
-            },
-            "content_categories": null,
-            "is_self": true,
-            "mod_note": null,
-            "created": 1705314052.0,
-            "link_flair_type": "text",
-            "wls": 6,
-            "removed_by_category": null,
-            "banned_by": null,
-            "author_flair_type": "text",
-            "domain": "self.Finland",
-            "allow_live_comments": false,
-            "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;First of all, this post is more like for information. There are so many things changing with the new government, especially in the work field. Just looking at the unemployment benefits, and benefits in general, there will be a lot of changes (less money for benefits). We also have new regulations, which made the Casino in Tampere close, for example. What else changes? &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
-            "likes": null,
-            "suggested_sort": null,
-            "banned_at_utc": null,
-            "view_count": null,
-            "archived": false,
-            "no_follow": true,
-            "is_crosspostable": false,
-            "pinned": false,
-            "over_18": false,
-            "all_awardings": [
-              
-            ],
-            "awarders": [
-              
-            ],
-            "media_only": false,
-            "can_gild": false,
-            "spoiler": false,
-            "locked": false,
-            "author_flair_text": "Baby Vainamoinen",
-            "treatment_tags": [
-              
-            ],
-            "visited": false,
-            "removed_by": null,
-            "num_reports": null,
-            "distinguished": null,
-            "subreddit_id": "t5_2qztz",
-            "author_is_blocked": false,
-            "mod_reason_by": null,
-            "removal_reason": null,
-            "link_flair_background_color": "",
-            "id": "1975jog",
-            "is_robot_indexable": true,
-            "report_reasons": null,
-            "author": "Professional-Key5552",
-            "discussion_type": null,
-            "num_comments": 3,
-            "send_replies": true,
-            "whitelist_status": "all_ads",
-            "contest_mode": false,
-            "mod_reports": [
-              
-            ],
-            "author_patreon_flair": false,
-            "author_flair_text_color": "dark",
-            "permalink": "/r/Finland/comments/1975jog/things_that_change_with_this_year_in_finland/",
-            "parent_whitelist_status": "all_ads",
-            "stickied": false,
-            "url": "https://www.reddit.com/r/Finland/comments/1975jog/things_that_change_with_this_year_in_finland/",
-            "subreddit_subscribers": 220351,
-            "created_utc": 1705314052.0,
-            "num_crossposts": 0,
-            "media": null,
-            "is_video": false
-          }
+            "enabled": true
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": "Baby Vainamoinen",
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1adwxwn",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Creswald",
+          "discussion_type": null,
+          "num_comments": 28,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": "dark",
+          "permalink": "/r/Finland/comments/1adwxwn/angry_runebergin_torttu/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://i.redd.it/i2z2r6106efc1.jpeg",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706539467.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
         }
-      ],
-      "before": null
-    }
-  };
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "",
+          "author_fullname": "t2_c1fbw3qk",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Can a Finnish person please tell me the correct translation of this song (Sylvian's Joululaulu)? Google Translate keeps messing it up. (I know Finnish, but not some of these words.)",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 111,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aee5ho",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.85,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 14,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 14,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/xjSlmKOaMLxDrrZwNgr8PsLQTvLsjzntJqm6gjC6Mps.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1706583658.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "i.redd.it",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/eepkjok5thfc1.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/eepkjok5thfc1.png?auto=webp\u0026s=a9723301a30c3ada934155945b1185ced294aac6",
+                  "width": 983,
+                  "height": 780
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/eepkjok5thfc1.png?width=108\u0026crop=smart\u0026auto=webp\u0026s=1687fa4e2d780b86c961701c76afb2c279ca422f",
+                    "width": 108,
+                    "height": 85
+                  },
+                  {
+                    "url": "https://preview.redd.it/eepkjok5thfc1.png?width=216\u0026crop=smart\u0026auto=webp\u0026s=751e18e549f7bb4aa0cf4149dfa39e2803ac3862",
+                    "width": 216,
+                    "height": 171
+                  },
+                  {
+                    "url": "https://preview.redd.it/eepkjok5thfc1.png?width=320\u0026crop=smart\u0026auto=webp\u0026s=66526a2e3186674aa4d8fef14445a016f72051ff",
+                    "width": 320,
+                    "height": 253
+                  },
+                  {
+                    "url": "https://preview.redd.it/eepkjok5thfc1.png?width=640\u0026crop=smart\u0026auto=webp\u0026s=ea7efb5905ec411a2e42bd6a4f1f00f1ea671014",
+                    "width": 640,
+                    "height": 507
+                  },
+                  {
+                    "url": "https://preview.redd.it/eepkjok5thfc1.png?width=960\u0026crop=smart\u0026auto=webp\u0026s=7f8e961832367062e8a17ca546b652a7b045b620",
+                    "width": 960,
+                    "height": 761
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "ygRs5l3V6T_kjdhVoGpcwvfEEChgkof3FS95GCVEyMc"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aee5ho",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Computersandcalcs",
+          "discussion_type": null,
+          "num_comments": 17,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aee5ho/can_a_finnish_person_please_tell_me_the_correct/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://i.redd.it/eepkjok5thfc1.png",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706583658.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Hi people. I moved to Finland last year in August to study a master's degree. I want to do some side hustle with my studies and I'm looking to work with Amazon or similar e-commerce stores. I'm in my late 20s. I would appreciate if anyone has something to say about this. Thanks.",
+          "author_fullname": "t2_km2qf163v",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "E-commerce Business using Amazon or similar.",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": true,
+          "name": "t3_1aesg7g",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.5,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706632120.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHi people. I moved to Finland last year in August to study a master\u0026#39;s degree. I want to do some side hustle with my studies and I\u0026#39;m looking to work with Amazon or similar e-commerce stores. I\u0026#39;m in my late 20s. I would appreciate if anyone has something to say about this. Thanks.\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aesg7g",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "LookEmpty8833",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aesg7g/ecommerce_business_using_amazon_or_similar/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aesg7g/ecommerce_business_using_amazon_or_similar/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706632120.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "I'm going to be going to Helsinki from Kuopio this weekend. How shit is it going to be? ",
+          "author_fullname": "t2_dex7p6m6",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Travelling during strikes",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "serious",
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": true,
+          "name": "t3_1aer9wl",
+          "quarantine": false,
+          "link_flair_text_color": "light",
+          "upvote_ratio": 0.67,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": "Serious",
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706629178.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EI\u0026#39;m going to be going to Helsinki from Kuopio this weekend. How shit is it going to be? \u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "link_flair_template_id": "ff6fdec6-08ed-11e4-9c2c-12313d16a493",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "#373c3f",
+          "id": "1aer9wl",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "lavidaloki",
+          "discussion_type": null,
+          "num_comments": 4,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aer9wl/travelling_during_strikes/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aer9wl/travelling_during_strikes/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706629178.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "",
+          "author_fullname": "t2_k6ni8pj5",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "A McDonalds employee delivers rolls in the subway \ud83d\ude05",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "serious",
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1adqkya",
+          "quarantine": false,
+          "link_flair_text_color": "light",
+          "upvote_ratio": 0.83,
+          "author_flair_background_color": null,
+          "ups": 301,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": "Serious",
+          "can_mod_post": false,
+          "score": 301,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/ihCMhdGBbO78AhAS-rSTQCj50sl9V9uAIAqj44jYkEw.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "subreddit_type": "public",
+          "created": 1706517203.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "i.redd.it",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/lbw01cssbcfc1.jpeg",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/lbw01cssbcfc1.jpeg?auto=webp\u0026s=24335a82c555ee5cd119a0373e916d7fc215d072",
+                  "width": 1536,
+                  "height": 2048
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/lbw01cssbcfc1.jpeg?width=108\u0026crop=smart\u0026auto=webp\u0026s=eb5fbd83a10f342709586bdada40d0c45807755b",
+                    "width": 108,
+                    "height": 144
+                  },
+                  {
+                    "url": "https://preview.redd.it/lbw01cssbcfc1.jpeg?width=216\u0026crop=smart\u0026auto=webp\u0026s=457bf79f686f6b17a8752783b1cbc106287c8cf0",
+                    "width": 216,
+                    "height": 288
+                  },
+                  {
+                    "url": "https://preview.redd.it/lbw01cssbcfc1.jpeg?width=320\u0026crop=smart\u0026auto=webp\u0026s=5e89b4ae2ec04a87b4afb569697a3cd22a2c2b53",
+                    "width": 320,
+                    "height": 426
+                  },
+                  {
+                    "url": "https://preview.redd.it/lbw01cssbcfc1.jpeg?width=640\u0026crop=smart\u0026auto=webp\u0026s=9a7b0d04dcd800640cb8b9c234394fbbe8f2a028",
+                    "width": 640,
+                    "height": 853
+                  },
+                  {
+                    "url": "https://preview.redd.it/lbw01cssbcfc1.jpeg?width=960\u0026crop=smart\u0026auto=webp\u0026s=80cd7de585c2a4e352ce4f2a8dcd92d8c42de49f",
+                    "width": 960,
+                    "height": 1280
+                  },
+                  {
+                    "url": "https://preview.redd.it/lbw01cssbcfc1.jpeg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=568a7eb63451718f332e998b53633d27e22159d1",
+                    "width": 1080,
+                    "height": 1440
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "al_EQTdIngRgQhxeTsUtAxcF1nreHv2ME-_6dRbk9Ow"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "link_flair_template_id": "ff6fdec6-08ed-11e4-9c2c-12313d16a493",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "mod_note": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "num_reports": null,
+          "removal_reason": null,
+          "link_flair_background_color": "#373c3f",
+          "id": "1adqkya",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Hippitukka",
+          "discussion_type": null,
+          "num_comments": 56,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1adqkya/a_mcdonalds_employee_delivers_rolls_in_the_subway/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://i.redd.it/lbw01cssbcfc1.jpeg",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706517203.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Dear Finns on Reddit!\n\nI\u2018m going to a festival in Finland in May this year. \nWe have a hotel in Helsinki and my question is: \n\nWhat to do and not to do in Finland? (Behaviour, Rules, etc\u2026)\n\nThank you \ud83d\ude42\n\nEdit: We are Austrians, and of course we don\u2018t plan to be jerks and we are a friendly group.\nOnly want to know if there are any things Finns don\u2018t want to see/hear\n\n\nThank you so much for all the answers I\u2018ve got :) Reading all that, I think I\u2018ll like it there \ud83d\ude01",
+          "author_fullname": "t2_uqytq5wp",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Do\u2018s and Dont\u2018s",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "tourism",
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1ae4azn",
+          "quarantine": false,
+          "link_flair_text_color": "light",
+          "upvote_ratio": 0.7,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 33,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": "Tourism",
+          "can_mod_post": false,
+          "score": 33,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1706614902.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706557685.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EDear Finns on Reddit!\u003C/p\u003E\n\n\u003Cp\u003EI\u2018m going to a festival in Finland in May this year. \nWe have a hotel in Helsinki and my question is: \u003C/p\u003E\n\n\u003Cp\u003EWhat to do and not to do in Finland? (Behaviour, Rules, etc\u2026)\u003C/p\u003E\n\n\u003Cp\u003EThank you \ud83d\ude42\u003C/p\u003E\n\n\u003Cp\u003EEdit: We are Austrians, and of course we don\u2018t plan to be jerks and we are a friendly group.\nOnly want to know if there are any things Finns don\u2018t want to see/hear\u003C/p\u003E\n\n\u003Cp\u003EThank you so much for all the answers I\u2018ve got :) Reading all that, I think I\u2018ll like it there \ud83d\ude01\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "link_flair_template_id": "eb545470-0e28-11e6-b8cd-0e358dd93c4f",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "#373c3f",
+          "id": "1ae4azn",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Dazzling-While8827",
+          "discussion_type": null,
+          "num_comments": 112,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1ae4azn/dos_and_donts/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1ae4azn/dos_and_donts/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706557685.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Hi there,\n\nDoes anyone have experience with voluntary pension funds in Finland?\n\nI work as a solo entrepreneur and had around 100k profit last year. I was about to pay myself a bonus, but my accountant was against that because it would further increase my tax and push me to put all profits into the voluntary pension fund at Mandatum because it is tax deferred.\n\nI tried to search for information, but it was hard to find anything meaningful except the bad reviews.\n\nEventually, I had a chat with Mandatum and asked them about the terms and fees that they got.\n\n* The management fee and insurance are about 1.1%, plus they charge all other investment-related fees, e.g., the America Index is around 0.7%. I didn't get the information, but I assume there might also be hidden transactions and administration fees.\n* In my case, I cannot access the funds for 30 years. The contract cannot be terminated. I can only stop the contributions.\n* When withdrawing the pension, it counts as my income for the tax office.\n\nThe fees are quite large, which might offset the deferred taxation benefit. I ran some calculations against the 0.4% fee (America Index Fund at OP) if you invest on behalf of the company after the 20% capital gain tax. For example, investing 80k with 0.4% fees vs. investing 100k with 1.8% fees yields better results.\n\nI believe such fees play a significant role closer to retirement when one would choose a more conservative investment option such as bonds.\n\n\u0026#x200B;\n\nDoes it make sense to contribute to such pension funds?\n\nCould it be wiser to increase the YEL income threshold instead?\n\nIs it better to invest gains as a company to accumulate capital and then withdraw dividends with reduced tax?\n\nWhat alternative options are there to invest in Finland?\n\n\u0026#x200B;\n\nThanks!",
+          "author_fullname": "t2_3bt9oz",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Invest in a voluntary pension fund.",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aekr90",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.75,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706607988.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHi there,\u003C/p\u003E\n\n\u003Cp\u003EDoes anyone have experience with voluntary pension funds in Finland?\u003C/p\u003E\n\n\u003Cp\u003EI work as a solo entrepreneur and had around 100k profit last year. I was about to pay myself a bonus, but my accountant was against that because it would further increase my tax and push me to put all profits into the voluntary pension fund at Mandatum because it is tax deferred.\u003C/p\u003E\n\n\u003Cp\u003EI tried to search for information, but it was hard to find anything meaningful except the bad reviews.\u003C/p\u003E\n\n\u003Cp\u003EEventually, I had a chat with Mandatum and asked them about the terms and fees that they got.\u003C/p\u003E\n\n\u003Cul\u003E\n\u003Cli\u003EThe management fee and insurance are about 1.1%, plus they charge all other investment-related fees, e.g., the America Index is around 0.7%. I didn\u0026#39;t get the information, but I assume there might also be hidden transactions and administration fees.\u003C/li\u003E\n\u003Cli\u003EIn my case, I cannot access the funds for 30 years. The contract cannot be terminated. I can only stop the contributions.\u003C/li\u003E\n\u003Cli\u003EWhen withdrawing the pension, it counts as my income for the tax office.\u003C/li\u003E\n\u003C/ul\u003E\n\n\u003Cp\u003EThe fees are quite large, which might offset the deferred taxation benefit. I ran some calculations against the 0.4% fee (America Index Fund at OP) if you invest on behalf of the company after the 20% capital gain tax. For example, investing 80k with 0.4% fees vs. investing 100k with 1.8% fees yields better results.\u003C/p\u003E\n\n\u003Cp\u003EI believe such fees play a significant role closer to retirement when one would choose a more conservative investment option such as bonds.\u003C/p\u003E\n\n\u003Cp\u003E\u0026#x200B;\u003C/p\u003E\n\n\u003Cp\u003EDoes it make sense to contribute to such pension funds?\u003C/p\u003E\n\n\u003Cp\u003ECould it be wiser to increase the YEL income threshold instead?\u003C/p\u003E\n\n\u003Cp\u003EIs it better to invest gains as a company to accumulate capital and then withdraw dividends with reduced tax?\u003C/p\u003E\n\n\u003Cp\u003EWhat alternative options are there to invest in Finland?\u003C/p\u003E\n\n\u003Cp\u003E\u0026#x200B;\u003C/p\u003E\n\n\u003Cp\u003EThanks!\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aekr90",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Gjuteriet",
+          "discussion_type": null,
+          "num_comments": 7,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aekr90/invest_in_a_voluntary_pension_fund/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aekr90/invest_in_a_voluntary_pension_fund/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706607988.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "",
+          "author_fullname": "t2_9rft",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "IT expert Inosha Sugathapala, who has lived in Finland for 11 years hasn't found a job due to language barrier",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 73,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aenptq",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.49,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/BsB_uJYxoSg3CvSUtdI9hVKi0ZkswbeHdddZgEUc-Dw.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "link",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1706619174.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "yle.fi",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://yle.fi/a/74-20071518",
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/LwLuMLK30rWNUpDedsDdTrod9JOflZv_hMCoj1uyAKw.jpg?auto=webp\u0026s=fe7b758f013050684051fa28e96addb4cf24c77e",
+                  "width": 1200,
+                  "height": 628
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/LwLuMLK30rWNUpDedsDdTrod9JOflZv_hMCoj1uyAKw.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=c1a606dac36cb4bc3b6ded86e16c3f8d4f3bb951",
+                    "width": 108,
+                    "height": 56
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/LwLuMLK30rWNUpDedsDdTrod9JOflZv_hMCoj1uyAKw.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=4671f5082e716fea7a0f340c1929d6d14d288dce",
+                    "width": 216,
+                    "height": 113
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/LwLuMLK30rWNUpDedsDdTrod9JOflZv_hMCoj1uyAKw.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=0af385c42cf8f640810d63a38f79b9ed5a5b8832",
+                    "width": 320,
+                    "height": 167
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/LwLuMLK30rWNUpDedsDdTrod9JOflZv_hMCoj1uyAKw.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=35521f491390b9e48a6d39f64b498db6a6f08159",
+                    "width": 640,
+                    "height": 334
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/LwLuMLK30rWNUpDedsDdTrod9JOflZv_hMCoj1uyAKw.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=77d88d7bf84f5f3e13938bbf4769a6f8ae7b3d85",
+                    "width": 960,
+                    "height": 502
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/LwLuMLK30rWNUpDedsDdTrod9JOflZv_hMCoj1uyAKw.jpg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=879980189c908eac266f4a452da19d514d10e62b",
+                    "width": 1080,
+                    "height": 565
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "4jyuGMkryOkLgJnEckZoJUb1uDydefz-clY1l3jIbXs"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aenptq",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "breakbeat",
+          "discussion_type": null,
+          "num_comments": 79,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aenptq/it_expert_inosha_sugathapala_who_has_lived_in/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://yle.fi/a/74-20071518",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706619174.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "I'd imagine that queuing up to get a bucket is one...",
+          "author_fullname": "t2_vkk1d1zk",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Non-finns (and maybe Finns too): What customs or behaviour of Finnish people you find odd or funny?",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1adr2io",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.93,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 130,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 130,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706519286.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EI\u0026#39;d imagine that queuing up to get a bucket is one...\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1adr2io",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "hyljekettu",
+          "discussion_type": null,
+          "num_comments": 405,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1adr2io/nonfinns_and_maybe_finns_too_what_customs_or/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1adr2io/nonfinns_and_maybe_finns_too_what_customs_or/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706519286.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "I've got an as-good-as-new US internal keyboard for a ThinkPad laptop to recycle. I've tried offering it on [tori.fi](https://tori.fi) (for a pittance, so as not to attract dealers), but I found no takers. Must be too specific, or foreigners don't venture there. The keyboard will fit Lenovo ThinkPad T14 (Gen 3 \u0026 4), P14s (Gen 3 \u0026 4) and L14 (Gen 3 \u0026 4) models.\n\nIt's easy enough to install and doing so won't void your warranty. I can even help if you don't live in the boondocks.\n\nAnyone?",
+          "author_fullname": "t2_gcrkuznl7",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "US ThinkPad keyboard for grabs",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aelvym",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.44,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706612618.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EI\u0026#39;ve got an as-good-as-new US internal keyboard for a ThinkPad laptop to recycle. I\u0026#39;ve tried offering it on \u003Ca href=\"https://tori.fi\"\u003Etori.fi\u003C/a\u003E (for a pittance, so as not to attract dealers), but I found no takers. Must be too specific, or foreigners don\u0026#39;t venture there. The keyboard will fit Lenovo ThinkPad T14 (Gen 3 \u0026amp; 4), P14s (Gen 3 \u0026amp; 4) and L14 (Gen 3 \u0026amp; 4) models.\u003C/p\u003E\n\n\u003Cp\u003EIt\u0026#39;s easy enough to install and doing so won\u0026#39;t void your warranty. I can even help if you don\u0026#39;t live in the boondocks.\u003C/p\u003E\n\n\u003Cp\u003EAnyone?\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/2qAxtRddXzqTBu7qSSGKtVc0L1D63hYl5gC1lejfVDo.jpg?auto=webp\u0026s=9de3d167b72f0da995c7468154dc08ca40ac3bb4",
+                  "width": 813,
+                  "height": 397
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/2qAxtRddXzqTBu7qSSGKtVc0L1D63hYl5gC1lejfVDo.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=86b97eebf84789035e7c9f9240d5c284e0bc9027",
+                    "width": 108,
+                    "height": 52
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/2qAxtRddXzqTBu7qSSGKtVc0L1D63hYl5gC1lejfVDo.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=0b4530673dc987585388124bc3361cff1e4141b8",
+                    "width": 216,
+                    "height": 105
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/2qAxtRddXzqTBu7qSSGKtVc0L1D63hYl5gC1lejfVDo.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=6fb5e9a1e64542d9c1bb0da0b556299e8856c2d9",
+                    "width": 320,
+                    "height": 156
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/2qAxtRddXzqTBu7qSSGKtVc0L1D63hYl5gC1lejfVDo.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=54ba95deb9abb9ad629b7afb0a4ccdd747671783",
+                    "width": 640,
+                    "height": 312
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "EBshZPnaHcG7qnYwWOHSoqhnP7VkZrGh-TXUj3gnvUA"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aelvym",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "epollari",
+          "discussion_type": null,
+          "num_comments": 7,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aelvym/us_thinkpad_keyboard_for_grabs/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aelvym/us_thinkpad_keyboard_for_grabs/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706612618.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Does anyone have a good pulla recipe? It has been a very long time since I have had pulla and I really do not want to wait until my next trip to Finland to have some. So, I thought I would try my hand at making it. Any and all recipes and advice is greatly appreciated!   \n\n\nAlso, I am looking to make the bun style as that is what I mostly had when I was in Finland, but I am open to recipes making the loaf style.  \n\n\nKiitos!",
+          "author_fullname": "t2_k087y",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Pulla recipe",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aearcm",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.7,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 4,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 4,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706573995.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EDoes anyone have a good pulla recipe? It has been a very long time since I have had pulla and I really do not want to wait until my next trip to Finland to have some. So, I thought I would try my hand at making it. Any and all recipes and advice is greatly appreciated!   \u003C/p\u003E\n\n\u003Cp\u003EAlso, I am looking to make the bun style as that is what I mostly had when I was in Finland, but I am open to recipes making the loaf style.  \u003C/p\u003E\n\n\u003Cp\u003EKiitos!\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aearcm",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Mock26",
+          "discussion_type": null,
+          "num_comments": 8,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aearcm/pulla_recipe/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aearcm/pulla_recipe/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706573995.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": " Hi,\n\nI am currently living in Helsinki and plan to travel to my home country to visit my family. I'm wondering if I can pack fruit juice/mehu (well-packaged, bought at K Market/Prisma) in my checked luggage and bring it back to my home country, as my sister really wants to try it.\n\nI've tried to do some research on Google, but all the results mention what is prohibited to bring into Finland instead of what can be taken out. It would be nice if someone could share any ideas or provide a link so I can read the rules myself.\n\nThanks in advance",
+          "author_fullname": "t2_agtnde48",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Is it possible to bring Milk and Juice out of Finland.",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1ads8vx",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.87,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 64,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 64,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706524166.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHi,\u003C/p\u003E\n\n\u003Cp\u003EI am currently living in Helsinki and plan to travel to my home country to visit my family. I\u0026#39;m wondering if I can pack fruit juice/mehu (well-packaged, bought at K Market/Prisma) in my checked luggage and bring it back to my home country, as my sister really wants to try it.\u003C/p\u003E\n\n\u003Cp\u003EI\u0026#39;ve tried to do some research on Google, but all the results mention what is prohibited to bring into Finland instead of what can be taken out. It would be nice if someone could share any ideas or provide a link so I can read the rules myself.\u003C/p\u003E\n\n\u003Cp\u003EThanks in advance\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1ads8vx",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Annual_Store5500",
+          "discussion_type": null,
+          "num_comments": 39,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1ads8vx/is_it_possible_to_bring_milk_and_juice_out_of/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1ads8vx/is_it_possible_to_bring_milk_and_juice_out_of/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706524166.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Hey guys, I am non-EU and I am studying a vocational qualification in restaurant and catering. I will graduate next year. \n\nOnce I get a job, do I apply for this permit -  [Residence permit application for person with a degree completed in Finland](https://migri.fi/en/degree-completed-in-finland)\n\nI am quite confused because it says that \u201cdegree completed in Finland.\u201d Not so sure if a vocational qualification counts as a degree.\n\nThank you!",
+          "author_fullname": "t2_grse8sg26",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Non-EU with vocational qualification in Finland",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aelp9i",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.17,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706611899.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHey guys, I am non-EU and I am studying a vocational qualification in restaurant and catering. I will graduate next year. \u003C/p\u003E\n\n\u003Cp\u003EOnce I get a job, do I apply for this permit -  \u003Ca href=\"https://migri.fi/en/degree-completed-in-finland\"\u003EResidence permit application for person with a degree completed in Finland\u003C/a\u003E\u003C/p\u003E\n\n\u003Cp\u003EI am quite confused because it says that \u201cdegree completed in Finland.\u201d Not so sure if a vocational qualification counts as a degree.\u003C/p\u003E\n\n\u003Cp\u003EThank you!\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/nM0EMns49HuMHAlB-sOfMD0mLZoCerbwrMhkh9VDGzM.jpg?auto=webp\u0026s=b0f855d6506a40b43e290d16006ec453d3086019",
+                  "width": 1000,
+                  "height": 608
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/nM0EMns49HuMHAlB-sOfMD0mLZoCerbwrMhkh9VDGzM.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=b268e098295aa343267b00ef08e67a58e170295b",
+                    "width": 108,
+                    "height": 65
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/nM0EMns49HuMHAlB-sOfMD0mLZoCerbwrMhkh9VDGzM.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=c098aeb09d207a788d6190e1f7f8bb54a18b64ff",
+                    "width": 216,
+                    "height": 131
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/nM0EMns49HuMHAlB-sOfMD0mLZoCerbwrMhkh9VDGzM.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=265b450588aee6a8d7cc5f2b5bb34f9f2b30baf3",
+                    "width": 320,
+                    "height": 194
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/nM0EMns49HuMHAlB-sOfMD0mLZoCerbwrMhkh9VDGzM.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=e6161ebf2710a8ce62b1234e6f7f6b960e336fa0",
+                    "width": 640,
+                    "height": 389
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/nM0EMns49HuMHAlB-sOfMD0mLZoCerbwrMhkh9VDGzM.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=96c3e0e7ddf515369af6eeadb0b74237f0369080",
+                    "width": 960,
+                    "height": 583
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "xLAnOX_tufIr09R-07ZkuXpQEo8be4M9yYu_AZE3F1s"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aelp9i",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "stoiclife00",
+          "discussion_type": null,
+          "num_comments": 11,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aelp9i/noneu_with_vocational_qualification_in_finland/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aelp9i/noneu_with_vocational_qualification_in_finland/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706611899.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Trying to find any information about this aarikka rattle or paperweight. Thank you in advance.",
+          "author_fullname": "t2_ae6t9pur",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Aarikka wooden rattle/paperweight",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1adqsmh",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.88,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 27,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": true,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 27,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/kP6kV40lpNzuH9RclfnE0m56DkXTfbx1r3C5G_Z8n-U.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "image",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1706518133.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "i.redd.it",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003ETrying to find any information about this aarikka rattle or paperweight. Thank you in advance.\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "url_overridden_by_dest": "https://i.redd.it/oduvk3djecfc1.png",
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://preview.redd.it/oduvk3djecfc1.png?auto=webp\u0026s=6dcc5503b7836330be7d301f8f1c3ecae2786a74",
+                  "width": 1080,
+                  "height": 1921
+                },
+                "resolutions": [
+                  {
+                    "url": "https://preview.redd.it/oduvk3djecfc1.png?width=108\u0026crop=smart\u0026auto=webp\u0026s=aa36abc5fb2401c7994f080000dcf66e63cbd915",
+                    "width": 108,
+                    "height": 192
+                  },
+                  {
+                    "url": "https://preview.redd.it/oduvk3djecfc1.png?width=216\u0026crop=smart\u0026auto=webp\u0026s=310bb61b52625021aea2277b2190008577e0d2dc",
+                    "width": 216,
+                    "height": 384
+                  },
+                  {
+                    "url": "https://preview.redd.it/oduvk3djecfc1.png?width=320\u0026crop=smart\u0026auto=webp\u0026s=d1cc973e89cd3888dc7e23f8a454fd5f497661ae",
+                    "width": 320,
+                    "height": 569
+                  },
+                  {
+                    "url": "https://preview.redd.it/oduvk3djecfc1.png?width=640\u0026crop=smart\u0026auto=webp\u0026s=6d60c7328b56d93a1b9877c7ae1d81f20c942359",
+                    "width": 640,
+                    "height": 1138
+                  },
+                  {
+                    "url": "https://preview.redd.it/oduvk3djecfc1.png?width=960\u0026crop=smart\u0026auto=webp\u0026s=29b061ec1c6e263287bcb148247cdd3a3f96f04f",
+                    "width": 960,
+                    "height": 1707
+                  },
+                  {
+                    "url": "https://preview.redd.it/oduvk3djecfc1.png?width=1080\u0026crop=smart\u0026auto=webp\u0026s=35789aec333ef72c4a71f15a15024aa04902ce80",
+                    "width": 1080,
+                    "height": 1921
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "SNvrAHcl3r2dHLFWtecI3-j5kFZU2YwvyPwQ3aUPHXk"
+              }
+            ],
+            "enabled": true
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1adqsmh",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Desperate_Money_1499",
+          "discussion_type": null,
+          "num_comments": 10,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1adqsmh/aarikka_wooden_rattlepaperweight/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://i.redd.it/oduvk3djecfc1.png",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706518133.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Finland is a great land for sauna.\n\nFinland is shit, however, at hot tubs. Every one I have been in, either in public baths or hotel spas, is lukewarm at best, proudly boasting of their 32-34\u00b0 'heat' (looking at you Flamingo!)\n\nMinimum hot tub should be 37\u00b0 , 40\u00b0+ even better. I wanna sit and boil like a lobster and come out with my pasty white ass all pink from the heat. \n\nAnyone help a brother out with a location that actually has hot hot tubs? Hotels, public baths, etc. I'm in Tampere, happy to go to Turku, Helsinki region if needed.",
+          "author_fullname": "t2_bzh7n5k7",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Hot Tubs over 37\u00b0",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1aemmus",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.43,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706615457.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EFinland is a great land for sauna.\u003C/p\u003E\n\n\u003Cp\u003EFinland is shit, however, at hot tubs. Every one I have been in, either in public baths or hotel spas, is lukewarm at best, proudly boasting of their 32-34\u00b0 \u0026#39;heat\u0026#39; (looking at you Flamingo!)\u003C/p\u003E\n\n\u003Cp\u003EMinimum hot tub should be 37\u00b0 , 40\u00b0+ even better. I wanna sit and boil like a lobster and come out with my pasty white ass all pink from the heat. \u003C/p\u003E\n\n\u003Cp\u003EAnyone help a brother out with a location that actually has hot hot tubs? Hotels, public baths, etc. I\u0026#39;m in Tampere, happy to go to Turku, Helsinki region if needed.\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1aemmus",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "PistolsAkimbo019",
+          "discussion_type": null,
+          "num_comments": 20,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1aemmus/hot_tubs_over_37/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1aemmus/hot_tubs_over_37/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706615457.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Hello, I'm in Finland on a temporary basis and I need to take exams in a specific area, I would like to know if a European citizen is eligible and how it works...I'm totally lost, I thought about paying a private doctor but it's extremely expensive",
+          "author_fullname": "t2_gtutaflep",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "European citizen can use (free) hospital in Finland?",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1adr8yd",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.74,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 18,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 18,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706520047.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHello, I\u0026#39;m in Finland on a temporary basis and I need to take exams in a specific area, I would like to know if a European citizen is eligible and how it works...I\u0026#39;m totally lost, I thought about paying a private doctor but it\u0026#39;s extremely expensive\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1adr8yd",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "ThrowRAbot1",
+          "discussion_type": null,
+          "num_comments": 51,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1adr8yd/european_citizen_can_use_free_hospital_in_finland/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1adr8yd/european_citizen_can_use_free_hospital_in_finland/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706520047.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Howdy, some time ago i've heard a song that had the same \"hakaa p\u00e4\u00e4lle\" scream, as in the the beggining of this video, i can't find it for some reason. Anyone help?\nhttps://youtu.be/mI4Z0coiPGQ?si=uGdBYmpeg_6cYREt",
+          "author_fullname": "t2_cviz43sq5",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Name of the song",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1adxefa",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "upvote_ratio": 0.78,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 5,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 5,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706540687.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHowdy, some time ago i\u0026#39;ve heard a song that had the same \u0026quot;hakaa p\u00e4\u00e4lle\u0026quot; scream, as in the the beggining of this video, i can\u0026#39;t find it for some reason. Anyone help?\n\u003Ca href=\"https://youtu.be/mI4Z0coiPGQ?si=uGdBYmpeg_6cYREt\"\u003Ehttps://youtu.be/mI4Z0coiPGQ?si=uGdBYmpeg_6cYREt\u003C/a\u003E\u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/rrdtaeobhrASYYBApEFikfMt6SFEISm3HgN4UmDBtLE.jpg?auto=webp\u0026s=a6bb025e782e48158151b77edf50ebb3e420f308",
+                  "width": 480,
+                  "height": 360
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/rrdtaeobhrASYYBApEFikfMt6SFEISm3HgN4UmDBtLE.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=9289bada14bc98a5fc30e4a36714fab3ad666ef6",
+                    "width": 108,
+                    "height": 81
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/rrdtaeobhrASYYBApEFikfMt6SFEISm3HgN4UmDBtLE.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=59010c91f8703f4aca2f14dfd163bb769d423681",
+                    "width": 216,
+                    "height": 162
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/rrdtaeobhrASYYBApEFikfMt6SFEISm3HgN4UmDBtLE.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=f39883ac5b72e0191a27d7f860b96694dc8268ec",
+                    "width": 320,
+                    "height": 240
+                  }
+                ],
+                "variants": {
+                  
+                },
+                "id": "qsYNa3247ZFTcu6tdCAHxqTLdGA-6EkFEsNRbEsIclw"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "1adxefa",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Exotic_Pin5707",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1adxefa/name_of_the_song/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1adxefa/name_of_the_song/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706540687.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Finland",
+          "selftext": "Hi all,\n\nI\u2019m trying to find somewhere to stay in nature that I don\u2019t have to have a car to get to. I\u2019m happy for it to be easy to get to (e.g a train ride away from a city) or more complicated (e.g a bus ride away from a small town, that is a train ride away from a city) however the main thing is just that there is some sort of transport link. \n\nWe would love to stay somewhere that feels secluded ideally next to a lake or a beach so we can swim, sauna etc. that is very beautiful. Thank you\n\nEdit: places that are easy to reach from Helsinki airport would be ideal ",
+          "author_fullname": "t2_2cwnclpg",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Accessible nature",
+          "link_flair_richtext": [
+            
+          ],
+          "subreddit_name_prefixed": "r/Finland",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "tourism",
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_1adz76z",
+          "quarantine": false,
+          "link_flair_text_color": "light",
+          "upvote_ratio": 0.65,
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 5,
+          "total_awards_received": 0,
+          "media_embed": {
+            
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+            
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+            
+          },
+          "link_flair_text": "Tourism",
+          "can_mod_post": false,
+          "score": 5,
+          "approved_by": null,
+          "is_created_from_ads_ui": false,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1706550007.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+            
+          ],
+          "gildings": {
+            
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1706545336.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.Finland",
+          "allow_live_comments": false,
+          "selftext_html": "\u003C!-- SC_OFF --\u003E\u003Cdiv class=\"md\"\u003E\u003Cp\u003EHi all,\u003C/p\u003E\n\n\u003Cp\u003EI\u2019m trying to find somewhere to stay in nature that I don\u2019t have to have a car to get to. I\u2019m happy for it to be easy to get to (e.g a train ride away from a city) or more complicated (e.g a bus ride away from a small town, that is a train ride away from a city) however the main thing is just that there is some sort of transport link. \u003C/p\u003E\n\n\u003Cp\u003EWe would love to stay somewhere that feels secluded ideally next to a lake or a beach so we can swim, sauna etc. that is very beautiful. Thank you\u003C/p\u003E\n\n\u003Cp\u003EEdit: places that are easy to reach from Helsinki airport would be ideal \u003C/p\u003E\n\u003C/div\u003E\u003C!-- SC_ON --\u003E",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+            
+          ],
+          "awarders": [
+            
+          ],
+          "media_only": false,
+          "link_flair_template_id": "eb545470-0e28-11e6-b8cd-0e358dd93c4f",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "treatment_tags": [
+            
+          ],
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2qztz",
+          "author_is_blocked": false,
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "#373c3f",
+          "id": "1adz76z",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "shill002",
+          "discussion_type": null,
+          "num_comments": 20,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+            
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/Finland/comments/1adz76z/accessible_nature/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/Finland/comments/1adz76z/accessible_nature/",
+          "subreddit_subscribers": 222500,
+          "created_utc": 1706545336.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      }
+    ],
+    "before": null
+  }
+}
