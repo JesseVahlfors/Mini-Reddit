@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { selectSubreddits } from "./subredditListSlice";
+import { selectSubreddits } from "../../Sidebar/SubredditList/subredditListSlice";
 
 function SubredditsList() {
     const subreddits = useSelector(selectSubreddits)
