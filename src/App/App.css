@@ -28,7 +28,7 @@ p {
   width: clamp(30rem, 50%, 60rem);
   margin: auto;
 }
-.articles, .article, .comment, .postcard, .header {
+.articles, .article, .comment, .postcard, .header, .sidebar {
   border: solid 1px black;
 }
 
