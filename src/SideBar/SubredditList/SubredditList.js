@@ -8,7 +8,6 @@ function SubredditsList() {
 
     return (
         <div>
-            <h2>Subreddits</h2>
             { subreddits.map(subreddit => <Subreddit subreddit={subreddit} key={subreddit.id} />)}
         </div>
     );

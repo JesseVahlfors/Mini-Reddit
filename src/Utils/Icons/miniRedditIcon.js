@@ -1,11 +1,11 @@
 export const miniredditIcon = 
-<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" preserveAspectRatio="xMidYMid meet">
     <style type="text/css">
-   {` .st0 { fill: #39A7FF; }
-    .st1 { fill: #222222; }
-    .st2 { fill: #FFFFFF; }`}
+        {`.st0 { fill: #39A7FF; }
+        .st1 { fill: #222222; }
+        .st2 { fill: #FFFFFF; }`}
     </style>
-    <g class="layer">
+    <g class="layer" transform="scale(1.3)">
         <title>Layer 1</title>
         <g id="svg_18">
             <g id="svg_19">

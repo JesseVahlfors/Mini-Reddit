@@ -18,6 +18,7 @@ function Article( { article } ) {
             {article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : null}
             <p>{article.author}</p>
             <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
+            <button>Comments</button>
             <Comments />
         </div>
     );

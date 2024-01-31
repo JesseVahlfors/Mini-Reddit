@@ -6,7 +6,7 @@ function HeaderBar() {
         <header className="header">
             <div className="logo">
             {miniredditIcon}
-            <p><span>Mini</span>Reddit</p>
+            <h2><span>Mini</span>Reddit</h2>
             </div>
             <form className="search">
                 <input type="text" placeholder="Search" aria-label="Search posts" value=""></input>
