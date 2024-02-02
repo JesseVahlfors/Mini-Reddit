@@ -8,7 +8,7 @@ function Subreddit( {subreddit} ) {
             <div className="icon">
                 {icon ? <img src={icon} alt={subreddit.displayNamePrefixed + " icon"}></img> : miniredditIcon }
             </div>
-            <h3>{subreddit.displayName}</h3>
+            <p>{subreddit.displayName}</p>
         </div>
     );
 };

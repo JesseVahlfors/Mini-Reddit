@@ -34,6 +34,7 @@ svg {
   max-height: 60px;
   margin: auto 0;
   height: auto;
+  min-width: 40px;
 }
 
 .App {
@@ -41,6 +42,9 @@ svg {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: var(--gap2);
+  @media screen and (max-width: 768px) {
+    display: block;
+   }
 }
 
 .articles {
@@ -58,6 +62,12 @@ svg {
   align-content: center;
   padding: 0 var(--spacing-5);
   height: 64px;
+  white-space: nowrap;
+  @media screen and (max-width: 768px) {
+   display: flex;
+   flex-wrap: wrap;
+   height: auto;
+  }
 }
 
 .icon {
@@ -74,13 +84,17 @@ svg {
   padding-left: 16px;
 }
 
+.logo p {
+  min-width: auto;
+}
+
 .search {
   display: flex;
   align-items: center;
 }
 
 .sidebar {
- /*  min-width: 250px; */
+  min-width: 150px;
 }
 
 .subreddit {
