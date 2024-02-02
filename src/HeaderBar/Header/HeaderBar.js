@@ -1,5 +1,6 @@
 import React from "react";
 import { miniredditIcon } from "../../Utils/Icons/miniRedditIcon";
+import SubredditSelector from "../../SubredditsSelector/SubredditSelector/SubredditSelector";
 
 function HeaderBar() {
     return (
@@ -12,6 +13,7 @@ function HeaderBar() {
                 <input type="text" placeholder="Search" aria-label="Search posts" value=""></input>
                 <button type="submit" aria-label="Search">SearchIcon</button>
             </form>
+            <SubredditSelector />
         </header>
     );
 } 

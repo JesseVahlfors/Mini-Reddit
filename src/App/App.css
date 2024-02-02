@@ -79,6 +79,10 @@ svg {
   align-items: center;
 }
 
+.sidebar {
+ /*  min-width: 250px; */
+}
+
 .subreddit {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -87,4 +91,7 @@ svg {
   align-items: center;
   justify-items: start;
   padding-left: var(--spacing);
+  text-align: start;
+  white-space: nowrap;
+  overflow: hidden;
 }
