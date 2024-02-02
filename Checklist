@@ -8,18 +8,17 @@
   - [ ] Render initial view of the app when first visiting (/Pics?)
 
 - [ ] **Header Component**
-  - [ ] Initialize the header
+  - [x] Initialize the header
   - [x] Implement logo
   - [x] Create Searchbar
     - [ ] implement search function to filter posts 
   - [ ] Add navigation button to select subreddits for small screens 
 
 - [ ] **Subreddit navigation Component**
-  - [ ] Create the component
-    - [ ] Display heading
-    - [ ] Display subreddit container
-      - [ ] Display Subreddit icon
-      - [ ] Display Subreddit title
+  - [x] Create the component
+    - [x] Display subreddit container
+      - [x] Display Subreddit icon
+      - [x] Display Subreddit title
   - [ ] Add navigation button to select subreddits for small screens
   - [ ] Fetch and iterate subreddits to list them in order of popularity
 
