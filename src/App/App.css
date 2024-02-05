@@ -109,3 +109,7 @@ svg {
   white-space: nowrap;
   overflow: hidden;
 }
+
+.selectedElement {
+  background-color: #39A7FF;
+}

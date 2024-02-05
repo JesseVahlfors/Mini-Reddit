@@ -7,9 +7,9 @@ function SubredditsList() {
     const subreddits = useSelector(selectSubreddits)
 
     return (
-        <div>
+        <ul>
             { subreddits.map(subreddit => <Subreddit subreddit={subreddit} key={subreddit.id} />)}
-        </div>
+        </ul>
     );
 };
 

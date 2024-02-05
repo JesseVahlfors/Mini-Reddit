@@ -212,7 +212,7 @@ export const mockSubreddits = {
           "user_flair_text": null,
           "banner_background_color": "",
           "show_media": true,
-          "id": "4jn9v4",
+          "id": "19dk19x",
           "user_is_contributor": null,
           "over18": false,
           "header_title": "",
