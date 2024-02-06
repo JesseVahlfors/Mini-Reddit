@@ -29,10 +29,14 @@ function DetailedArticle( { article, onBackButtonClick } ) {
 
     
     return (
-        <div className="article" >
+        <div className="article card" >
             <h2>{article.title}</h2>
             <button onClick={onBackButtonClick}>Back</button>
-            <p>{article.score}</p>
+            <div className="score">
+                <button>up</button>
+                <p>{article.score}</p>
+                <button>down</button>
+            </div>
             <ReactMarkdown>{article.paragraph}</ReactMarkdown>
             {article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : null}
             <p>{article.author}</p>

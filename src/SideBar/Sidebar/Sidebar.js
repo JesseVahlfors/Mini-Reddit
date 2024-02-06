@@ -3,7 +3,7 @@ import SubredditsList from "../SubredditList/SubredditList";
 
 function Sidebar()  {
     return (
-     <aside className="sidebar">
+     <aside className="sidebar card">
         <SubredditsList />   
      </aside>
     )

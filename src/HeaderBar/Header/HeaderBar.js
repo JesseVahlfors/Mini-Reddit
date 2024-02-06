@@ -7,7 +7,7 @@ function HeaderBar() {
     const isSmallScreen = useMediaQuery("(max-width: 768px)");
 
     return (
-        <header className="header">
+        <header className="header card">
             <div className="logo">
                 {miniredditIcon}
                 <p><span>Mini</span>Reddit</p>

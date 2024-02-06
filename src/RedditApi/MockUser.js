@@ -1,0 +1,81 @@
+export const mockUser = {
+    "kind": "t2",
+    "data": {
+      "is_employee": false,
+      "is_friend": false,
+      "subreddit": {
+        "default_set": true,
+        "user_is_contributor": null,
+        "banner_img": "",
+        "allowed_media_in_comments": [
+          
+        ],
+        "user_is_banned": null,
+        "free_form_reports": true,
+        "community_icon": null,
+        "show_media": true,
+        "icon_color": "",
+        "user_is_muted": null,
+        "display_name": "u_K4r4kara",
+        "header_img": null,
+        "title": "Julia",
+        "previous_names": [
+          
+        ],
+        "over_18": false,
+        "icon_size": [
+          256,
+          256
+        ],
+        "primary_color": "",
+        "icon_img": "https://styles.redditmedia.com/t5_nhhsv/styles/profileIcon_snoo8843a157-6fe4-4503-a61d-b79e8c8fffc4-headshot.png?width=256&amp;height=256&amp;crop=256:256,smart&amp;s=1ec98ee817b911f947337ab6397b64698691cd23",
+        "description": "",
+        "submit_link_label": "",
+        "header_size": null,
+        "restrict_posting": true,
+        "restrict_commenting": false,
+        "subscribers": 0,
+        "submit_text_label": "",
+        "is_default_icon": false,
+        "link_flair_position": "",
+        "display_name_prefixed": "u/K4r4kara",
+        "key_color": "",
+        "name": "t5_nhhsv",
+        "is_default_banner": true,
+        "url": "/user/K4r4kara/",
+        "quarantine": false,
+        "banner_size": null,
+        "user_is_moderator": null,
+        "accept_followers": true,
+        "public_description": "Funny caption that won't get me canceled here.",
+        "link_flair_enabled": false,
+        "disable_contributor_requests": false,
+        "subreddit_type": "user",
+        "user_is_subscriber": null
+      },
+      "snoovatar_size": [
+        380,
+        600
+      ],
+      "awardee_karma": 397,
+      "id": "20zufoqp",
+      "verified": true,
+      "is_gold": false,
+      "is_mod": true,
+      "awarder_karma": 756,
+      "has_verified_email": true,
+      "icon_img": "https://styles.redditmedia.com/t5_nhhsv/styles/profileIcon_snoo8843a157-6fe4-4503-a61d-b79e8c8fffc4-headshot.png?width=256&amp;height=256&amp;crop=256:256,smart&amp;s=1ec98ee817b911f947337ab6397b64698691cd23",
+      "hide_from_robots": false,
+      "link_karma": 29224,
+      "is_blocked": false,
+      "total_karma": 57168,
+      "pref_show_snoovatar": false,
+      "name": "K4r4kara",
+      "created": 1534810631.0,
+      "created_utc": 1534810631.0,
+      "snoovatar_img": "https://i.redd.it/snoovatar/avatars/8843a157-6fe4-4503-a61d-b79e8c8fffc4.png",
+      "comment_karma": 26791,
+      "accept_followers": true,
+      "has_subscribed": true
+    }
+  }

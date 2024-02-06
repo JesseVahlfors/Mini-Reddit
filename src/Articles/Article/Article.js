@@ -11,13 +11,21 @@ function Article( { article, onClick } ) {
 
     
     return (
-        <div className="article" onClick={onClick} id={`article-${article.id}`}>
-            <h2>{article.title}</h2>
-            <p>{article.score}</p>
-            {article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>}
-            <p>{article.author}</p>
-            <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
-            <p>Comments amount</p>
+        <div className="article card" id={`article-${article.id}`}>  
+            <div className="article-wrapper">
+                <div className="score">
+                    <button>up</button>
+                    <p>{article.score}</p>
+                    <button>down</button>
+                </div>
+                <div className="article-container" onClick={onClick}>
+                    <h2>{article.title}</h2>
+                    {article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>}
+                    <p>{article.author}</p>
+                    <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
+                    <p>Comments amount</p>
+                </div>
+            </div>
         </div>
     );
 }
