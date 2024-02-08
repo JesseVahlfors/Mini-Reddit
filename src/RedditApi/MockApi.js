@@ -191,35 +191,38 @@ export const mockThread = {
         "kind": "t3",
         "data": {
           "approved_at_utc": null,
-          "subreddit": "Finland",
+          "subreddit": "videos",
           "selftext": "",
-          "author_fullname": "t2_r96gpezhm",
+          "author_fullname": "t2_4z68w",
           "saved": false,
           "mod_reason_title": null,
           "gilded": 0,
           "clicked": false,
-          "title": "Finnair cancels some 550 flights due to strikes \u2014 60k passengers affected | Yle News",
+          "title": "Hopping the Border - Channel 5 arrest and held in solitary by USCBP",
           "link_flair_richtext": [
             
           ],
-          "subreddit_name_prefixed": "r/Finland",
+          "subreddit_name_prefixed": "r/videos",
           "hidden": false,
-          "pwls": 6,
+          "pwls": null,
           "link_flair_css_class": null,
           "downs": 0,
-          "thumbnail_height": 73,
+          "thumbnail_height": 105,
           "top_awarded_type": null,
           "hide_score": false,
-          "name": "t3_1aekkdw",
+          "name": "t3_1ale361",
           "quarantine": false,
           "link_flair_text_color": "dark",
-          "upvote_ratio": 0.93,
+          "upvote_ratio": 0.78,
           "author_flair_background_color": null,
           "subreddit_type": "public",
-          "ups": 101,
+          "ups": 703,
           "total_awards_received": 0,
           "media_embed": {
-            
+            "content": "\u003Ciframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/ponylQTj_gg?feature=oembed\u0026enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"Hopping the Border\"\u003E\u003C/iframe\u003E",
+            "width": 356,
+            "scrolling": false,
+            "height": 200
           },
           "thumbnail_width": 140,
           "author_flair_template_id": null,
@@ -227,20 +230,41 @@ export const mockThread = {
           "user_reports": [
             
           ],
-          "secure_media": null,
+          "secure_media": {
+            "type": "youtube.com",
+            "oembed": {
+              "provider_url": "https://www.youtube.com/",
+              "version": "1.0",
+              "title": "Hopping the Border",
+              "type": "video",
+              "thumbnail_width": 480,
+              "height": 200,
+              "width": 356,
+              "html": "\u003Ciframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/ponylQTj_gg?feature=oembed\u0026enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"Hopping the Border\"\u003E\u003C/iframe\u003E",
+              "author_name": "Channel 5 with Andrew Callaghan",
+              "provider_name": "YouTube",
+              "thumbnail_url": "https://i.ytimg.com/vi/ponylQTj_gg/hqdefault.jpg",
+              "thumbnail_height": 360,
+              "author_url": "https://www.youtube.com/@Channel5YouTube"
+            }
+          },
           "is_reddit_media_domain": false,
           "is_meta": false,
           "category": null,
           "secure_media_embed": {
-            
+            "content": "\u003Ciframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/ponylQTj_gg?feature=oembed\u0026enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"Hopping the Border\"\u003E\u003C/iframe\u003E",
+            "width": 356,
+            "scrolling": false,
+            "media_domain_url": "https://www.redditmedia.com/mediaembed/1ale361",
+            "height": 200
           },
           "link_flair_text": null,
           "can_mod_post": false,
-          "score": 101,
+          "score": 703,
           "approved_by": null,
           "is_created_from_ads_ui": false,
           "author_premium": false,
-          "thumbnail": "https://b.thumbs.redditmedia.com/8Z08ObX3p7AhQQZkhJ5sc-8kfyhFFD3m-lMxr87crrw.jpg",
+          "thumbnail": "https://b.thumbs.redditmedia.com/VpdW7uJJZNXs7ivVBXaxHmgsQER-xoNJ9ZSRVi1pVSU.jpg",
           "edited": false,
           "author_flair_css_class": null,
           "author_flair_richtext": [
@@ -249,23 +273,23 @@ export const mockThread = {
           "gildings": {
             
           },
-          "post_hint": "link",
+          "post_hint": "rich:video",
           "content_categories": null,
           "is_self": false,
           "mod_note": null,
-          "created": 1706607127.0,
+          "created": 1707341027.0,
           "link_flair_type": "text",
-          "wls": 6,
+          "wls": null,
           "removed_by_category": null,
           "banned_by": null,
           "author_flair_type": "text",
-          "domain": "yle.fi",
+          "domain": "youtube.com",
           "allow_live_comments": false,
           "selftext_html": null,
           "likes": null,
           "suggested_sort": null,
           "banned_at_utc": null,
-          "url_overridden_by_dest": "https://yle.fi/a/74-20071884",
+          "url_overridden_by_dest": "https://www.youtube.com/watch?v=ponylQTj_gg",
           "view_count": null,
           "archived": false,
           "no_follow": false,
@@ -276,46 +300,31 @@ export const mockThread = {
             "images": [
               {
                 "source": {
-                  "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?auto=webp\u0026s=8f374447ff7b0b5823afa4e78015169d34d79075",
-                  "width": 1200,
-                  "height": 628
+                  "url": "https://external-preview.redd.it/dexTkTnZOGzR1acppDQWfKO4Sx76hiKsk1RNrHpNak8.jpg?auto=webp\u0026s=242ae88546ad95927d13a73e455d37d749ed11af",
+                  "width": 480,
+                  "height": 360
                 },
                 "resolutions": [
                   {
-                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=a07361676ca53805446f2bc951857c8d07230fe6",
+                    "url": "https://external-preview.redd.it/dexTkTnZOGzR1acppDQWfKO4Sx76hiKsk1RNrHpNak8.jpg?width=108\u0026crop=smart\u0026auto=webp\u0026s=cb332afe6ef417f79374be1a70d21b1addb76eb5",
                     "width": 108,
-                    "height": 56
+                    "height": 81
                   },
                   {
-                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=9040658850f24675d29fe152e6f6107a6d42e280",
+                    "url": "https://external-preview.redd.it/dexTkTnZOGzR1acppDQWfKO4Sx76hiKsk1RNrHpNak8.jpg?width=216\u0026crop=smart\u0026auto=webp\u0026s=1ca24d40abd48287ca56a3870dbcf31a786d9bf4",
                     "width": 216,
-                    "height": 113
+                    "height": 162
                   },
                   {
-                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=14c62a6bb9ecb6e60c5e99ba7823791db835ad63",
+                    "url": "https://external-preview.redd.it/dexTkTnZOGzR1acppDQWfKO4Sx76hiKsk1RNrHpNak8.jpg?width=320\u0026crop=smart\u0026auto=webp\u0026s=9fa1fff0925dffbd1af833ba224647b7da3347e2",
                     "width": 320,
-                    "height": 167
-                  },
-                  {
-                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=640\u0026crop=smart\u0026auto=webp\u0026s=3ae70d4713f6b15a0833b3d46cb119054bd3ac3c",
-                    "width": 640,
-                    "height": 334
-                  },
-                  {
-                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=960\u0026crop=smart\u0026auto=webp\u0026s=bafecbf5c9376596256ae21ad1bc13d0c7b46025",
-                    "width": 960,
-                    "height": 502
-                  },
-                  {
-                    "url": "https://external-preview.redd.it/3O0ZlRNjyJfN7YxvZ9ybQk6UcwybiC_ElWAyvK1tMjI.jpg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=d02cbb0c659afa170c88d29f6d711f44d647f3ea",
-                    "width": 1080,
-                    "height": 565
+                    "height": 240
                   }
                 ],
                 "variants": {
                   
                 },
-                "id": "t2l_arlcgeYEuIU9Cg5uESErjwGVElmgqnCy_MFqc44"
+                "id": "_CX1LL_oWUsXpyNBsCl_N6fOKWIcws6d5ATxCl14l1M"
               }
             ],
             "enabled": false
@@ -338,33 +347,50 @@ export const mockThread = {
           "removed_by": null,
           "num_reports": null,
           "distinguished": null,
-          "subreddit_id": "t5_2qztz",
+          "subreddit_id": "t5_2qh1e",
           "author_is_blocked": false,
           "mod_reason_by": null,
           "removal_reason": null,
           "link_flair_background_color": "",
-          "id": "1aekkdw",
+          "id": "1ale361",
           "is_robot_indexable": true,
           "report_reasons": null,
-          "author": "Temporary-Side615",
+          "author": "TurboGranny",
           "discussion_type": null,
-          "num_comments": 68,
-          "send_replies": false,
-          "whitelist_status": "all_ads",
+          "num_comments": 355,
+          "send_replies": true,
+          "whitelist_status": null,
           "contest_mode": false,
           "mod_reports": [
             
           ],
           "author_patreon_flair": false,
           "author_flair_text_color": null,
-          "permalink": "/r/Finland/comments/1aekkdw/finnair_cancels_some_550_flights_due_to_strikes/",
-          "parent_whitelist_status": "all_ads",
+          "permalink": "/r/videos/comments/1ale361/hopping_the_border_channel_5_arrest_and_held_in/",
+          "parent_whitelist_status": null,
           "stickied": false,
-          "url": "https://yle.fi/a/74-20071884",
-          "subreddit_subscribers": 222500,
-          "created_utc": 1706607127.0,
-          "num_crossposts": 0,
-          "media": null,
+          "url": "https://www.youtube.com/watch?v=ponylQTj_gg",
+          "subreddit_subscribers": 26865062,
+          "created_utc": 1707341027.0,
+          "num_crossposts": 2,
+          "media": {
+            "type": "youtube.com",
+            "oembed": {
+              "provider_url": "https://www.youtube.com/",
+              "version": "1.0",
+              "title": "Hopping the Border",
+              "type": "video",
+              "thumbnail_width": 480,
+              "height": 200,
+              "width": 356,
+              "html": "\u003Ciframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/ponylQTj_gg?feature=oembed\u0026enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"Hopping the Border\"\u003E\u003C/iframe\u003E",
+              "author_name": "Channel 5 with Andrew Callaghan",
+              "provider_name": "YouTube",
+              "thumbnail_url": "https://i.ytimg.com/vi/ponylQTj_gg/hqdefault.jpg",
+              "thumbnail_height": 360,
+              "author_url": "https://www.youtube.com/@Channel5YouTube"
+            }
+          },
           "is_video": false
         }
       },
@@ -372,84 +398,113 @@ export const mockThread = {
         "kind": "t3",
         "data": {
           "approved_at_utc": null,
-          "subreddit": "Finland",
+          "subreddit": "twitchstreams",
           "selftext": "",
-          "author_fullname": "t2_4f31z356",
+          "author_fullname": "t2_tgafrqjii",
           "saved": false,
           "mod_reason_title": null,
           "gilded": 0,
           "clicked": false,
-          "title": "Finland tops the % of population with difficulties concentrating in the EU",
+          "title": "Apex squad wipeeee",
           "link_flair_richtext": [
-            
+            {
+              "e": "text",
+              "t": "Highlight - Skill"
+            }
           ],
-          "subreddit_name_prefixed": "r/Finland",
+          "subreddit_name_prefixed": "r/twitchstreams",
           "hidden": false,
           "pwls": 6,
-          "link_flair_css_class": null,
+          "link_flair_css_class": "",
           "downs": 0,
-          "thumbnail_height": 77,
+          "thumbnail_height": 140,
           "top_awarded_type": null,
-          "hide_score": false,
-          "name": "t3_1aehgv0",
+          "hide_score": true,
+          "name": "t3_1alwykb",
           "quarantine": false,
           "link_flair_text_color": "dark",
-          "upvote_ratio": 0.95,
-          "author_flair_background_color": null,
-          "subreddit_type": "public",
-          "ups": 164,
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": "#94e044",
+          "ups": 1,
           "total_awards_received": 0,
           "media_embed": {
             
           },
           "thumbnail_width": 140,
-          "author_flair_template_id": null,
+          "author_flair_template_id": "66ad8474-2207-11eb-ab02-0e1a206d0c77",
           "is_original_content": false,
           "user_reports": [
             
           ],
-          "secure_media": null,
+          "secure_media": {
+            "reddit_video": {
+              "bitrate_kbps": 2400,
+              "fallback_url": "https://v.redd.it/2v363rxdgdhc1/DASH_720.mp4?source=fallback",
+              "has_audio": true,
+              "height": 1280,
+              "width": 720,
+              "scrubber_media_url": "https://v.redd.it/2v363rxdgdhc1/DASH_96.mp4",
+              "dash_url": "https://v.redd.it/2v363rxdgdhc1/DASHPlaylist.mpd?a=1710000229%2CNTY2NmU1MjQzZmFlYmM3ZTdhYWY4ZWQ0MThjYWE0NTlhZDZjODk5ZGJkOTMwNmIwMDYzZmIyMGVhMGE4OWNiMw%3D%3D\u0026v=1\u0026f=sd",
+              "duration": 44,
+              "hls_url": "https://v.redd.it/2v363rxdgdhc1/HLSPlaylist.m3u8?a=1710000229%2CMmRmODM2NDdjYzg5YzgzZWIyNDE5MzM0OGYyZGNiZDEyOGE5OTYxY2YxNjEwZDU2NjBjODVmMDM0ZDNmMmI5Ng%3D%3D\u0026v=1\u0026f=sd",
+              "is_gif": false,
+              "transcoding_status": "completed"
+            }
+          },
           "is_reddit_media_domain": true,
           "is_meta": false,
           "category": null,
           "secure_media_embed": {
             
           },
-          "link_flair_text": null,
+          "link_flair_text": "Highlight - Skill",
           "can_mod_post": false,
-          "score": 164,
+          "score": 1,
           "approved_by": null,
           "is_created_from_ads_ui": false,
           "author_premium": false,
-          "thumbnail": "https://b.thumbs.redditmedia.com/DZeKw5y_yej5AtNZP5r_UvgwMkcu-VzTzyfjpZ2azzY.jpg",
+          "thumbnail": "https://external-preview.redd.it/dmdjMmZjcmRnZGhjMfGSezxK7OLMta13r67Rsh2DmAepzUy25KH4HwyPFRwG.png?width=140\u0026height=140\u0026crop=140:140,smart\u0026format=jpg\u0026v=enabled\u0026lthumb=true\u0026s=8c5a5d64ff4642eb524d264ab7b3544a1098669e",
           "edited": false,
-          "author_flair_css_class": null,
+          "author_flair_css_class": "NewUser",
           "author_flair_richtext": [
-            
+            {
+              "a": ":snoo_trollface:",
+              "e": "emoji",
+              "u": "https://emoji.redditmedia.com/mssz6vvv9ezz_t5_3nqvj/snoo_trollface"
+            },
+            {
+              "e": "text",
+              "t": " Newbie "
+            },
+            {
+              "a": ":snoo_trollface:",
+              "e": "emoji",
+              "u": "https://emoji.redditmedia.com/mssz6vvv9ezz_t5_3nqvj/snoo_trollface"
+            }
           ],
           "gildings": {
             
           },
-          "post_hint": "image",
+          "post_hint": "hosted:video",
           "content_categories": null,
           "is_self": false,
-          "mod_note": null,
-          "created": 1706594476.0,
-          "link_flair_type": "text",
+          "subreddit_type": "public",
+          "created": 1707402562.0,
+          "link_flair_type": "richtext",
           "wls": 6,
           "removed_by_category": null,
           "banned_by": null,
-          "author_flair_type": "text",
-          "domain": "i.redd.it",
+          "author_flair_type": "richtext",
+          "domain": "v.redd.it",
           "allow_live_comments": false,
           "selftext_html": null,
           "likes": null,
           "suggested_sort": null,
           "banned_at_utc": null,
-          "url_overridden_by_dest": "https://i.redd.it/842rkskkpifc1.jpeg",
+          "url_overridden_by_dest": "https://v.redd.it/2v363rxdgdhc1",
           "view_count": null,
           "archived": false,
-          "no_follow": false,
+          "no_follow": true,
           "is_crosspostable": false,
           "pinned": false,
           "over_18": false,
@@ -457,49 +512,39 @@ export const mockThread = {
             "images": [
               {
                 "source": {
-                  "url": "https://preview.redd.it/842rkskkpifc1.jpeg?auto=webp\u0026s=fe07afa3b7be34b50dd7d87e59e485467a82fca2",
-                  "width": 1284,
-                  "height": 709
+                  "url": "https://external-preview.redd.it/dmdjMmZjcmRnZGhjMfGSezxK7OLMta13r67Rsh2DmAepzUy25KH4HwyPFRwG.png?format=pjpg\u0026auto=webp\u0026s=49099eebc6880b9546b2f57b503e692ea0de4d2a",
+                  "width": 720,
+                  "height": 1280
                 },
                 "resolutions": [
                   {
-                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=108\u0026crop=smart\u0026auto=webp\u0026s=7537bb1f7699d5d80e41c072061234f2f1bb32dd",
+                    "url": "https://external-preview.redd.it/dmdjMmZjcmRnZGhjMfGSezxK7OLMta13r67Rsh2DmAepzUy25KH4HwyPFRwG.png?width=108\u0026crop=smart\u0026format=pjpg\u0026auto=webp\u0026s=72fd0322c22a00b2acfa5e82a04490a7e71282db",
                     "width": 108,
-                    "height": 59
+                    "height": 192
                   },
                   {
-                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=216\u0026crop=smart\u0026auto=webp\u0026s=3f01677baa651a5274c6925f6b3bba2401404b8f",
+                    "url": "https://external-preview.redd.it/dmdjMmZjcmRnZGhjMfGSezxK7OLMta13r67Rsh2DmAepzUy25KH4HwyPFRwG.png?width=216\u0026crop=smart\u0026format=pjpg\u0026auto=webp\u0026s=c73a16bae0236b1267a3cd816f1a2df86399ee33",
                     "width": 216,
-                    "height": 119
+                    "height": 384
                   },
                   {
-                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=320\u0026crop=smart\u0026auto=webp\u0026s=93df7ab534afa33f24ff52d7f66d4f35fe55fff6",
+                    "url": "https://external-preview.redd.it/dmdjMmZjcmRnZGhjMfGSezxK7OLMta13r67Rsh2DmAepzUy25KH4HwyPFRwG.png?width=320\u0026crop=smart\u0026format=pjpg\u0026auto=webp\u0026s=fadd3ecc41f3f97a43fd411ff045eb1db9e5b5cf",
                     "width": 320,
-                    "height": 176
+                    "height": 568
                   },
                   {
-                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=640\u0026crop=smart\u0026auto=webp\u0026s=e6ed86b71167c2605f4637d54f2f2fb8a87b4a46",
+                    "url": "https://external-preview.redd.it/dmdjMmZjcmRnZGhjMfGSezxK7OLMta13r67Rsh2DmAepzUy25KH4HwyPFRwG.png?width=640\u0026crop=smart\u0026format=pjpg\u0026auto=webp\u0026s=1eb933a4eec05c3c1b391df8f3220c7f36973eb9",
                     "width": 640,
-                    "height": 353
-                  },
-                  {
-                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=960\u0026crop=smart\u0026auto=webp\u0026s=d0500ec128db075be4fdb7274f18c376c155addd",
-                    "width": 960,
-                    "height": 530
-                  },
-                  {
-                    "url": "https://preview.redd.it/842rkskkpifc1.jpeg?width=1080\u0026crop=smart\u0026auto=webp\u0026s=73f545b634ad44cb768986539d3bd75b42ac9744",
-                    "width": 1080,
-                    "height": 596
+                    "height": 1137
                   }
                 ],
                 "variants": {
                   
                 },
-                "id": "Zlsl1qAT00ccDx4f_Bq5m2E7wC0Za83nfgXgc8XUPgg"
+                "id": "dmdjMmZjcmRnZGhjMfGSezxK7OLMta13r67Rsh2DmAepzUy25KH4HwyPFRwG"
               }
             ],
-            "enabled": true
+            "enabled": false
           },
           "all_awardings": [
             
@@ -508,28 +553,30 @@ export const mockThread = {
             
           ],
           "media_only": false,
+          "link_flair_template_id": "c8cc557e-b769-11ec-9b12-fe18a4eec40d",
           "can_gild": false,
           "spoiler": false,
           "locked": false,
-          "author_flair_text": null,
+          "author_flair_text": ":snoo_trollface: Newbie :snoo_trollface:",
           "treatment_tags": [
             
           ],
           "visited": false,
           "removed_by": null,
-          "num_reports": null,
+          "mod_note": null,
           "distinguished": null,
-          "subreddit_id": "t5_2qztz",
+          "subreddit_id": "t5_2ywzs",
           "author_is_blocked": false,
           "mod_reason_by": null,
+          "num_reports": null,
           "removal_reason": null,
-          "link_flair_background_color": "",
-          "id": "1aehgv0",
+          "link_flair_background_color": "#24a0ed",
+          "id": "1alwykb",
           "is_robot_indexable": true,
           "report_reasons": null,
-          "author": "fhigaro",
+          "author": "InnerCaesar5267",
           "discussion_type": null,
-          "num_comments": 77,
+          "num_comments": 0,
           "send_replies": true,
           "whitelist_status": "all_ads",
           "contest_mode": false,
@@ -537,16 +584,30 @@ export const mockThread = {
             
           ],
           "author_patreon_flair": false,
-          "author_flair_text_color": null,
-          "permalink": "/r/Finland/comments/1aehgv0/finland_tops_the_of_population_with_difficulties/",
+          "author_flair_text_color": "dark",
+          "permalink": "/r/twitchstreams/comments/1alwykb/apex_squad_wipeeee/",
           "parent_whitelist_status": "all_ads",
           "stickied": false,
-          "url": "https://i.redd.it/842rkskkpifc1.jpeg",
-          "subreddit_subscribers": 222500,
-          "created_utc": 1706594476.0,
-          "num_crossposts": 1,
-          "media": null,
-          "is_video": false
+          "url": "https://v.redd.it/2v363rxdgdhc1",
+          "subreddit_subscribers": 60569,
+          "created_utc": 1707402562.0,
+          "num_crossposts": 0,
+          "media": {
+            "reddit_video": {
+              "bitrate_kbps": 2400,
+              "fallback_url": "https://v.redd.it/2v363rxdgdhc1/DASH_720.mp4?source=fallback",
+              "has_audio": true,
+              "height": 1280,
+              "width": 720,
+              "scrubber_media_url": "https://v.redd.it/2v363rxdgdhc1/DASH_96.mp4",
+              "dash_url": "https://v.redd.it/2v363rxdgdhc1/DASHPlaylist.mpd?a=1710000229%2CNTY2NmU1MjQzZmFlYmM3ZTdhYWY4ZWQ0MThjYWE0NTlhZDZjODk5ZGJkOTMwNmIwMDYzZmIyMGVhMGE4OWNiMw%3D%3D\u0026v=1\u0026f=sd",
+              "duration": 44,
+              "hls_url": "https://v.redd.it/2v363rxdgdhc1/HLSPlaylist.m3u8?a=1710000229%2CMmRmODM2NDdjYzg5YzgzZWIyNDE5MzM0OGYyZGNiZDEyOGE5OTYxY2YxNjEwZDU2NjBjODVmMDM0ZDNmMmI5Ng%3D%3D\u0026v=1\u0026f=sd",
+              "is_gif": false,
+              "transcoding_status": "completed"
+            }
+          },
+          "is_video": true
         }
       },
       {

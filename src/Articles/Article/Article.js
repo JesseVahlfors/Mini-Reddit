@@ -21,9 +21,11 @@ function Article( { article, onClick } ) {
                 <div className="article-container" onClick={onClick}>
                     <h2>{article.title}</h2>
                     {article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>}
-                    <p>{article.author}</p>
-                    <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
-                    <p>Comments amount</p>
+                    <div className="article-metadata">
+                        <p>{article.author}</p>
+                        <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
+                        <p>Comments amount</p>
+                    </div>
                 </div>
             </div>
         </div>

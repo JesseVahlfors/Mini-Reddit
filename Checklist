@@ -27,7 +27,7 @@
     - [x] Iterate the store state object to render posts
   - [x] *Create Article component*
     - [x] Display Title
-    - [ ] Display Image or text paragraph
+    - [ ] Display Image, thumbnail or text paragraph
     - [x] Display Post Author
     - [ ] Display Score, up and down vote arrow buttons
       - [ ] Create button functions
@@ -40,6 +40,7 @@
     - [x] Display Text paragraph
     - [x] Display Title
     - [x] Display Image if available
+    - [ ] Display Videos
     - [x] Display Post Author
     - [ ] Display Score, up and down vote arrow buttons
       - [ ] Create button functions

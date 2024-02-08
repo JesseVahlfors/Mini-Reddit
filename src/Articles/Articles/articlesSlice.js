@@ -18,6 +18,7 @@ const initialState = mockThread.data.children.map((child) => {
         id: child.data.id,
         time: child.data.created_utc,
         score: child.data.score,
+        media: child.data.media,
     };
 });
 
