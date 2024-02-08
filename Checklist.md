@@ -47,6 +47,36 @@
     - [x] Display Time of the post
     - [x] create button to display comments
   
+- [ ] **YouTubeEmbed Component**
+  - [ ] Implement a component for embedding YouTube videos.
+  - [ ] Utilize the YouTube API or embed code for rendering videos.
+  - [ ] Allow customization of video dimensions.
+  - [ ] Handle cases where YouTube embed code is not available.
+  - [ ] Style the component for consistent UI.
+
+- [ ] **VideoPlayer Component**
+  - [ ] Create a general-purpose video player component using `react-player`.
+  - [ ] Support various video sources, including Twitch, Gfycat, Streamable, Imgur, etc..
+  - [ ] Allow customization of player dimensions and controls.
+  - [ ] Implement error handling for failed video loads.
+  - [ ] Ensure compatibility with different browsers.
+  - [ ] Style the component for a cohesive look with the application.
+
+- [ ] **VimeoVideo Component**
+  - [ ] Develop a component specifically for embedding Vimeo videos.
+  - [ ] Utilize Vimeo API or embed code for rendering videos.
+  - [ ] Allow customization of video dimensions.
+  - [ ] Handle cases where Vimeo embed code is not available.
+  - [ ] Style the component to maintain a consistent UI with the application.
+
+- [ ] **ImageGallery Component**
+  - [ ] Create a component to handle image galleries from Reddit API.
+  - [ ] Map over the gallery items and render images.
+  - [ ] Dynamically handle varying resolutions in the gallery.
+  - [ ] Allow for customization of image dimensions and styling.
+  - [ ] Implement error handling for failed image loads.
+  - [ ] Style the component to fit seamlessly into the overall design.
+
 
 - [ ] **Comments Component**
   - [x] Create Comments component
