@@ -2,12 +2,21 @@ import React from "react";
 import ReactMarkdown from 'react-markdown'
 import { formatDate } from "../../Utils/Funcs/timeFormat";
 import { getTimeDifferenceString } from "../../Utils/Funcs/time";
+import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent";
 
 
 function Article( { article, onClick } ) { 
     const navigatorDateFormat = formatDate(article.time)
     const date = new Date(article.time * 1000);
     const formattedISODate = date.toISOString();
+    
+
+    let mediaToRender = null;
+    if (article.media?.oembed?.type === 'video') {
+       mediaToRender =  <EmbedVideoComponent html={article.media.oembed.html} />;
+    } else {
+        mediaToRender = article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>
+    }
 
     
     return (
@@ -20,7 +29,7 @@ function Article( { article, onClick } ) {
                 </div>
                 <div className="article-container" onClick={onClick}>
                     <h2>{article.title}</h2>
-                    {article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>}
+                    {mediaToRender}
                     <div className="article-metadata">
                         <p>{article.author}</p>
                         <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
