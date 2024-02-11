@@ -4,6 +4,7 @@ import { formatDate } from "../../Utils/Funcs/timeFormat";
 import { getTimeDifferenceString } from "../../Utils/Funcs/time";
 import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent";
 import VideoPlayer from "../../Utils/VideoComponents/VideoPlayer";
+import ImageGallery from "../../Utils/ImageComponents/ImageGallery";
 
 
 function Article( { article, onClick } ) { 
@@ -17,6 +18,8 @@ function Article( { article, onClick } ) {
        mediaToRender =  <EmbedVideoComponent html={article.media.oembed.html} />;
     } else if (article.media?.reddit_video) {
         mediaToRender = <VideoPlayer media={article.media} />;
+    } else if (article.media_metadata){
+        mediaToRender = <ImageGallery metadata={article.media_metadata} />
     } else {
         mediaToRender = article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>
     }
