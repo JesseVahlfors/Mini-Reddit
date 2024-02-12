@@ -33,7 +33,7 @@ function Article( { article, onClick } ) {
                     <p>{article.score}</p>
                     <button>down</button>
                 </div>
-                <div className="article-container" onClick={onClick}>
+                <div className="article-content" onClick={onClick}>
                     <h2>{article.title}</h2>
                     {mediaToRender}
                     <div className="article-metadata">

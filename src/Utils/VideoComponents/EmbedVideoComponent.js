@@ -8,7 +8,7 @@ const config = {
 
 function EmbedVideoComponent({ html }) {
     const cleanHtml = DOMPurify.sanitize(html, config);
-    return <div dangerouslySetInnerHTML={{ __html: cleanHtml}} />;
+    return <div dangerouslySetInnerHTML={{ __html: cleanHtml}} className="iframe-container" />;
 };
 
 export default EmbedVideoComponent; 
