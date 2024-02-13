@@ -3,9 +3,9 @@ import axios from "axios";
 
 const initialState = [];
 
-export const fetchArticles = createAsyncThunk("articles/fetchArticles", async () => {
+export const fetchArticles = createAsyncThunk("articles/fetchArticles", async (subreddit) => {
     try {
-        const response = await axios.get("https://www.reddit.com/r/Home.json?raw_json=1");
+        const response = await axios.get(`https://www.reddit.com/r/${subreddit}.json?raw_json=1`);
         return response.data.data.children.map((child) => {
             const image =
             child.data.preview &&

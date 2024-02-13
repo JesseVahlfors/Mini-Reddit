@@ -1,10 +1,15 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { selectSubreddits } from "./subredditListSlice";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchSubreddits, selectSubreddits } from "./subredditListSlice";
 import Subreddit from "../../Sidebar/Subreddit/Subreddit";
 
 function SubredditsList() {
+    const dispatch = useDispatch();
     const subreddits = useSelector(selectSubreddits)
+
+    useEffect(()=> {
+        dispatch(fetchSubreddits())
+    }, [dispatch])
 
     return (
         <ul>

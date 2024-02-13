@@ -3,15 +3,21 @@ import Article from "../Article/Article";
 import { fetchArticles, selectArticles } from "./articlesSlice";
 import { useDispatch, useSelector } from "react-redux";
 import DetailedArticle from "../DetailedArticle/DetailedArticle";
+import { selectSelectedSubreddit } from "../../Sidebar/Subreddit/subredditSlice";
 
 function Articles() {
     const dispatch = useDispatch();
     const articles = useSelector(selectArticles);
+    const selectedSubreddit = useSelector(selectSelectedSubreddit)
     const [selectedArticle, setSelectedArticle] = useState(null)
 
+    console.log(selectedSubreddit.displayName)
+
     useEffect(() => {
-        dispatch(fetchArticles());
-    }, [dispatch]);
+        if (selectedSubreddit) {
+            dispatch(fetchArticles(selectedSubreddit.displayName));
+        }
+    }, [dispatch, selectedSubreddit]);
 
     const handleArticleClick = (article) => {
         setSelectedArticle(article);
