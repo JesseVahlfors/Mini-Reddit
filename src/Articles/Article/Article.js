@@ -11,17 +11,21 @@ function Article( { article, onClick } ) {
     const navigatorDateFormat = formatDate(article.time)
     const date = new Date(article.time * 1000);
     const formattedISODate = date.toISOString();
+
+    const handleImageClick = (event) => {
+        event.stopPropagation();
+    }
     
 
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
-       mediaToRender =  <EmbedVideoComponent html={article.media.oembed.html} />;
+       mediaToRender =  <EmbedVideoComponent html={article.media.oembed.html}/>;
     } else if (article.media?.reddit_video) {
         mediaToRender = <VideoPlayer media={article.media} />;
     } else if (article.media_metadata){
         mediaToRender = <ImageGallery metadata={article.media_metadata} />
     } else {
-        mediaToRender = article.image ? <img src={article.image} alt={article.subreddit + " " + article.title}></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>
+        mediaToRender = article.image ? <img src={article.image} alt={article.subreddit + " " + article.title} ></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>
     }
 
     
@@ -35,7 +39,9 @@ function Article( { article, onClick } ) {
                 </div>
                 <div className="article-content" onClick={onClick}>
                     <h2>{article.title}</h2>
+                    <div className="media-wrapper" onClick={handleImageClick}>
                     {mediaToRender}
+                    </div>
                     <div className="article-metadata">
                         <p>{article.author}</p>
                         <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>

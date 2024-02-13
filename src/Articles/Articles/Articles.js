@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Article from "../Article/Article";
-import { selectArticles } from "./articlesSlice";
-import { useSelector } from "react-redux";
+import { fetchArticles, selectArticles } from "./articlesSlice";
+import { useDispatch, useSelector } from "react-redux";
 import DetailedArticle from "../DetailedArticle/DetailedArticle";
 
 function Articles() {
-    const articles = useSelector(selectArticles)
+    const dispatch = useDispatch();
+    const articles = useSelector(selectArticles);
     const [selectedArticle, setSelectedArticle] = useState(null)
+
+    useEffect(() => {
+        dispatch(fetchArticles());
+    }, [dispatch]);
 
     const handleArticleClick = (article) => {
         setSelectedArticle(article);
