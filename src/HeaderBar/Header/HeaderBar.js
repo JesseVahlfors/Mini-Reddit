@@ -10,10 +10,10 @@ function HeaderBar() {
         <header className="header card">
             <div className="logo">
                 {miniredditIcon}
-                <p><span>Mini</span>Reddit</p>
+                <p><span className="span">Mini</span>Reddit</p>
             </div>
             <form className="search">
-                <input type="text" placeholder="Search" aria-label="Search posts" value=""></input>
+                <input type="text" placeholder="Search" aria-label="Search posts"></input>
                 <button type="submit" aria-label="Search">SearchIcon</button>
             </form>
            {isSmallScreen && <SubredditSelector />}
