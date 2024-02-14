@@ -1,19 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-    selectedSubreddit: {
-        type: 'subreddit/selectSubreddit',
-        payload: {
-          title: 'Home',
-          url: '/r/Home/',
-          communityIcon: '',
-          id: '2qs0k',
-          iconImg: '',
-          displayName: 'Home',
-          displayNamePrefixed: 'r/Home'
-        }
-      },
-}
+const initialState = {}
 
 const subredditSlice = createSlice({
     name: 'subreddit',

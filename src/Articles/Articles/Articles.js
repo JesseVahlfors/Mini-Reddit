@@ -11,14 +11,11 @@ function Articles() {
     const selectedSubreddit = useSelector(selectSelectedSubreddit)
     const [selectedArticle, setSelectedArticle] = useState(null)
 
-    console.log(selectedSubreddit.displayName)
-
     useEffect(() => {
-        if (selectedSubreddit) {
-            dispatch(fetchArticles(selectedSubreddit.displayName));
-        }
-    }, [dispatch, selectedSubreddit]);
-
+        const SubredditToRender = selectedSubreddit ? selectedSubreddit.displayName : "Home";
+        dispatch(fetchArticles(SubredditToRender));
+      }, [dispatch, selectedSubreddit]);
+      
     const handleArticleClick = (article) => {
         setSelectedArticle(article);
     };
