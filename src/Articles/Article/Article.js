@@ -5,6 +5,7 @@ import { getTimeDifferenceString } from "../../Utils/Funcs/time";
 import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent";
 import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import ImageGallery from "../../Utils/ImageComponents/ImageGallery";
+import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedComponent";
 
 
 function Article( { article, onClick } ) { 
@@ -19,7 +20,9 @@ function Article( { article, onClick } ) {
 
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
-       mediaToRender =  <EmbedVideoComponent html={article.media.oembed.html}/>;
+       mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;
+    } else if (article.media?.oembed?.type === 'rich') {
+        mediaToRender = <TwitchEmbedComponent html={article.media.oembed.html}/>;
     } else if (article.media?.reddit_video) {
         mediaToRender = <MediaPlayer media={article.media} />;
     } else if (article.media_metadata){
