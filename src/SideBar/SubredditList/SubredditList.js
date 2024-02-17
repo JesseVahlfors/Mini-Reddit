@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchSubreddits, selectSubreddits } from "./subredditListSlice";
+import { fetchSubreddits, selectSubreddits } from "../../Sidebar/SubredditList/subredditListSlice";
 import Subreddit from "../../Sidebar/Subreddit/Subreddit";
 
 function SubredditsList() {
