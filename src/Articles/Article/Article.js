@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import { formatDate } from "../../Utils/Funcs/timeFormat";
 import { getTimeDifferenceString } from "../../Utils/Funcs/time";
 import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent";
-import VideoPlayer from "../../Utils/VideoComponents/VideoPlayer";
+import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import ImageGallery from "../../Utils/ImageComponents/ImageGallery";
 
 
@@ -21,7 +21,7 @@ function Article( { article, onClick } ) {
     if (article.media?.oembed?.type === 'video') {
        mediaToRender =  <EmbedVideoComponent html={article.media.oembed.html}/>;
     } else if (article.media?.reddit_video) {
-        mediaToRender = <VideoPlayer media={article.media} />;
+        mediaToRender = <MediaPlayer media={article.media} />;
     } else if (article.media_metadata){
         mediaToRender = <ImageGallery metadata={article.media_metadata} />
     } else {
