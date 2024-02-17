@@ -12,7 +12,7 @@ function Articles() {
     const [selectedArticle, setSelectedArticle] = useState(null)
 
     useEffect(() => {
-        const SubredditToRender = selectedSubreddit ? selectedSubreddit.displayName : "Home";
+        const SubredditToRender = selectedSubreddit ? selectedSubreddit.displayName : "popular";
         dispatch(fetchArticles(SubredditToRender));
       }, [dispatch, selectedSubreddit]);
       
