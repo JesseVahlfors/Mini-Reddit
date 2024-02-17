@@ -16,9 +16,21 @@ function modifyIframeSrc(iframeString, newDomain) {
     
     if (iframe && iframe.src) {
         const srcUrl = new URL(iframe.src);
-        srcUrl.searchParams.delete('parent');
-        console.log(srcUrl)
-        srcUrl.searchParams.append('parent', newDomain);
+
+        let nestedSrc = srcUrl.searchParams.get('src');
+        if (nestedSrc) {
+            let decodedNestedSrc = decodeURIComponent(nestedSrc);
+
+            let nestedURL = new URL(decodedNestedSrc);
+            nestedURL.searchParams.delete('parent');
+            nestedURL.searchParams.append('parent', newDomain);
+
+            srcUrl.searchParams.set('src', encodeURIComponent(nestedURL.toString()));
+        } else {
+            srcUrl.searchParams.delete('parent');
+            srcUrl.searchParams.append('parent', newDomain);
+        }
+        
         iframe.src = srcUrl.toString();
     }
     
@@ -31,7 +43,8 @@ function TwitchEmbedComponent({ html }) {
     return <div dangerouslySetInnerHTML={{ __html: cleanHtml}} className="twitch-iframe-container" />;
 };
 
-modifyIframeSrc(embed, appDomain)
+const DecEmbed = modifyIframeSrc(embed, appDomain)
+console.log(DecEmbed)
 
 
 export default TwitchEmbedComponent; 
