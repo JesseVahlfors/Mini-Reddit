@@ -53,10 +53,7 @@ svg {
   margin: auto 0;
   height: auto;
 }
-video {
-  border-radius: var(--border-radius);
-  max-height: 600px;
-}
+
 ul {
   display:flex;
   flex-direction: column;
@@ -79,7 +76,6 @@ ul {
 }
 
 .article-content {
-  width: 90%;
 }
 
 .articles {
