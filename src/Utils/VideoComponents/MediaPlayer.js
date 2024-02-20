@@ -46,7 +46,7 @@ function MediaPlayer({ media }) {
                 }
             });
         }
-        // TODO: Audio
+        // TODO: Audio stop and Volume
         
         return () => {
             if (playerRef.current) {
@@ -54,7 +54,7 @@ function MediaPlayer({ media }) {
                 playerRef.current = null;
             }
         };
-    }, [videoUrl, audioUrl, videoHeight, videoWidth]); 
+    }, [videoUrl, audioUrl, videoHeight, videoWidth, aspectRatio]); 
 
 
     return(
