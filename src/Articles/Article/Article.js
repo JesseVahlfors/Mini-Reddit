@@ -24,7 +24,7 @@ function Article( { article, onClick } ) {
     } else if (article.media?.oembed?.type === 'rich') {
         mediaToRender = <TwitchEmbedComponent html={article.media.oembed.html}/>;
     } else if (article.media?.reddit_video) {
-        mediaToRender = <MediaPlayer media={article.media} />;
+        mediaToRender = <MediaPlayer media={article.media} playerId={article.id}  />;
     } else if (article.media_metadata){
         mediaToRender = <ImageGallery metadata={article.media_metadata} />
     } else {
