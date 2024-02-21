@@ -16,6 +16,7 @@ function MediaPlayer({ media, playerId }) {
     const playerRef = useRef(null);
     const audioRef = useRef(null);
 
+    // Setup Url's and aspectratio
     const { videoUrl, audioUrl, aspectRatio} = useMemo(()=> {
         
         const { fallback_url, width, height} = media.reddit_video;
@@ -24,11 +25,10 @@ function MediaPlayer({ media, playerId }) {
         const aspectRatio = `${width}:${height}`;
         
         return { videoUrl, audioUrl, aspectRatio}
-    }, [media])
+    }, [media, has_audio])
    
-    
+    // Sync video and Audio
     useEffect(() => {
-        console.log(has_audio)
         audioRef.current = has_audio ? new Audio(audioUrl) : null
         
         if (!playerRef.current) {
@@ -56,7 +56,6 @@ function MediaPlayer({ media, playerId }) {
                 });
             }
         }
-        // TODO: Audio Volume
         
         return () => {
             if (playerRef.current) {
@@ -72,7 +71,32 @@ function MediaPlayer({ media, playerId }) {
             }
         };
     }, [media]); 
+
+    //Volume control
+    useEffect(() => {
+
+        const handleVolumeChange = () => {
+                const isMuted = playerRef.current.muted();
+                const volume = playerRef.current.volume();
+
+                if (audioRef.current) {
+                    audioRef.current.muted = isMuted;
+                    audioRef.current.volume = volume;
+                }
+        };
+
+        if (has_audio && playerRef.current) {
+           playerRef.current.on('volumechange', handleVolumeChange)
+        } 
+
+        return () => {
+            if (playerRef.current) {
+                playerRef.current.off('volumechange', handleVolumeChange);
+            }
+        }
+    }, [has_audio]);
     
+    // Stop any other active MediaPlayers
     const handlePlay = () => {
        dispatch(setActivePlayer(playerId))
     }
