@@ -10,17 +10,18 @@ function MediaPlayer({ media, playerId }) {
         fallback_url,
         width: videoWidth,
         height: videoHeight,
+        hasAudio,
     } = media.reddit_video
 
     const dispatch = useDispatch();
     const activePlayer = useSelector((state) => state.mediaPlayer.activePlayer);
 
     const videoUrl = fallback_url.split("?")[0];
-    const audioUrl = videoUrl.split("_")[0] + "_AUDIO_128.mp4";
+    const audioUrl = hasAudio ? videoUrl.split("_")[0] + "_AUDIO_128.mp4": null;
     
     const videoRef = useRef(null);
     const playerRef = useRef(null);
-    const audioRef = useRef(new Audio(audioUrl));
+    const audioRef = useRef(hasAudio ? new Audio(audioUrl) : null);
 
     const calculateAspectRatio = (width, height) => `${width}:${height}`;
     const aspectRatio = calculateAspectRatio(videoWidth, videoHeight);
@@ -32,7 +33,7 @@ function MediaPlayer({ media, playerId }) {
     useEffect(() => {
         if(activePlayer !== playerId && playerRef.current && audioRef.current) {
             playerRef.current.pause();
-            audioRef.current.pause();
+            if (audioRef.current) audioRef.current.pause();
         }
     }, [activePlayer, playerId])
     
@@ -51,14 +52,16 @@ function MediaPlayer({ media, playerId }) {
             
             });
 
-            playerRef.current.on('play', () => audioRef.current.play());
-            playerRef.current.on('pause', () => audioRef.current.pause());
-            playerRef.current.on('timeupdate', () => {
-                const difference = Math.abs(playerRef.current.currentTime() - audioRef.current.currentTime);
-                if (difference > 0.5) {
-                    audioRef.current.currentTime = playerRef.current.currentTime();
-                }
-            });
+            if (hasAudio) { 
+                playerRef.current.on('play', () => audioRef.current.play());
+                playerRef.current.on('pause', () => audioRef.current.pause());
+                playerRef.current.on('timeupdate', () => {
+                    const difference = Math.abs(playerRef.current.currentTime() - audioRef.current.currentTime);
+                    if (difference > 0.5) {
+                        audioRef.current.currentTime = playerRef.current.currentTime();
+                    }
+                });
+            }
         }
         // TODO: Audio stop and Volume
         
