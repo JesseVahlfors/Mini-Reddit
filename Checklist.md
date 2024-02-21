@@ -4,14 +4,14 @@
 
 - [ ] **Global Component toDos**
   - [ ] Add message to alert user of Api limit 
-  - [ ] Add a method to render previous state if Api limit exceeded
-  - [ ] Render initial view of the app when first visiting (/Pics?)
+  - [x] Add a method to render previous state if Api limit exceeded
+  - [x] Render initial view of the app when first visiting
 
 - [ ] **Header Component**
   - [x] Initialize the header
   - [x] Implement logo
   - [x] Create Searchbar
-    - [ ] implement search function to filter posts 
+    - [ ] implement search function to search posts 
   - [ ] Add navigation button to select subreddits for small screens 
 
 - [ ] **Subreddit navigation Component**
@@ -20,14 +20,16 @@
       - [x] Display Subreddit icon
       - [x] Display Subreddit title
   - [ ] Add navigation button to select subreddits for small screens
-  - [ ] Fetch and iterate subreddits to list them in order of popularity
+  - [x] Fetch and iterate subreddits to list them in order of popularity
+  - [ ] Add /popular as the first button
 
-- [ ] **Articles Component**
+- [ ] **Articles**
   - [x] *Create Articles component*
     - [x] Iterate the store state object to render posts
+    - [ ] use useMemo to check article.id:s as keys and only add new articles on render. 
   - [x] *Create Article component*
     - [x] Display Title
-    - [ ] Display Image, thumbnail or text paragraph
+    - [ ] Display video, image, thumbnail or text paragraph
     - [x] Display Post Author
     - [ ] Display Score, up and down vote arrow buttons
       - [ ] Create button functions
@@ -48,34 +50,36 @@
     - [x] create button to display comments
   
 - [ ] **YouTubeEmbed Component**
-  - [ ] Implement a component for embedding YouTube videos.
-  - [ ] Utilize the YouTube API or embed code for rendering videos.
+  - [x] Implement a component for embedding YouTube videos.
+  - [x] Utilize the YouTube API or embed code for rendering videos.
   - [ ] Allow customization of video dimensions.
-  - [ ] Handle cases where YouTube embed code is not available.
+  - [x] Handle cases where YouTube embed code is not available.
   - [ ] Style the component for consistent UI.
 
-- [ ] **VideoPlayer Component**
-  - [ ] Create a general-purpose video player component using `react-player`.
-  - [ ] Support various video sources, including Twitch, Gfycat, Streamable, Imgur, etc..
-  - [ ] Allow customization of player dimensions and controls.
+- [ ] **MediaPlayer Component**
+  - [x] Create a general-purpose video player component using `video.js`.
+  - [x] Support various video sources, including Twitch, Gfycat, Streamable, Imgur, etc..
+  - [x] Allow customization of player dimensions and controls.
   - [ ] Implement error handling for failed video loads.
   - [ ] Ensure compatibility with different browsers.
   - [ ] Style the component for a cohesive look with the application.
+  - [ ] Enable volume control for the audio source
 
-- [ ] **VimeoVideo Component**
-  - [ ] Develop a component specifically for embedding Vimeo videos.
-  - [ ] Utilize Vimeo API or embed code for rendering videos.
+- [ ] **Twitchclips Component**
+  - [x] Develop a component specifically for embedding Twitch videos.
+  - [x] Utilize Twitch API or embed code for rendering videos.
   - [ ] Allow customization of video dimensions.
   - [ ] Handle cases where Vimeo embed code is not available.
   - [ ] Style the component to maintain a consistent UI with the application.
 
 - [ ] **ImageGallery Component**
-  - [ ] Create a component to handle image galleries from Reddit API.
-  - [ ] Map over the gallery items and render images.
-  - [ ] Dynamically handle varying resolutions in the gallery.
-  - [ ] Allow for customization of image dimensions and styling.
+  - [x] Create a component to handle image galleries from Reddit API.
+  - [x] Map over the gallery items and render images.
+  - [x] Dynamically handle varying resolutions in the gallery.
+  - [x] Allow for customization of image dimensions and styling.
   - [ ] Implement error handling for failed image loads.
   - [ ] Style the component to fit seamlessly into the overall design.
+  - [ ] Performance improvements (Images are slowing down load)
 
 
 - [ ] **Comments Component**
