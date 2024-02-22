@@ -48,6 +48,8 @@ function MediaPlayer({ media, playerId }) {
             if (has_audio) { 
                 playerRef.current.on('play', () => audioRef.current.play());
                 playerRef.current.on('pause', () => audioRef.current.pause());
+                playerRef.current.on('playing', () => audioRef.current.play())
+                playerRef.current.on('waiting', () => audioRef.current.pause());
                 playerRef.current.on('timeupdate', () => {
                     const difference = Math.abs(playerRef.current.currentTime() - audioRef.current.currentTime);
                     if (difference > 0.5) {
