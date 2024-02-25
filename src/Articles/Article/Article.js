@@ -6,16 +6,54 @@ import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent
 import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import ImageGallery from "../../Utils/ImageComponents/ImageGallery";
 import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedComponent";
+import { useState } from 'react';
 
 
 function Article( { article, onClick } ) { 
     const navigatorDateFormat = formatDate(article.time)
     const date = new Date(article.time * 1000);
     const formattedISODate = date.toISOString();
+    const [articleScore, setArticleScore] = useState(article.score)
+    const [isIncremented, setIsIncremented] = useState(false)
+    const [isDecremented, setIsDecremented] = useState(false)
 
     const handleImageClick = (event) => {
         event.stopPropagation();
     }
+
+    const handleUpArrowClick = (event) => {
+        event.stopPropagation();
+        if(isIncremented) {
+        setArticleScore(articleScore -1);
+       } else {
+        if (isDecremented) {
+            setArticleScore(articleScore +2);
+            setIsDecremented(false);
+        } else {
+            setArticleScore(articleScore +1);
+        }
+       }
+       setIsIncremented(!isIncremented);
+    }
+
+    const handleDownArrowClick = (event) => {
+        event.stopPropagation();
+        if(isDecremented) {
+            setArticleScore(articleScore +1);
+       } else {
+            if (isIncremented) {
+                setArticleScore(articleScore -2);
+
+                setIsIncremented(false);
+            } else {
+                setArticleScore(articleScore -1);
+            }
+       }
+       setIsDecremented(!isDecremented);
+    }
+
+    const upArrowClass = `up arrow ${isIncremented ? 'green-arrow' : ''}`;
+    const downArrowClass = `down arrow ${isDecremented ? 'green-arrow' : ''}`
     
 
     let mediaToRender = null;
@@ -30,15 +68,15 @@ function Article( { article, onClick } ) {
     } else {
         mediaToRender = article.image ? <img src={article.image} alt={article.subreddit + " " + article.title} ></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>
     }
-
     
     return (
         <div className="article card" id={`article-${article.id}`}>  
+        <h4 className="article-subreddit">{article.subreddit}</h4>
             <div className="article-wrapper">
                 <div className="score">
-                    <button>up</button>
-                    <p>{article.score}</p>
-                    <button>down</button>
+                    <button className={upArrowClass} onClick={handleUpArrowClick}></button>
+                    <p>{articleScore}</p>
+                    <button className={downArrowClass} onClick={handleDownArrowClick}></button>
                 </div>
                 <div className="article-content" onClick={onClick}>
                     <h2>{article.title}</h2>
