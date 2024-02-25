@@ -14,6 +14,13 @@ function SubredditSelector() {
         dispatch(fetchArticles(selectedSubreddit))
         }
     }
+    const popularSubreddit = {
+        title: 'No such thing as stupid questions',
+        url: '/r/popular/',
+        id: '12345',
+        displayName: 'Popular',
+        displayNamePrefixed: 'r/Popular'
+    }
     
     return (
         <div className="subreddit-selector">
@@ -23,6 +30,9 @@ function SubredditSelector() {
             value={selectedSubreddit}
             onChange={handleSubredditChange}
             >
+                <option key={popularSubreddit.id} value={popularSubreddit.displayName}>
+                        {popularSubreddit.displayName}
+                    </option>
                 {subreddits.map((subreddit) => (
                     <option key={subreddit.id} value={subreddit.displayName}>
                         {subreddit.displayName}

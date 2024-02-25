@@ -31,9 +31,8 @@ iframe {
   width: 100%;
   height: 100%;
   border-radius: var(--border-radius);
+  max-height: 50vh;
 }
-
-
 
 img {
   max-height: 50vh;
@@ -60,6 +59,10 @@ ul {
   flex-direction: column;
   padding-inline-start: 0;
   gap: var(--gap);
+}
+
+video {
+  position: initial;
 }
 
 .App {
