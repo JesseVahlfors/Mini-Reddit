@@ -1,3 +1,4 @@
+import 'normalize.css'
 import './App.css';
 import Articles from '../Articles/Articles/Articles';
 import Headerbar from '../HeaderBar/Header/HeaderBar';
