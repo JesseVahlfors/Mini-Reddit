@@ -12,7 +12,6 @@
 
 * {
   box-sizing: border-box;
-  position: relative;
   min-width: 0;
 }
 
@@ -25,12 +24,7 @@ h1, h2, h3, h4 {
 }
 
 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-  border-radius: var(--border-radius);
   max-height: 50vh;
 }
 
@@ -61,15 +55,12 @@ ul {
   gap: var(--gap);
 }
 
-video {
-  position: initial;
-}
-
 .App {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-gap: var(--gap2);
+  background-color: lightblue;
   @media screen and (max-width: 768px) {
     display: block;
    }
