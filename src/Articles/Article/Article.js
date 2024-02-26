@@ -7,6 +7,7 @@ import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import ImageGallery from "../../Utils/ImageComponents/ImageGallery";
 import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedComponent";
 import { useState } from 'react';
+import TwitterEmbedComponent from "../../Utils/VideoComponents/TwitterEmbedComponent";
 
 
 function Article( { article, onClick } ) { 
@@ -59,7 +60,9 @@ function Article( { article, onClick } ) {
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
        mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;
-    } else if (article.media?.oembed?.type === 'rich') {
+    } else if (article.media?.type === 'twitter.com') {
+        mediaToRender = <TwitterEmbedComponent html={article.media.oembed.html}/>;
+    } else if (article.media?.type === 'clips.twitch.tv' || article.media?.type === 'twitch.tv') {
         mediaToRender = <TwitchEmbedComponent html={article.media.oembed.html}/>;
     } else if (article.media?.reddit_video) {
         mediaToRender = <MediaPlayer media={article.media} playerId={article.id}  />;
