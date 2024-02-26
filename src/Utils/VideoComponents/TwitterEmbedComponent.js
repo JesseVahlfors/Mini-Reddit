@@ -23,7 +23,7 @@ function TwitterEmbedComponent({ html }) {
         loadTwitterScript();
     }, []);
     const cleanHtml = DOMPurify.sanitize(html, config);
-    return <div dangerouslySetInnerHTML={{ __html: cleanHtml}} className="iframe-container" />;
+    return <div dangerouslySetInnerHTML={{ __html: cleanHtml}} className="Tweet-container" />;
 };
 
 export default TwitterEmbedComponent; 
