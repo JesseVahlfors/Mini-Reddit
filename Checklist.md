@@ -72,6 +72,9 @@
   - [ ] Handle cases where Vimeo embed code is not available.
   - [ ] Style the component to maintain a consistent UI with the application.
 
+  - [ ] **X (twitter) Component**
+    - [x] Develop a component specifically for show tweets.
+
 - [ ] **ImageGallery Component**
   - [x] Create a component to handle image galleries from Reddit API.
   - [x] Map over the gallery items and render images.
