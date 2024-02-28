@@ -74,8 +74,9 @@ ul {
 
 .article-metadata {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
+  gap: var(--gap3);
 }
 
 .article-subreddit {
@@ -104,7 +105,10 @@ ul {
   width: 1rem
 }
 
-
+.back-button {
+  display: flex;
+  margin: 16px 0;
+}
 
 .card {
   padding: var(--spacing3);
