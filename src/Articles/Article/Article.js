@@ -84,12 +84,11 @@ function Article( { article, onClick } ) {
                 <div className="article-content" onClick={onClick}>
                     <h2>{article.title}</h2>
                     <div className="media-wrapper" onClick={handleImageClick}>
-                    {mediaToRender}
+                        {mediaToRender}
                     </div>
                     <div className="article-metadata">
                         <p>{article.author}</p>
                         <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
-                        <p>Comments amount</p>
                     </div>
                 </div>
             </div>
