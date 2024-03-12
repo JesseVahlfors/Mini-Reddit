@@ -46,13 +46,9 @@ export const fetchArticles = createAsyncThunk("articles/fetchArticles", async (s
     }
 });
 
-const initialState = {
-    data: [],
-};
-
 export const articlesSlice = createSlice({
     name: 'articles',
-    initialState,
+    initialState: { data: [] },
     reducers: {},
     extraReducers: (builder) => {
         builder

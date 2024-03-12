@@ -5,23 +5,24 @@ import { useSelector } from "react-redux";
 import { formatDate } from "../../Utils/Funcs/timeFormat";
 
 
-function Comments() {
+function Comments() {  
     const comments = useSelector(selectComments)
     const sortedComments = comments.slice().sort((a,b) => b.score - a.score);
     return (
-        <div className="comments">
+        <div className="comments" >
             {sortedComments.map(comment => (
-                <div className="comment" id={comment.id}>
+                <div className="comment" id={comment.id} key={comment.id}>
+                    <p>{comment.score}</p>
                     <p>{comment.text}</p>
                     <div className="comment-metadata">
                         <p>{comment.author}</p>
-                        <time dateTime={new Date(comment.time * 1000).toISOString()} title={formatDate(comment.time)}>{getTimeDifferenceString(comment.time)}</time>
+                        {comment.time && <time dateTime={new Date(comment.time * 1000).toISOString()} title={formatDate(new Date(comment.time * 1000))}>{getTimeDifferenceString(comment.time)}</time>}
                     </div> 
                 </div>
             ))}
         </div>
     )
-}
+}/* 1710180486 */
 
 export default Comments;
 
