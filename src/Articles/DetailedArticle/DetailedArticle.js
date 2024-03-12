@@ -8,9 +8,12 @@ import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent";
 import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedComponent";
 import TwitterEmbedComponent from "../../Utils/VideoComponents/TwitterEmbedComponent";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchComments } from "../Comments/commentsSlice";
 
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
+    const dispatch = useDispatch();
     const navigatorDateFormat = formatDate(article.time)
     const date = new Date(article.time * 1000);
     const formattedISODate = date.toISOString();
@@ -18,6 +21,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
     const [articleScore, setArticleScore] = useState(article.score)
     const [isIncremented, setIsIncremented] = useState(false)
     const [isDecremented, setIsDecremented] = useState(false)
+    
 
     const handleUpArrowClick = (event) => {
         event.stopPropagation();
@@ -72,6 +76,9 @@ function DetailedArticle( { article, onBackButtonClick } ) {
 
     const handleCommentClick = () => {
         setCommentClicked(!commentClicked);
+        if (!commentClicked) {
+            dispatch(fetchComments({subreddit: article.subreddit, articleId: article.id}));
+        }
     };
 
     useEffect(() => {
