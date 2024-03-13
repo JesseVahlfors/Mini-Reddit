@@ -1,13 +1,11 @@
 import { createAsyncThunk , createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-export const fetchComments = createAsyncThunk("comments/fetchComments", async ({subreddit, articleId}) => {
-    try {
-        const response = await axios.get(`https://www.reddit.com/${subreddit}/comments/${articleId}.json?raw_json=1`);
-        const comments = response.data[1].data.children
-        .filter((child) => child.kind === "t1")
+const processComments= (children) => {
+    return children
+        .filter((child) => child.kind === "t1"|| child.kind === "more")
         .map((child) => {
-            return {
+            const comment = {
                 author: child.data.author,
                 subreddit: child.data.subreddit_name_prefixed,
                 id: child.data.id,
@@ -15,11 +13,25 @@ export const fetchComments = createAsyncThunk("comments/fetchComments", async ({
                 score: child.data.score,
                 time: child.data.created_utc,
             };
-        });
+
+            if (child.data.replies && typeof child.data.replies === 'object') {
+                comment.replies = processComments(child.data.replies.data.children);
+            } else {
+                comment.replies = [];
+            }
+
+            return comment;
+        })
+}
+
+export const fetchComments = createAsyncThunk("comments/fetchComments", async ({subreddit, articleId}) => {
+    try {
+        const response = await axios.get(`https://www.reddit.com/${subreddit}/comments/${articleId}.json?raw_json=1`);
+        const comments = processComments(response.data[1].data.children);
 
         return comments;
     } catch (error) {
-        console.error("error fetching artilces:", error);
+        console.error("error fetching comments:", error);
         throw error;
     }
 })
