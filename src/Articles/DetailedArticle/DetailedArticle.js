@@ -8,7 +8,7 @@ import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent";
 import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedComponent";
 import TwitterEmbedComponent from "../../Utils/VideoComponents/TwitterEmbedComponent";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { fetchComments } from "../Comments/commentsSlice";
 
 

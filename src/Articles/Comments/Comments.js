@@ -22,7 +22,7 @@ function Comments() {
             ))}
         </div>
     )
-}/* 1710180486 */
+}
 
 export default Comments;
 

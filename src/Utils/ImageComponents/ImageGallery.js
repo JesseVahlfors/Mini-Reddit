@@ -7,7 +7,7 @@ function ImageGallery({metadata}) {
     }
 
     const images = Object.values(metadata).map((imageData) => {
-        const { id, p, status, s } = imageData;
+        const { p, status, s } = imageData;
 
         if (!imageData || status !== 'valid' || !p) {
             return null;
