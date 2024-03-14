@@ -127,11 +127,33 @@ ul {
 
 .comment {
   background-color: aliceblue;
-  padding: var(--spacing3);
+  padding: 0 var(--spacing3);
   margin: var(--spacing);
+  border: solid 2px black;
 }
 .comment:hover {
   box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+.comment.depth-1 {
+  margin-left: 40px;
+}
+
+.comment.depth-2 {
+  margin-left: 60px;
+}
+.comment.depth-3 {
+  margin-left: 80px;
+}
+.comment.depth-4 {
+  margin-left: 100px; 
+}
+.comment.depth-5 {
+  margin-left: 120px; 
+}
+
+.comment.depth-6 {
+  margin-left: 140px; 
 }
 
 .comment-metadata {
