@@ -12,7 +12,6 @@ function Comments() {
         return commentsToRender
         .filter(comment => comment.text && comment.text.trim().length > 0) //filter empty comments
         .map((comment) => {
-
             return (
                 <Comment key={comment.id} comment={comment} depth={depth} />
             );
