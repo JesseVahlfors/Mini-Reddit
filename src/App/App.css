@@ -80,13 +80,28 @@ ul {
 
 .article-metadata {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: var(--gap3);
 }
 
 .article-subreddit {
   text-align: start;
+  margin: 0;
+}
+
+.article-subreddit-container {
+  display: flex;
+  gap: var(--gap)
+}
+
+.article-topbar {
+  display: flex;
+  gap: var(--gap2);
+}
+
+.article-topbar-paragraph {
+  margin: 0;
 }
 
 .article-wrapper {
