@@ -6,22 +6,25 @@ import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent
 import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import ImageGallery from "../../Utils/ImageComponents/ImageGallery";
 import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedComponent";
+import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
 import { useState } from 'react';
 import TwitterEmbedComponent from "../../Utils/VideoComponents/TwitterEmbedComponent";
 
 
 function Article( { article, onClick } ) { 
-    const navigatorDateFormat = formatDate(article.time)
+    const navigatorDateFormat = formatDate(article.time);
     const date = new Date(article.time * 1000);
     const formattedISODate = date.toISOString();
-    const [articleScore, setArticleScore] = useState(article.score)
-    const [isIncremented, setIsIncremented] = useState(false)
-    const [isDecremented, setIsDecremented] = useState(false)
 
     const handleImageClick = (event) => {
         event.stopPropagation();
     }
-
+    
+    //Reddit score
+    const [articleScore, setArticleScore] = useState(article.score);
+    const [isIncremented, setIsIncremented] = useState(false);
+    const [isDecremented, setIsDecremented] = useState(false);
+    
     const handleUpArrowClick = (event) => {
         event.stopPropagation();
         if(isIncremented) {
@@ -55,8 +58,21 @@ function Article( { article, onClick } ) {
 
     const upArrowClass = `up arrow ${isIncremented ? 'green-arrow' : ''}`;
     const downArrowClass = `down arrow ${isDecremented ? 'green-arrow' : ''}`
-    
 
+    //Image overlay
+    const [isOverlayOpen, setIsOverlayOpen] = useState(false);
+    const [overlayContent, setOverlayContent] = useState(null);
+
+    const handleOpenOverlay = (content) => {
+        setOverlayContent(content);
+        setIsOverlayOpen(true);
+    }
+
+    const handleCloseOverlay = () => {
+        setIsOverlayOpen(false);
+    }
+
+    //Article media
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
        mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;
@@ -68,8 +84,14 @@ function Article( { article, onClick } ) {
         mediaToRender = <MediaPlayer media={article.media} playerId={article.id}  />;
     } else if (article.media_metadata){
         mediaToRender = <ImageGallery metadata={article.media_metadata} />
+    } else if (article.image){
+        mediaToRender = (
+            <button onClick={() => handleOpenOverlay(<img src={article.image} alt={article.title} />)}>
+                Show Image
+            </button> 
+        )
     } else {
-        mediaToRender = article.image ? <img src={article.image} alt={article.subreddit + " " + article.title} ></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>
+        mediaToRender = <ReactMarkdown>{article.paragraph}</ReactMarkdown>
     }
     
     return (
@@ -85,6 +107,9 @@ function Article( { article, onClick } ) {
                     <h2>{article.title}</h2>
                     <div className="media-wrapper" onClick={handleImageClick}>
                         {mediaToRender}
+                        <ImageOverlay isOpen={isOverlayOpen} onClose={handleCloseOverlay}>
+                            {overlayContent}
+                        </ImageOverlay>
                     </div>
                     <div className="article-metadata">
                         <p>{article.author}</p>

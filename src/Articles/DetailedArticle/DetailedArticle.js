@@ -8,16 +8,20 @@ import MediaPlayer from "../../Utils/VideoComponents/MediaPlayer";
 import EmbedVideoComponent from "../../Utils/VideoComponents/EmbedVideoComponent";
 import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedComponent";
 import TwitterEmbedComponent from "../../Utils/VideoComponents/TwitterEmbedComponent";
+import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
 import { useDispatch } from "react-redux";
 import { fetchComments } from "../Comments/commentsSlice";
 
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
     const dispatch = useDispatch();
+
+    //Time utilities
     const navigatorDateFormat = formatDate(article.time)
     const date = new Date(article.time * 1000);
     const formattedISODate = date.toISOString();
-    const [commentClicked, setCommentClicked] = useState(false);
+
+    //Reddit Score
     const [articleScore, setArticleScore] = useState(article.score)
     const [isIncremented, setIsIncremented] = useState(false)
     const [isDecremented, setIsDecremented] = useState(false)
@@ -57,8 +61,20 @@ function DetailedArticle( { article, onBackButtonClick } ) {
     const upArrowClass = `up arrow ${isIncremented ? 'green-arrow' : ''}`;
     const downArrowClass = `down arrow ${isDecremented ? 'green-arrow' : ''}`
 
-    
-    
+    //Image overlay
+    const [isOverlayOpen, setIsOverlayOpen] = useState(false);
+    const [overlayContent, setOverlayContent] = useState(null);
+
+    const handleOpenOverlay = (content) => {
+        setOverlayContent(content);
+        setIsOverlayOpen(true);
+    }
+
+    const handleCloseOverlay = () => {
+        setIsOverlayOpen(false);
+    }
+
+    //Article media
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
        mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;
@@ -70,10 +86,17 @@ function DetailedArticle( { article, onBackButtonClick } ) {
         mediaToRender = <MediaPlayer media={article.media} playerId={article.id}  />;
     } else if (article.media_metadata){
         mediaToRender = <ImageGallery metadata={article.media_metadata} />
+    } else if (article.image){
+        mediaToRender = (
+            <button onClick={() => handleOpenOverlay(<img src={article.image} alt={article.title} />)}>
+                Show Image
+            </button> 
+        )
     } else {
-        mediaToRender = article.image ? <img src={article.image} alt={article.subreddit + " " + article.title} ></img> : <ReactMarkdown>{article.paragraph}</ReactMarkdown>
+        mediaToRender = <ReactMarkdown>{article.paragraph}</ReactMarkdown>
     }
 
+    const [commentClicked, setCommentClicked] = useState(false);
     const handleCommentClick = () => {
         setCommentClicked(!commentClicked);
         if (!commentClicked) {
@@ -97,7 +120,16 @@ function DetailedArticle( { article, onBackButtonClick } ) {
     
     return (
         <div className="article card">
-            <button onClick={onBackButtonClick} className="back-button">Back</button>
+            <div className="article-topbar">
+                <button onClick={onBackButtonClick} className="back-button">Back</button>
+                <div className="article-metadata">
+                    <div className="article-subreddit-container">
+                        <h4 className="article-subreddit">{article.subreddit}</h4>
+                        <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
+                    </div>
+                    <p className="article-topbar-paragraph">{article.author}</p>
+                </div>
+            </div>   
             <div className="article-wrapper">
                 <div className="score">
                     <button className={upArrowClass} onClick={handleUpArrowClick}></button>
@@ -108,12 +140,11 @@ function DetailedArticle( { article, onBackButtonClick } ) {
                     <h2>{article.title}</h2>
                     <div className="media-wrapper">
                         {mediaToRender}
+                        <ImageOverlay isOpen={isOverlayOpen} onClose={handleCloseOverlay}>
+                            {overlayContent}
+                        </ImageOverlay>
                     </div>
                     <ReactMarkdown>{article.paragraph}</ReactMarkdown>               
-                <div className="article-metadata">
-                    <p>{article.author}</p>
-                    <time dateTime={formattedISODate} title={navigatorDateFormat}>{getTimeDifferenceString(article.time)}</time>
-                </div>
                 </div>
             </div>  
             <button onClick={handleCommentClick}>Comments</button>          
