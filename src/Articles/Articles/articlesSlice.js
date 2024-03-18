@@ -10,18 +10,32 @@ export const fetchArticles = createAsyncThunk("articles/fetchArticles", async (s
     try {
         const response = await axios.get(`https://www.reddit.com/r/${subreddit}.json?raw_json=1`);
         const articles = response.data.data.children.map((child) => {
-            const image =
+            const imageSource =
             child.data.preview &&
             child.data.preview.images &&
             child.data.preview.images.length > 0
             ? child.data.preview.images[0].source.url.replace(/&amp;/g, '&')
             : null;
-            
+
+            const imageResolutions =
+            child.data.preview &&
+            child.data.preview.images &&
+            child.data.preview.images.length > 0
+            ? child.data.preview.images[0].resolutions.map(resolution => ({
+                url: resolution.url.replace(/&amp;/g, '&'),
+                width: resolution.width,
+                height: resolution.height,
+            }))
+            : [];
+
             return {
                 title: child.data.title,
                 author: child.data.author,
                 paragraph: child.data.selftext,
-                image: image,
+                image: {
+                    source: imageSource,
+                    resolutions: imageResolutions,
+                },
                 subreddit: child.data.subreddit_name_prefixed,
                 id: child.data.id,
                 time: child.data.created_utc,

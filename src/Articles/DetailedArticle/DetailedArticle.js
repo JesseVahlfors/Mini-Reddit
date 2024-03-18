@@ -73,8 +73,23 @@ function DetailedArticle( { article, onBackButtonClick } ) {
     const handleCloseOverlay = () => {
         setIsOverlayOpen(false);
     }
-
+    
     //Article media
+
+    function createImageElement(resolutions, title) {
+        if (resolutions.length === 0) {
+            return null
+        }
+
+        const srcSet = resolutions.map(resolution => `${resolution.url} ${resolution.width}w`).join(', ');
+
+        const largestImage= resolutions.reduce((prev, current) => (prev.width > current.width) ? prev : current);
+
+        return (
+            <img src={largestImage.url} srcSet={srcSet} alt={title} sizes="(min-width: 1415px) 750px, (min-width: 768px) 50vw, 100vw" />
+        );
+    }
+
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
        mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;
@@ -86,10 +101,11 @@ function DetailedArticle( { article, onBackButtonClick } ) {
         mediaToRender = <MediaPlayer media={article.media} playerId={article.id}  />;
     } else if (article.media_metadata){
         mediaToRender = <ImageGallery metadata={article.media_metadata} />
-    } else if (article.image){
+    } else if (article.image.source && article.image.resolutions){
+        const imageElement = createImageElement(article.image.resolutions, article.title)
         mediaToRender = (
-            <button onClick={() => handleOpenOverlay(<img src={article.image} alt={article.title} />)}>
-                Show Image
+            <button onClick={() => handleOpenOverlay(imageElement)}>
+                {imageElement}
             </button> 
         )
     } else {

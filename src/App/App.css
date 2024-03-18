@@ -222,7 +222,7 @@ ul {
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-top: 56.25%;
+  /* padding-top: 56.25%; */
 }
 
 .logo {
@@ -232,6 +232,11 @@ ul {
 
 .logo p {
   min-width: auto;
+}
+
+.overlay-button {
+  background: none;
+  border: none;
 }
 
 .score {
