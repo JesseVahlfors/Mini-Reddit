@@ -6,10 +6,21 @@ const ImageOverlay = ({ children, isOpen, onClose }) => {
         return null;
     }
 
+    const enhancedChildren = React.Children.map(children, child => {
+        if(React.isValidElement(child) && child.type === 'img') {
+            return React.cloneElement(child, {
+                className: `img-maximized`,
+                sizes: '(min-width:768) 90vh, 100vw',
+            });
+        }
+
+        return child
+    })
+
     return (
         <div className="overlay" onClick={onClose} >
             <div className="overlay-content" onClick={(e) => e.stopPropagation()}>
-                {children}
+                {enhancedChildren}
             </div>            
         </div>
     );
