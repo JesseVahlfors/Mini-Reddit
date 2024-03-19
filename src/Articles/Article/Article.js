@@ -9,6 +9,7 @@ import TwitchEmbedComponent from "../../Utils/VideoComponents/TwitchEmbedCompone
 import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
 import { useState } from 'react';
 import TwitterEmbedComponent from "../../Utils/VideoComponents/TwitterEmbedComponent";
+import './Article.css'
 
 
 function Article( { article, onClick } ) { 
@@ -87,6 +88,13 @@ function Article( { article, onClick } ) {
         );
     }
 
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    const toggleExpand = (event) => {
+        event.stopPropagation()
+        setIsExpanded(!isExpanded)
+    };
+
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
        mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;
@@ -106,7 +114,14 @@ function Article( { article, onClick } ) {
             </button> 
         )
     } else {
-        mediaToRender = <ReactMarkdown>{article.paragraph}</ReactMarkdown>
+        mediaToRender = (
+        <div 
+        className={`paragraph-wrapper ${isExpanded ? 'expanded' : ''}`}
+        onClick={toggleExpand}
+        >
+        <ReactMarkdown>{article.paragraph}</ReactMarkdown>
+        </div>
+        )
     }
     
     return (

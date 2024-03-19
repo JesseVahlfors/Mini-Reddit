@@ -1,0 +1,40 @@
+.media-wrapper button {
+    border:none;
+    background: none;
+}
+
+.paragraph-wrapper {
+    position: relative;
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+
+}
+
+
+.paragraph-wrapper:hover {
+    background-color: rgba(235, 182, 114, 0.781);
+    border-radius: 10px;
+}
+
+.paragraph-wrapper::after {
+    content: 'Show More';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.paragraph-wrapper.expanded {
+    max-height: none;
+}
+.paragraph-wrapper.expanded::after {
+    opacity: 0;
+    pointer-events: none;
+}

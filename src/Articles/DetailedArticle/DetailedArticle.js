@@ -163,7 +163,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
                     <ReactMarkdown>{article.paragraph}</ReactMarkdown>               
                 </div>
             </div>  
-            <button onClick={handleCommentClick}>Comments</button>          
+            <button onClick={handleCommentClick} className="comments-button">Comments</button>          
             {commentClicked ? <Comments /> : null}
         </div>
     );
