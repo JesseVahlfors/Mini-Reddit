@@ -11,6 +11,7 @@ import TwitterEmbedComponent from "../../Utils/VideoComponents/TwitterEmbedCompo
 import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
 import { useDispatch } from "react-redux";
 import { fetchComments } from "../Comments/commentsSlice";
+import './DetailedArticle.css'
 
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
@@ -108,6 +109,8 @@ function DetailedArticle( { article, onBackButtonClick } ) {
                 {imageElement}
             </button> 
         )
+    } else if (article.url.includes("https://kick.com")){
+        mediaToRender = <a href={article.url} title={article.title} >{article.url}</a>
     } else {
         mediaToRender = <ReactMarkdown>{article.paragraph}</ReactMarkdown>
     }

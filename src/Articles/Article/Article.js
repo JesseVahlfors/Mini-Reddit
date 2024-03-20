@@ -84,7 +84,7 @@ function Article( { article, onClick } ) {
         const largestImage= resolutions.reduce((prev, current) => (prev.width > current.width) ? prev : current);
 
         return (
-            <img src={largestImage.url} srcSet={srcSet} alt={title} sizes="(min-width: 1415px) 750px, (min-width: 768px) 50vw, 100vw" />
+            <img src={largestImage.url} srcSet={srcSet} alt={title} sizes="(min-width: 1415px) 750px, (min-width: 768px) 50vw, 100vw" loading="lazy"/>
         );
     }
 
@@ -109,10 +109,12 @@ function Article( { article, onClick } ) {
     } else if (article.image.source && article.image.resolutions){
         const imageElement = createImageElement(article.image.resolutions, article.title)
         mediaToRender = (
-            <button onClick={() => handleOpenOverlay(<img src={article.image.source} alt={article.title} />)}>
+            <button onClick={() => handleOpenOverlay(imageElement)}>
                 {imageElement}
             </button> 
         )
+    } else if (article.url.includes("https://kick.com")){
+        mediaToRender = <a href={article.url} title={article.title} >{article.url}</a>
     } else {
         mediaToRender = (
         <div 

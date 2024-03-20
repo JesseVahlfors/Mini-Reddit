@@ -42,6 +42,7 @@ export const fetchArticles = createAsyncThunk("articles/fetchArticles", async (s
                 score: child.data.score,
                 media: child.data.media,
                 media_metadata: child.data.media_metadata,
+                url: child.data.url
             };
         });
         
