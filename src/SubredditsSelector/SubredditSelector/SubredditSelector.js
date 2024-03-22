@@ -1,18 +1,17 @@
 import React, { useState} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSubreddits } from "../../Sidebar/SubredditList/subredditListSlice";
-import { fetchArticles } from "../../Articles/Articles/articlesSlice";
+import { selectSubreddit, selectSelectedSubreddit } from "../../Sidebar/Subreddit/subredditSlice";
 
 function SubredditSelector() {
     const subreddits = useSelector(selectSubreddits);
     const dispatch = useDispatch();
-    const [selectedSubreddit, setSelectedSubreddit] = useState("");
+    const selectedSubreddit = useSelector(selectSelectedSubreddit);
 
     const handleSubredditChange = (event) => {
-        setSelectedSubreddit(event.target.value);
-        if (selectSubreddits !== event.target.value){
-        dispatch(fetchArticles(selectedSubreddit))
-        }
+        const newSelectedSubreddit = event.target.value;
+        const subreddit = subreddits.find(sub => sub.displayName === newSelectedSubreddit) || popularSubreddit;
+        dispatch(selectSubreddit(subreddit))
     }
     const popularSubreddit = {
         title: 'No such thing as stupid questions',
@@ -27,7 +26,7 @@ function SubredditSelector() {
             <label htmlFor="subreddit">Select Subreddit:</label>
             <select
             id="subreddit"
-            value={selectedSubreddit}
+            value={selectedSubreddit?.displayName || 'Popular'}
             onChange={handleSubredditChange}
             >
                 <option key={popularSubreddit.id} value={popularSubreddit.displayName}>
