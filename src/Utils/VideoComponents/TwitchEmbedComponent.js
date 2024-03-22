@@ -44,6 +44,7 @@ function TwitchEmbedComponent({ html }) {
                 height={height}
                 width={width}
                 allowFullScreen
+                loading="lazy"
             >
             </iframe>
         </div>

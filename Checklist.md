@@ -68,8 +68,9 @@
 - [ ] **Twitchclips Component**
   - [x] Develop a component specifically for embedding Twitch videos.
   - [x] Utilize Twitch API or embed code for rendering videos.
+  - [ ] Use thumbnails on main page and embed on detailed article.
   - [ ] Allow customization of video dimensions.
-  - [ ] Handle cases where Vimeo embed code is not available.
+  - [ ] Handle cases where Twitch embed code is not available.
   - [ ] Style the component to maintain a consistent UI with the application.
 
   - [ ] **X (twitter) Component**
