@@ -104,7 +104,7 @@ function Article( { article, onClick } ) {
         mediaToRender = <TwitchEmbedComponent html={article.media.oembed.html}/>;
     } else if (article.media?.reddit_video) {
         mediaToRender = <MediaPlayer media={article.media} playerId={article.id}  />;
-    } else if (article.media_metadata){
+    } else if (article.is_gallery){
         mediaToRender = <ImageGallery metadata={article.media_metadata} />
     } else if (article.image.source && article.image.resolutions){
         const imageElement = createImageElement(article.image.resolutions, article.title)

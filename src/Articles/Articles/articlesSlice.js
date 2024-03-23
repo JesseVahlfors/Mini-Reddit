@@ -3,12 +3,16 @@ import axios from "axios";
 
 const articleCache = {};
 
-export const fetchArticles = createAsyncThunk("articles/fetchArticles", async (subreddit) => {
-    if (articleCache[subreddit]) {
+export const fetchArticles = createAsyncThunk(
+    "articles/fetchArticles",
+    async ({subreddit, query=''}, {rejectWithValue}) => {
+    if (!query && articleCache[subreddit]) {
         return articleCache[subreddit].data;
     }
+
+    let url = `https://www.reddit.com/r/${subreddit}/${query ? 'search.json?q=' + query + '&restrict_sr=1&' : '.json'}?raw_json=1`;
     try {
-        const response = await axios.get(`https://www.reddit.com/r/${subreddit}.json?raw_json=1`);
+        const response = await axios.get(url);
         const articles = response.data.data.children.map((child) => {
             const imageSource =
             child.data.preview &&
@@ -42,22 +46,19 @@ export const fetchArticles = createAsyncThunk("articles/fetchArticles", async (s
                 score: child.data.score,
                 media: child.data.media,
                 media_metadata: child.data.media_metadata,
-                url: child.data.url
+                url: child.data.url,
+                is_gallery: child.data.is_gallery,
             };
         });
         
-        articleCache[subreddit] = {
-            data: articles,
-        };
-        
+        if (!query) {
+        articleCache[subreddit] = { data: articles };
+        }
+
         return articles;
     } catch (error) {
-        if(articleCache[subreddit]) {
-            console.warn(`Request failed for ${subreddit}. Using cached data.`)
-            return articleCache[subreddit].data;
-        }
-        console.error("Error fetching articles:", error);
-        throw error;
+        console.error("Error fetching articles or search results:", error);
+        return rejectWithValue('Failed to fetch articles or search results')
     }
 });
 

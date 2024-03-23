@@ -1,0 +1,7 @@
+.no-results {
+    font-weight: bold;
+    font-size: 18px;
+    height: fit-content;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
