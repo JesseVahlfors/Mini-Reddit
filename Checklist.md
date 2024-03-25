@@ -3,7 +3,7 @@
 ## Components
 
 - [ ] **Global Component toDos**
-  - [ ] Add message to alert user of Api limit 
+  - [ ] Add message to alert user of Api limit
   - [x] Add a method to render previous state if Api limit exceeded
   - [x] Render initial view of the app when first visiting
 
@@ -11,8 +11,8 @@
   - [x] Initialize the header
   - [x] Implement logo
   - [x] Create Searchbar
-    - [ ] implement search function to search posts 
-  - [ ] Add navigation button to select subreddits for small screens 
+    - [ ] implement search function to search posts
+  - [ ] Add navigation button to select subreddits for small screens
 
 - [ ] **Subreddit navigation Component**
   - [x] Create the component
@@ -26,7 +26,7 @@
 - [ ] **Articles**
   - [x] *Create Articles component*
     - [x] Iterate the store state object to render posts
-    - [ ] use useMemo to check article.id:s as keys and only add new articles on render. 
+    - [ ] use useMemo to check article.id:s as keys and only add new articles on render.
   - [x] *Create Article component*
     - [x] Display Title
     - [ ] Display video, image, thumbnail or text paragraph
@@ -85,13 +85,12 @@
   - [ ] Style the component to fit seamlessly into the overall design.
   - [ ] Performance improvements (Images are slowing down load)
 
-
 - [ ] **Comments Component**
   - [x] Create Comments component
     - [x] Display Text paragraph
     - [x] Display Post Author
     - [x] Display Score, up and down vote arrow buttons
-        - [] Create button functions
+      - [x] Create button functions
     - [x] Display Time of the post
   - [x] Sort comments by score  
   - [ ] Style the comments section
@@ -105,6 +104,7 @@
   - [x] Implement function to format date
 
 ## Redux
+
 - [x] **Store**
   - [x] Initialize the store
   - [x] Add ArticlesSlice to store
@@ -115,7 +115,6 @@
   - [x] Create mockApi state with redditAPI structure as the initialState for building components
   - [ ] Add actions for fetching and updating articles
   - [x] Create selectors for accessing articles state
-
 
 - [ ] **Comments Slice**
   - [x] Define Redux slice for comments
@@ -140,8 +139,6 @@
   - [ ] Apply styles to individual components
   - [ ] Loading animation for loading posts and comments
 
-
-
 ## Testing
 
 - [ ] **Unit Tests**
@@ -159,6 +156,7 @@
   - [ ] Include information on available components and utilities
 
 ## Optionals
+
 - [ ] Get a custom domain name and use it for your application
 
 - [ ] Set up a CI/CD workflow to automatically deploy your application when the master branch in the repository changes

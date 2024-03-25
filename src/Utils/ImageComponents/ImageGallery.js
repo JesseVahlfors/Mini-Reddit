@@ -14,16 +14,27 @@ function ImageGallery({metadata}) {
         }
 
 
-        const srcSet = p.map((size) => `${size.u} ${size.y}w`).join(', ');
+        const srcSet = p.map((size) => {
+            const correctedUrl = size.u.replace(/&amp;/g, "&")
+            return `${correctedUrl} ${size.y}w`
+        }).join(', ');
+
+        const thumbnailUrl = p.find(size => size.x === 320)?.u || p[0]?.u;
+        const correctedThumbnailUrl = thumbnailUrl.replace(/&amp;/g, "&");
+        const correctedOriginal = s.u.replace(/&amp;/g, "&");
     
         return {
-           original: s.u,
-           thumbnail: s.u,
+           original: correctedOriginal,
+           thumbnail: correctedThumbnailUrl,
            srcSet, 
-           sizes: `(max-width: 600px) 100vw, 1200px`,
+           sizes: "(min-width: 1415px) 750px, (min-width: 768px) 50vw, 100vw",
         };      
      });
      return <ReactImageGallery items={images} />;
 }
 
 export default ImageGallery;
+
+
+   // const correctUrl = url.replace(/%26amp%3B/g, "%26");
+    
