@@ -34,7 +34,3 @@ function ImageGallery({metadata}) {
 }
 
 export default ImageGallery;
-
-
-   // const correctUrl = url.replace(/%26amp%3B/g, "%26");
-    
