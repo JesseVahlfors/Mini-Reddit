@@ -2,6 +2,7 @@ import React from "react";
 import { miniredditIcon } from "../../Utils/Icons/miniRedditIcon";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSubreddit, selectSelectedSubreddit } from "./subredditSlice";
+import { clearCurrentArticle } from "../../Articles/Articles/articlesSlice";
 
 function Subreddit( {subreddit} ) {
     const icon = subreddit.iconImg ? subreddit.iconImg : subreddit.communityIcon
@@ -11,7 +12,8 @@ function Subreddit( {subreddit} ) {
     const isSelected = subreddit.id === selectedSubreddit?.id;
 
     const handleClick = () => {
-        dispatch(selectSubreddit(subreddit))
+        dispatch(selectSubreddit(subreddit));
+        dispatch(clearCurrentArticle());
     };
    
     return (
