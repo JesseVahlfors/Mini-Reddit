@@ -91,6 +91,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
         );
     }
 
+    //Media selection
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
        mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;
@@ -113,6 +114,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
         mediaToRender = <a href={article.url} title={article.title} >{article.url}</a>
     }
 
+    //Comment handling
     const [commentClicked, setCommentClicked] = useState(false);
     const handleCommentClick = () => {
         setCommentClicked(!commentClicked);
@@ -121,8 +123,9 @@ function DetailedArticle( { article, onBackButtonClick } ) {
         }
     };
 
+    // Jump back to the place of the article when returning 
     useEffect(() => {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
 
         return () => {
             const articleElement = document.getElementById(`article-${article.id}`);
@@ -131,7 +134,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
                 window.scrollTo(0, topOffset);
             }
         };
-    }, [article.id])
+    }, [article.id]);
 
     
     

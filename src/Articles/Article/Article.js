@@ -13,10 +13,12 @@ import './Article.css'
 
 
 function Article( { article, onClick } ) { 
+    //Time utilities
     const navigatorDateFormat = formatDate(article.time);
     const date = new Date(article.time * 1000);
     const formattedISODate = date.toISOString();
 
+    //Prevent selecting article with image
     const handleImageClick = (event) => {
         event.stopPropagation();
     }
@@ -88,6 +90,7 @@ function Article( { article, onClick } ) {
         );
     }
 
+    // Article paragraph expansion
     const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleExpand = (event) => {
@@ -95,6 +98,7 @@ function Article( { article, onClick } ) {
         setIsExpanded(!isExpanded)
     };
 
+    //Media selection
     let mediaToRender = null;
     if (article.media?.oembed?.type === 'video') {
        mediaToRender = <EmbedVideoComponent html={article.media.oembed.html}/>;

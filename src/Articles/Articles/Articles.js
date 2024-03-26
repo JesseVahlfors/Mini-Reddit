@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Article from "../Article/Article";
 import { clearCurrentArticle, fetchArticles, selectArticles, selectCurrentArticle, setCurrentArticle } from "./articlesSlice";
 import { useDispatch, useSelector } from "react-redux";
@@ -16,6 +16,7 @@ function Articles() {
     useEffect(() => {
         const SubredditToRender = selectedSubreddit ? selectedSubreddit.displayName : "Popular";
         dispatch(fetchArticles({ subreddit: SubredditToRender, query: "" }));
+        window.scrollTo(0, 0);
       }, [dispatch, selectedSubreddit]);
       
     const handleArticleClick = (article) => {
