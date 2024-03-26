@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Article from "../Article/Article";
-import { fetchArticles, selectArticles } from "./articlesSlice";
+import { clearCurrentArticle, fetchArticles, selectArticles, selectCurrentArticle, setCurrentArticle } from "./articlesSlice";
 import { useDispatch, useSelector } from "react-redux";
 import DetailedArticle from "../DetailedArticle/DetailedArticle";
 import { selectSelectedSubreddit } from "../../Sidebar/Subreddit/subredditSlice";
@@ -9,8 +9,9 @@ import "./Articles.css"
 function Articles() {
     const dispatch = useDispatch();
     const articles = useSelector(selectArticles);
-    const selectedSubreddit = useSelector(selectSelectedSubreddit)
-    const [selectedArticle, setSelectedArticle] = useState(null)
+    const currentArticle = useSelector(selectCurrentArticle);
+    const selectedSubreddit = useSelector(selectSelectedSubreddit);
+    
 
     useEffect(() => {
         const SubredditToRender = selectedSubreddit ? selectedSubreddit.displayName : "Popular";
@@ -18,11 +19,11 @@ function Articles() {
       }, [dispatch, selectedSubreddit]);
       
     const handleArticleClick = (article) => {
-        setSelectedArticle(article);
+        dispatch(setCurrentArticle(article))
     };
 
     const handleBackButtonClick = () => {
-        setSelectedArticle(null);
+        dispatch(clearCurrentArticle())
     };
     
     const hasNoArticles = !articles || articles.length === 0;
@@ -30,9 +31,9 @@ function Articles() {
 
     return (
         <main className="articles">
-            {selectedArticle ? (
+            {currentArticle ? (
                 <DetailedArticle
-                    article={selectedArticle}
+                    article={currentArticle}
                     onBackButtonClick={handleBackButtonClick}
                 />
             ) : hasNoArticles ? (

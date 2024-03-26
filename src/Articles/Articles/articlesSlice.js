@@ -64,8 +64,18 @@ export const fetchArticles = createAsyncThunk(
 
 export const articlesSlice = createSlice({
     name: 'articles',
-    initialState: { data: [] },
-    reducers: {},
+    initialState: { 
+        data: [],
+        currentArticle: null,
+    },
+    reducers: {
+        setCurrentArticle: (state, action) => {
+            state.currentArticle = action.payload;
+        },
+        clearCurrentArticle: (state) => {
+            state.currentArticle = null;
+        }
+    },
     extraReducers: (builder) => {
         builder
             .addCase(fetchArticles.fulfilled, (state, action) => {
@@ -80,5 +90,7 @@ export const articlesSlice = createSlice({
     },
 });
 
-export const selectArticles = (state) => state.articles.data
+export const { setCurrentArticle, clearCurrentArticle } = articlesSlice.actions;
+export const selectCurrentArticle = (state) => state.articles.currentArticle;
+export const selectArticles = (state) => state.articles.data;
 export default articlesSlice.reducer;
