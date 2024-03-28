@@ -9,6 +9,7 @@ import { useImageOverlay } from "../../Utils/Hooks/useImageOverlay";
 import MediaComponent from "../../Utils/Components/MediaComponent";
 import TimeAgo from "../../Utils/Components/TimeAgo";
 import { useRedditScore } from "../../Utils/Hooks/useRedditScore";
+import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
 
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
@@ -89,7 +90,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
                             {overlayContent}
                         </ImageOverlay>
                     </div>
-                    <ReactMarkdown>{article.paragraph}</ReactMarkdown>               
+                    <MarkdownWithImages markdownText={article.paragraph}/>               
                 </div>
             </div>  
             <button onClick={handleCommentClick} className="comments-button">Comments</button>          
