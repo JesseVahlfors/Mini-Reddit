@@ -26,7 +26,7 @@ function MediaComponent({ article }) {
         twitter: () => <TwitterEmbedComponent html={article.media.oembed.html} />,
         twitch: () => <TwitchEmbedComponent html={article.media.oembed.html} />,
         reddit_video: () => <MediaPlayer media={article.media} playerId={article.id} />,
-        gallery: () => <ImageGallery metadata={article.media_metadata} />,
+        gallery: () => <ImageGallery metadata={article.media_metadata} title={article.title} />,
         image: () => {
             const imageElement = CreateImageElement(article.image.resolutions, article.title);
             return (
