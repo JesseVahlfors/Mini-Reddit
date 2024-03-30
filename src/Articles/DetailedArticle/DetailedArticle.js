@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import Comments from "../Comments/Comments";
-import ReactMarkdown from 'react-markdown'
 import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
 import { useDispatch } from "react-redux";
 import { fetchComments } from "../Comments/commentsSlice";
@@ -8,34 +7,11 @@ import './DetailedArticle.css'
 import { useImageOverlay } from "../../Utils/Hooks/useImageOverlay";
 import MediaComponent from "../../Utils/Components/MediaComponent";
 import TimeAgo from "../../Utils/Components/TimeAgo";
-import { useRedditScore } from "../../Utils/Hooks/useRedditScore";
+import ScoreComponent from "../../Utils/Components/ScoreComponent";
 import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
-
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
     const dispatch = useDispatch();
-
-
-    //Reddit Score
-    const { score,
-        incrementScore,
-        decrementScore,
-        isIncremented,
-        isDecremented
-       } = useRedditScore(article.score);
-
-    const handleUpArrowClick = (event) => {
-        event.stopPropagation();
-        incrementScore()
-    }
-
-    const handleDownArrowClick = (event) => {
-        event.stopPropagation();
-        decrementScore();
-    }
-
-    const upArrowClass = `up arrow ${isIncremented ? 'green-arrow' : ''}`;
-    const downArrowClass = `down arrow ${isDecremented ? 'green-arrow' : ''}`
 
     //Image overlay
     const { isOverlayOpen, overlayContent, handleCloseOverlay } = useImageOverlay();
@@ -62,8 +38,6 @@ function DetailedArticle( { article, onBackButtonClick } ) {
         };
     }, [article.id]);
 
-    
-    
     return (
         <div className="article card">
             <div className="article-topbar">
@@ -77,11 +51,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
                 </div>
             </div>   
             <div className="article-wrapper">
-                <div className="score">
-                    <button className={upArrowClass} onClick={handleUpArrowClick}></button>
-                    <p>{score}</p>
-                    <button className={downArrowClass} onClick={handleDownArrowClick}></button>
-                </div>
+                <ScoreComponent article={article} />
                 <div className="article-content">
                     <h2>{article.title}</h2>
                     <div className="media-wrapper">
