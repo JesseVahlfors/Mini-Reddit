@@ -21,7 +21,7 @@ function ImageGallery({metadata}) {
 
         const thumbnailUrl = p.find(size => size.x === 320)?.u || p[0]?.u;
         const correctedThumbnailUrl = thumbnailUrl.replace(/&amp;/g, "&");
-        const correctedOriginal = s.u.replace(/&amp;/g, "&");
+        const correctedOriginal = s.u?.replace(/&amp;/g, "&");
     
         return {
            original: correctedOriginal,
