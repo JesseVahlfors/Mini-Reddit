@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Comments from "../Comments/Comments";
 import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
-import { useDispatch } from "react-redux";
-import { fetchComments } from "../Comments/commentsSlice";
 import './DetailedArticle.css'
 import { useImageOverlay } from "../../Utils/Hooks/useImageOverlay";
 import MediaComponent from "../../Utils/Components/MediaComponent";
@@ -11,8 +9,6 @@ import ScoreComponent from "../../Utils/Components/ScoreComponent";
 import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
-    const dispatch = useDispatch();
-
     //Image overlay
     const { isOverlayOpen, overlayContent, handleCloseOverlay } = useImageOverlay();
 
@@ -20,9 +16,6 @@ function DetailedArticle( { article, onBackButtonClick } ) {
     const [commentClicked, setCommentClicked] = useState(false);
     const handleCommentClick = () => {
         setCommentClicked(!commentClicked);
-        if (!commentClicked) {
-            dispatch(fetchComments({subreddit: article.subreddit, articleId: article.id}));
-        }
     };
 
     // Jump back to the place of the article when returning 
@@ -64,7 +57,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
                 </div>
             </div>  
             <button onClick={handleCommentClick} className="comments-button">Comments</button>          
-            {commentClicked ? <Comments /> : null}
+            {commentClicked ? <Comments subreddit={article.subreddit} articleId={article.id} /> : null}
         </div>
     );
 }

@@ -38,18 +38,25 @@ export const fetchComments = createAsyncThunk("comments/fetchComments", async ({
 
 export const commentsSlice = createSlice({
     name: 'comments',
-    initialState: { data: [] },
+    initialState: { 
+        data: [],
+        isLoading: false,
+        error: null,
+    },
     reducers: {},
     extraReducers: (builder) => {
         builder
             .addCase(fetchComments.fulfilled, (state, action) => {
                 state.data = action.payload;
+                state.isLoading = false;
             })
             .addCase(fetchComments.pending, (state) => {
-                //handle loading
+                state.isLoading = true;
+                state.error = null;
             })
             .addCase(fetchComments.rejected, (state, action) => {
-                //handle rejected
+                state.isLoading = false;
+                state.error = action.error.message || 'Failed to fetch comments';
             })
     },
 });
