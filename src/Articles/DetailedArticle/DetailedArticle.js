@@ -1,16 +1,16 @@
 import React, {useEffect, useState} from "react";
 import Comments from "../Comments/Comments";
-import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
 import './DetailedArticle.css'
-import { useImageOverlay } from "../../Utils/Hooks/useImageOverlay";
-import MediaComponent from "../../Utils/Components/MediaComponent";
-import ScoreComponent from "../../Utils/Components/ScoreComponent";
 import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
-import MetadataComponent from "../../Utils/Components/MetadataComponent";
+import ArticleBase from "../ArticleBase/ArticleBase";
+
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
-    //Image overlay
-    const { isOverlayOpen, overlayContent, handleCloseOverlay } = useImageOverlay();
+    const backButton =  (
+        <button onClick={onBackButtonClick} className="back-button">
+            Back
+        </button>
+    );
 
     //Comment handling
     const [commentClicked, setCommentClicked] = useState(false);
@@ -26,33 +26,32 @@ function DetailedArticle( { article, onBackButtonClick } ) {
             const articleElement = document.getElementById(`article-${article.id}`);
             if (articleElement) {
                 const topOffset = articleElement.offsetTop;
-                window.scrollTo(0, topOffset);
+                window.scrollTo(0, topOffset); 
             }
         };
     }, [article.id]);
 
+    useEffect(() => {
+        if (commentClicked) {
+            const commentSection = document.getElementById("comment-button");
+            if (commentClicked) {
+                commentSection.scrollIntoView({behavior: 'smooth'})
+            }
+        }
+    }, [commentClicked]);
+
     return (
-        <div className="article card">
-            <div className="article-topbar">
-                <button onClick={onBackButtonClick} className="back-button">Back</button>
-                <MetadataComponent  article={article} />
-            </div>   
-            <div className="article-wrapper">
-                <ScoreComponent article={article} />
-                <div className="article-content">
-                    <h2>{article.title}</h2>
-                    <div className="media-wrapper">
-                        <MediaComponent article={article}/>
-                        <ImageOverlay isOpen={isOverlayOpen} onClose={handleCloseOverlay}>
-                            {overlayContent}
-                        </ImageOverlay>
-                    </div>
-                    <MarkdownWithImages markdownText={article.paragraph}/>               
-                </div>
-            </div>  
-            <button onClick={handleCommentClick} className="comments-button">Comments</button>          
-            {commentClicked ? <Comments subreddit={article.subreddit} articleId={article.id} /> : null}
-        </div>
+        <ArticleBase
+            article={article}
+            isDetailed={true}
+            backButton={backButton}
+        >         
+            <MarkdownWithImages markdownText={article.paragraph}/>               
+            <button onClick={handleCommentClick} className="comments-button" id="comment-button">Comments</button>
+            {commentClicked && <div className="comment-section">       
+                <Comments subreddit={article.subreddit} articleId={article.id} />
+            </div>}
+        </ArticleBase>
     );
 }
 
