@@ -48,6 +48,8 @@ export const fetchArticles = createAsyncThunk(
                 media_metadata: child.data.media_metadata,
                 url: child.data.url,
                 is_gallery: child.data.is_gallery,
+                html: child.data.selftext_html,
+                spoiler: child.data.spoiler,
             };
         });
         

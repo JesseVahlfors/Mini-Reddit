@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from 'react';
 import './Article.css'
-import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
 import ArticleBase from "../ArticleBase/ArticleBase";
+import HtmlComponent from "../../Utils/Components/HtmlComponent";
 
 
 function Article( { article, onClick } ) { 
@@ -14,13 +14,16 @@ function Article( { article, onClick } ) {
         setIsExpanded(!isExpanded)
     };
 
-    const paragraph = 
-    <div 
-    className={`paragraph-wrapper ${isExpanded ? 'expanded' : ''}`}
-    onClick={toggleExpand}
-    >
-       <MarkdownWithImages markdownText={article.paragraph}/>
-    </div>
+    const hasMedia = article.media || article.media_metadata || article.image.source;
+
+    const paragraph = hasMedia ? null : (
+        <div 
+            className={`paragraph-wrapper ${isExpanded ? 'expanded' : ''}`}
+            onClick={toggleExpand}
+        >
+            <HtmlComponent htmlContent={article.html} title={article.title} />
+        </div>
+    );
     
     return (
         <ArticleBase

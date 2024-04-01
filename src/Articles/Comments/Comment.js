@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { getTimeDifferenceString } from "../../Utils/Funcs/time";
-import { formatDate } from "../../Utils/Funcs/timeFormat";
+import TimeAgo from "../../Utils/Components/TimeAgo";
+import HtmlComponent from "../../Utils/Components/HtmlComponent";
 
 const Comment = ({ comment, depth }) => {
     const [showReplies, setShowReplies] = useState(false);
@@ -20,17 +20,10 @@ const Comment = ({ comment, depth }) => {
         <div className="comment-container">
             <div className={`comment depth-${depth}`}>
                 <p>{comment.score}</p>
-                <p>{comment.text}</p>
+                <HtmlComponent htmlContent={comment.html} />
                 <div className="comment-metadata">
                     <p>{comment.author}</p>
-                    {comment.time && (
-                        <time
-                            dateTime={new Date(comment.time * 1000).toISOString()}
-                            title={formatDate(new Date(comment.time * 1000))}
-                        >
-                            {getTimeDifferenceString(comment.time)}
-                        </time>
-                    )}
+                    <TimeAgo timestamp={comment.time}/>
                 </div>
             </div>
                 {sortedReplies && sortedReplies.length > 0 && (

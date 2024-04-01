@@ -3,6 +3,7 @@ import Comments from "../Comments/Comments";
 import './DetailedArticle.css'
 import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
 import ArticleBase from "../ArticleBase/ArticleBase";
+import HtmlComponent from "../../Utils/Components/HtmlComponent";
 
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
@@ -46,7 +47,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
             isDetailed={true}
             backButton={backButton}
         >         
-            <MarkdownWithImages markdownText={article.paragraph}/>               
+            <HtmlComponent htmlContent={article.html} title={article.title} />               
             <button onClick={handleCommentClick} className="comments-button" id="comment-button">Comments</button>
             {commentClicked && <div className="comment-section">       
                 <Comments subreddit={article.subreddit} articleId={article.id} />

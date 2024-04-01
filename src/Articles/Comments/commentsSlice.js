@@ -12,6 +12,7 @@ const processComments= (children) => {
                 text: child.data.body,
                 score: child.data.score,
                 time: child.data.created_utc,
+                html: child.data.body_html,
             };
 
             if (child.data.replies && typeof child.data.replies === 'object') {

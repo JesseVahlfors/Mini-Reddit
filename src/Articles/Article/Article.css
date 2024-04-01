@@ -3,6 +3,40 @@
     background: none;
 }
 
+/* Spoiler bars */
+.md-spoiler-text {
+    position: relative; 
+    background-color: black;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.md-spoiler-text::before {
+    content: 'Click to reveal spoiler';
+    color: white;
+    background-color: rgb(218, 72, 72);
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0; 
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: auto;
+}
+
+.revealed {
+    color: inherit;
+    background-color: transparent;
+}
+
+.revealed::before {
+    display: none;
+}
+
+
 .paragraph-wrapper {
     position: relative;
     max-height: 200px;
@@ -10,6 +44,7 @@
     transition: max-height 0.3s ease;
 
 }
+
 
 
 .paragraph-wrapper:hover {
