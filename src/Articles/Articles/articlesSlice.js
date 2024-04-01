@@ -67,6 +67,8 @@ export const articlesSlice = createSlice({
     initialState: { 
         data: [],
         currentArticle: null,
+        isOverlayOpen: false,
+        overlayContent: null,
     },
     reducers: {
         setCurrentArticle: (state, action) => {
@@ -74,7 +76,15 @@ export const articlesSlice = createSlice({
         },
         clearCurrentArticle: (state) => {
             state.currentArticle = null;
-        }
+        },
+        setOpenOverlay: (state, action) => {
+            state.isOverlayOpen = true;
+            state.overlayContent = action.payload;
+        },
+        closeOverlay: (state) => {
+            state.isOverlayOpen = false;
+            state.overlayContent = null;
+        },
     },
     extraReducers: (builder) => {
         builder
@@ -90,7 +100,10 @@ export const articlesSlice = createSlice({
     },
 });
 
+export const {setOpenOverlay, closeOverlay} = articlesSlice.actions
 export const { setCurrentArticle, clearCurrentArticle } = articlesSlice.actions;
+export const selectIsOverlayOpen = (state) => state.articles.isOverlayOpen;
+export const selectOverlayContent = (state) => state.articles.overlayContent;
 export const selectCurrentArticle = (state) => state.articles.currentArticle;
 export const selectArticles = (state) => state.articles.data;
 export default articlesSlice.reducer;
