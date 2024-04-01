@@ -4,9 +4,9 @@ import ImageOverlay from "../../Utils/ImageComponents/ImageOverlay";
 import './DetailedArticle.css'
 import { useImageOverlay } from "../../Utils/Hooks/useImageOverlay";
 import MediaComponent from "../../Utils/Components/MediaComponent";
-import TimeAgo from "../../Utils/Components/TimeAgo";
 import ScoreComponent from "../../Utils/Components/ScoreComponent";
 import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
+import MetadataComponent from "../../Utils/Components/MetadataComponent";
 
 function DetailedArticle( { article, onBackButtonClick } ) { 
     //Image overlay
@@ -35,13 +35,7 @@ function DetailedArticle( { article, onBackButtonClick } ) {
         <div className="article card">
             <div className="article-topbar">
                 <button onClick={onBackButtonClick} className="back-button">Back</button>
-                <div className="article-metadata">
-                    <div className="article-subreddit-container">
-                        <h4 className="article-subreddit">{article.subreddit}</h4>
-                        <TimeAgo timestamp={article.time}/>
-                    </div>
-                    <p className="article-topbar-paragraph">{article.author}</p>
-                </div>
+                <MetadataComponent  article={article} />
             </div>   
             <div className="article-wrapper">
                 <ScoreComponent article={article} />
