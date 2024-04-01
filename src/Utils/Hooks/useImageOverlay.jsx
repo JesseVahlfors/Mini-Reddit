@@ -1,17 +1,17 @@
-import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setOpenOverlay, closeOverlay, selectIsOverlayOpen, selectOverlayContent } from "../../Articles/Articles/articlesSlice";
 
 export function useImageOverlay() {
-    const [isOverlayOpen, setIsOverlayOpen] = useState(false);
-    const [overlayContent, setOverlayContent] = useState(null);
+    const dispatch = useDispatch();
+    const isOverlayOpen = useSelector(selectIsOverlayOpen);
+    const overlayContent = useSelector(selectOverlayContent);
 
     const handleOpenOverlay = (content) => {
-        setOverlayContent(content);
-        setIsOverlayOpen(true);
+        dispatch(setOpenOverlay(content))
     };
 
     const handleCloseOverlay = () => {
-        setIsOverlayOpen(false);
-        setOverlayContent(null);
+        dispatch(closeOverlay());
     };
 
     return {
