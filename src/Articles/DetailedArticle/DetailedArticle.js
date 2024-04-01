@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Comments from "../Comments/Comments";
 import './DetailedArticle.css'
-import MarkdownWithImages from "../../Utils/Components/MarkdownWithImages";
 import ArticleBase from "../ArticleBase/ArticleBase";
 import HtmlComponent from "../../Utils/Components/HtmlComponent";
 
