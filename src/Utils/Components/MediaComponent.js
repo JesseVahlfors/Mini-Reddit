@@ -14,8 +14,8 @@ import TwitterEmbedComponent from "../VideoComponents/TwitterEmbedComponent";
 import TwitchEmbedComponent from "../VideoComponents/TwitchEmbedComponent";
 import MediaPlayer from "../VideoComponents/MediaPlayer";
 import ImageGallery from "../ImageComponents/ImageGallery";
-import CreateImageElement from "../ImageComponents/CreateImageElement";
 import { useImageOverlay } from "../Hooks/useImageOverlay";
+import CreateImageData from "../ImageComponents/CreateImageData";
 
 function MediaComponent({ article }) {
     const { handleOpenOverlay } = useImageOverlay();
@@ -28,10 +28,16 @@ function MediaComponent({ article }) {
         reddit_video: () => <MediaPlayer media={article.media} playerId={article.id} />,
         gallery: () => <ImageGallery metadata={article.media_metadata} title={article.title} />,
         image: () => {
-            const imageElement = CreateImageElement(article.image.resolutions, article.title);
+            const imageData = CreateImageData(article.image.resolutions, article.title);
             return (
-                <button onClick={() => handleOpenOverlay(imageElement)}>
-                    {imageElement}
+                <button onClick={() => handleOpenOverlay(imageData)}>
+                    {<img
+                        src={imageData.url}
+                        srcSet={imageData.srcSet}
+                        alt={imageData.alt}
+                        sizes={imageData.sizes}
+                        loading={imageData.loading}
+                    />}
                 </button>
             );
         },
