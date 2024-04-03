@@ -233,6 +233,7 @@ ul {
   border-radius: var(--border-radius2);
   padding: var(--padding);
   background: none;
+  font-size: 1.5rem;
 }
 
 .kick-button:hover {
@@ -253,7 +254,12 @@ ul {
   padding: 5px var(--padding);
   width: 100%;
   text-decoration: none;
+  height: 7rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
 }
+
 
 .logo {
   display: flex;

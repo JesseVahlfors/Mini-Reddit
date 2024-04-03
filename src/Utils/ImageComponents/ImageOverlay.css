@@ -11,6 +11,11 @@
     z-index: 1000; 
 }
 
+.overlay-button {
+    background: none;
+    border: none;
+}
+
 .overlay-content {
     background: white;
     padding: 10px;
