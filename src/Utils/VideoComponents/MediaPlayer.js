@@ -72,7 +72,7 @@ function MediaPlayer({ media, playerId }) {
                 audioRef.current = null;
             }
         };
-    }, [media]); 
+    }, [media, aspectRatio, audioUrl, has_audio, videoUrl]); 
 
     //Volume control
     useEffect(() => {
