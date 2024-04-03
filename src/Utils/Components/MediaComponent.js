@@ -32,7 +32,7 @@ function MediaComponent({ article }) {
         image: () => {
             const imageData = CreateImageData(article.image.resolutions, article.title);
             return (
-                <button onClick={() => handleOpenOverlay(imageData)}>
+                <button className='overlay-button' onClick={() => handleOpenOverlay(imageData)}>
                     {<img
                         src={imageData.url}
                         srcSet={imageData.srcSet}
@@ -77,7 +77,18 @@ function MediaComponent({ article }) {
                         </button>
                     </a>
                 </>
-        )}
+        )},
+        link: () => {
+            const parsedUrl = new URL(article.url);
+            const domain = parsedUrl.hostname;
+            return (
+            <a href={article.url} title={article.title} className="kick-link">
+                {domain}
+                <button className="kick-button">
+                    Open
+                </button>
+            </a>
+        )},
     }
 
     // Determines the media type of the article for selecting the appropriate renderer.
@@ -87,9 +98,11 @@ function MediaComponent({ article }) {
         if (article.media?.type === 'clips.twitch.tv' || article.media?.type === 'twitch.tv') return 'twitch'; 
         if (article.media?.reddit_video) return 'reddit_video';
         if (article.is_gallery) return 'gallery';
-        if (article.url.includes("https://youtube.com/shorts")) return 'youtubeShorts'
+        if (article.url.includes("https://youtube.com/shorts") || article.url.includes("https://www.youtube.com/shorts") ) return 'youtubeShorts'
         if (article.image.source && article.image.resolutions) return 'image';
         if (article.url.includes("https://kick.com")) return 'kick';
+        if (article.url.includes("https://www.reddit.com")) return null;
+        if (article.url) return 'link'
         return null; //default if no media type matches
     }
 
