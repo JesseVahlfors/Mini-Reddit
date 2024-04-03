@@ -8,6 +8,9 @@
   --spacing3: 24px;
   --spacing5: 64px;
   --border-radius: 16px;
+  --border-radius2: 32px;
+  --padding: 16px;
+  --padding2: 36px;
 }
 
 * {
@@ -225,6 +228,33 @@ ul {
   /* padding-top: 56.25%; */
 }
 
+.kick-button {
+  border: solid 2px black;
+  border-radius: var(--border-radius2);
+  padding: var(--padding);
+  background: none;
+}
+
+.kick-button:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.kick-button:active {
+  bottom: 5px;
+}
+
+.kick-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px black;
+  border-radius: var(--border-radius2);
+  padding: 5px var(--padding);
+  width: 100%;
+  text-decoration: none;
+}
+
 .logo {
   display: flex;
   padding-left: 16px;
@@ -253,6 +283,17 @@ ul {
   min-width: 150px;
   text-align: start;
   padding-left: 16px
+}
+
+.shorts {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border-radius: var(--border-radius);
+  margin: 5px;
+  align-items: center;
 }
 
 .subreddit {
@@ -293,6 +334,10 @@ ul {
 
 .up:active {
   bottom: 5px;
+}
+
+.youtube-icon {
+  height: 5rem;
 }
 
 @import "~react-image-gallery/styles/css/image-gallery.css";
